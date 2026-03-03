@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instellingen - Zorgnieuws</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        [data-theme="dark"] .login-container,
+        [data-theme="dark"] .settings-container {
+            background: #242424;
+            color: #e0e0e0;
+        }
+        [data-theme="dark"] .login-container input,
+        [data-theme="dark"] .prompt-editor {
+            background: #1a1a1a;
+            color: #e0e0e0;
+            border-color: #444;
+        }
+        [data-theme="dark"] .info-box {
+            background: #2a3a4a;
+            border-color: #446688;
+        }
+        [data-theme="dark"] .btn-secondary {
+            background: #333;
+            color: #e0e0e0;
+        }
+        [data-theme="dark"] .status.success {
+            background: #1a3a1a;
+            color: #88cc88;
+        }
+        .login-container {
+            max-width: 400px;
+            margin: 100px auto;
+            padding: 30px;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        .login-container h2 {
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        .login-container input[type="password"] {
+            width: 100%;
+            padding: 12px;
+            font-size: 14px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            margin-bottom: 15px;
+        }
+
+        .login-container button {
+            width: 100%;
+            padding: 12px;
+            background: #ff6600;
+            color: #000;
+            border: none;
+            border-radius: 4px;
+            font-size: 14px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        .login-container button:hover {
+            background: #e55a00;
+        }
+
+        .login-error {
+            color: #c00;
+            margin-bottom: 15px;
+            display: none;
+        }
+
+        .settings-container {
+            max-width: 900px;
+            margin: 20px auto;
+            padding: 20px;
+        }
+
+        .settings-container h2 {
+            margin-bottom: 10px;
+        }
+
+        .settings-container p {
+            color: #666;
+            margin-bottom: 20px;
+        }
+
+        .prompt-editor {
+            width: 100%;
+            height: 500px;
+            font-family: 'Consolas', 'Monaco', monospace;
+            font-size: 12px;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            resize: vertical;
+            line-height: 1.5;
+        }
+
+        .button-row {
+            margin-top: 15px;
+            display: flex;
+            gap: 10px;
+        }
+
+        .btn {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            font-size: 13px;
+            cursor: pointer;
+        }
+
+        .btn-primary {
+            background: #ff6600;
+            color: #000;
+            font-weight: bold;
+        }
+
+        .btn-secondary {
+            background: #e8e8e8;
+            color: #333;
+        }
+
+        .btn-danger {
+            background: #fff;
+            color: #c00;
+            border: 1px solid #c00;
+        }
+
+        .btn:hover {
+            opacity: 0.9;
+        }
+
+        .status {
+            margin-top: 15px;
+            padding: 12px;
+            border-radius: 4px;
+            display: none;
+        }
+
+        .status.success {
+            background: #e8f5e9;
+            color: #2e7d32;
+        }
+
+        .status.error {
+            background: #ffebee;
+            color: #c62828;
+        }
+
+        .info-box {
+            background: #e3f2fd;
+            border-left: 4px solid #2196f3;
+            padding: 15px;
+            margin-bottom: 20px;
+            font-size: 12px;
+        }
+
+        .logout-link {
+            float: right;
+            color: #666;
+            font-size: 12px;
+            cursor: pointer;
+        }
+
+        .logout-link:hover {
+            color: #c00;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>ZORGNIEUWS</h1>
+        <nav>
+            <a href="index.html">Alles</a>
+            <a href="prio.html">Hoogste Prio</a>
+            <a href="settings.html" class="active">Instellingen</a>
+        </nav>
+        <button id="theme-toggle" class="theme-toggle" onclick="toggleDarkMode()" title="Toggle dark mode">🌙</button>
+    </header>
+    <script>
+        function toggleDarkMode() {
+            const current = document.documentElement.getAttribute('data-theme');
+            const newTheme = current === 'dark' ? 'light' : 'dark';
+            document.documentElement.setAttribute('data-theme', newTheme);
+            localStorage.setItem('zorgnieuws_theme', newTheme);
+            const btn = document.getElementById('theme-toggle');
+            btn.textContent = newTheme === 'dark' ? '☀️' : '🌙';
+        }
+        // Init
+        const savedTheme = localStorage.getItem('zorgnieuws_theme');
+        const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+        if (savedTheme === 'dark' || (!savedTheme && prefersDark)) {
+            document.documentElement.setAttribute('data-theme', 'dark');
+            document.getElementById('theme-toggle').textContent = '☀️';
+        }
+    </script>
+
+    <!-- Login Section -->
+    <div id="login-section">
+        <div class="login-container">
+            <h2>🔒 Instellingen</h2>
+            <p class="login-error" id="login-error">Onjuist wachtwoord</p>
+            <form onsubmit="handleLogin(event)">
+                <input type="password" id="password" placeholder="Wachtwoord" autocomplete="current-password">
+                <button type="submit">Inloggen</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Settings Section (hidden until authenticated) -->
+    <div id="settings-section" style="display: none;">
+        <div class="settings-container">
+            <span class="logout-link" onclick="logout()">Uitloggen</span>
+            <h2>Scoring Prompt Configuratie</h2>
+            <p>Pas de AI-prompt aan om de prioritering af te stemmen op jouw organisatie en focus.</p>
+
+            <div class="info-box">
+                <strong>Let op:</strong> Wijzigingen worden lokaal opgeslagen in je browser.
+                Om de nieuwe prompt toe te passen moet de scoring opnieuw gedraaid worden
+                (<code>python scripts/run_scorer.py</code>). De prompt hieronder wordt ook
+                opgeslagen in <code>config/scoring_prompt.txt</code> voor server-side gebruik.
+            </div>
+
+            <textarea id="prompt-editor" class="prompt-editor">Je bent een strategisch adviseur voor Accenture Nederland, specifiek voor de Healthcare practice.
+
+Onze focus ligt op DIGITALE TRANSFORMATIE met waarderealisatie, waarbij technologie het middel is:
+- Cloud transformaties (MSZ naar cloud, Azure, AWS, hybride architecturen)
+- Data &amp; Analytics (dataplatforms, BI, data governance, real-world evidence)
+- AI &amp; Machine Learning (generative AI, clinical decision support, NLP, predictive analytics)
+- Digitale patiëntreis (omnichannel, patiëntportalen, apps, remote monitoring)
+- Enterprise platforms (EPD/ECD optimalisatie, ERP, CRM in zorg)
+- Cybersecurity &amp; privacy (NEN 7510, Zero Trust, security transformaties)
+- Operating model transformaties (IT-organisatie, agile, DevOps)
+
+Onze klanten: ziekenhuizen, UMC's, GGZ-instellingen, VVT, zorgverzekeraars, life sciences, overheid (VWS, NZa, RIVM).
+
+Wij zoeken naar:
+1. STRATEGISCHE OPPORTUNITIES - grote transformatieprogramma's, niet kleine projectjes
+2. THOUGHT LEADERSHIP - kans om expertise te tonen en de markt te beïnvloeden
+3. COMPETITIVE INTELLIGENCE - wat doen concurrenten en klanten?
+
+Beoordeel elk artikel op drie criteria:
+
+1. RELEVANTIE (0-40): Past dit bij onze strategische focus?
+   - 30-40: Direct gerelateerd aan digitale transformatie in zorg (cloud, data, AI, platforms)
+   - 15-29: Gerelateerd aan zorg-IT of digitalisering
+   - 1-14: Algemeen zorgnieuws met mogelijk IT-component
+   - 0: Niet relevant voor Accenture
+
+2. URGENTIE (0-30): Is er momentum of een deadline?
+   - 25-30: Grote tender/RFP met deadline, of breaking news over klant/concurrent
+   - 15-24: Aankondiging nieuw programma, beleid dat kansen creëert
+   - 10-14: Concurrent lanceert iets, marktbeweging
+   - 0-9: Algemeen nieuws zonder tijdsdruk
+
+3. ACTIE-POTENTIEEL (0-30): Wat kunnen we ermee?
+   - 25-30: Directe BD opportunity (grote tender, strategische klant met uitdaging)
+   - 15-24: Thought leadership kans, event, publicatie-moment
+   - 10-14: Account intelligence, competitive insight
+   - 0-9: Nice to know, geen directe actie
+
+BELANGRIJK:
+- Wij zijn GEEN implementatiepartij voor kleine projecten
+- Focus op STRATEGISCHE, GROTE transformaties (>€1M)
+- Tenders voor "inkoop medische hulpmiddelen" of "schoonmaak" zijn NIET relevant (score 0)
+- EPD-implementaties zijn alleen relevant als het om transformatie gaat, niet pure techniek
+
+Voor elk artikel, geef:
+- relevance: score 0-40
+- urgency: score 0-30
+- action_potential: score 0-30
+- category: een van [opportunity|concurrent|klant|overheid|innovatie|thought-leadership|niet-relevant]
+- tags: lijst van max 3 relevante tags uit [Cloud, Data, AI, EPD, Security, Transformatie, Tender, VWS, Ziekenhuis, GGZ, VVT, Verzekeraar]
+- action_hint: concrete actie voor Accenture (of null als niet actionable)
+- summary_nl: korte samenvatting in het Nederlands (max 2 zinnen)
+
+Antwoord ALLEEN met valide JSON in dit formaat:
+{
+  "articles": [
+    {
+      "id": "artikel-id",
+      "relevance": 35,
+      "urgency": 25,
+      "action_potential": 28,
+      "category": "opportunity",
+      "tags": ["Cloud", "Transformatie", "Ziekenhuis"],
+      "action_hint": "Contact opnemen met CIO voor cloud roadmap gesprek",
+      "summary_nl": "UMC Utrecht start groot cloudtransformatie programma."
+    }
+  ]
+}</textarea>
+
+            <div class="button-row">
+                <button class="btn btn-primary" onclick="savePrompt()">Opslaan</button>
+                <button class="btn btn-secondary" onclick="resetPrompt()">Reset naar standaard</button>
+            </div>
+
+            <div id="save-status" class="status"></div>
+        </div>
+    </div>
+
+    <script src="settings.js"></script>
+</body>
+</html>

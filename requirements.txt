@@ -1,0 +1,17 @@
+# Zorgnieuws dependencies
+
+# Collectors
+feedparser>=6.0.10
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+PyYAML>=6.0.1
+
+# AI Scoring (Fase 2)
+anthropic>=0.18.0
+
+# Testing
+pytest>=8.0.0
+pytest-cov>=4.1.0
+
+# Utilities
+python-dateutil>=2.8.2

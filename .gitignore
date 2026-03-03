@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.pytest_cache/
+*.egg-info/
+.eggs/
+
+# Data (generated, cached)
+data/
+
+# Local settings
+.claude/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+nul
+
+# Env
+.env
+.venv/
+venv/

@@ -1,0 +1,1554 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hoogste Prio - Zorgnieuws</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>ZORGNIEUWS</h1>
+        <nav>
+            <a href="index.html">Alles</a>
+            <a href="prio.html" class="active">Hoogste Prio</a>
+            <a href="settings.html">Instellingen</a>
+        </nav>
+        <div class="updated">
+            Laatst bijgewerkt: 03 Mar 2026 15:54
+        </div>
+        <button id="theme-toggle" class="theme-toggle" onclick="toggleDarkMode()" title="Toggle dark mode">🌙</button>
+    </header>
+
+    <div class="stats-bar">
+        <span class="stat critical">🔴 14 critical</span>
+        <span class="stat high">🟠 57 high</span>
+        <span class="stat medium">🟡 78 medium</span>
+        <span class="stat-count"><span id="visible-count">100 artikelen</span></span>
+    </div>
+
+    <div id="filter-bar" class="filter-bar">
+        <div class="filter-group">
+            <span class="filter-label">Categorie:</span>
+            <div id="category-filter" class="filter-buttons"></div>
+        </div>
+        <div class="filter-group">
+            <span class="filter-label">Tags:</span>
+            <div id="tag-filter" class="filter-buttons"></div>
+        </div>
+        <button class="filter-btn clear-btn" onclick="clearFilters()">✕ Reset</button>
+    </div>
+
+    <main>
+        <div class="articles">
+            
+        <article class="article critical" data-category="opportunity" data-tags="Security,Tender,Ziekenhuis">
+            <div class="indicator">🔴</div>
+            <div class="content">
+                <a href="https://www.tenderned.nl/aankondigingen/overzicht/414123" target="_blank" class="title">TENDER: EA Managed SOC-dienstverlening UMC’s</a>
+                <div class="meta">
+                    TenderNed · 14 uur geleden
+                </div>
+                <div class="summary">UMC's besteden gezamenlijk managed SOC-diensten aan via UMCNL. Grote strategische cybersecurity opportunity.</div>
+                <div class="action-hint">→ Directe deelname aan UMC managed SOC tender via UMCNL</div>
+                <div class="tags">
+                    <span class="category">opportunity</span> <span class="tag">Security</span> <span class="tag">Tender</span> <span class="tag">Ziekenhuis</span>
+                    <span class="score">Score: 96</span> <span class="score-breakdown">R:38 U:28 A:30</span>
+                </div>
+            </div>
+        </article>
+        <article class="article critical" data-category="opportunity" data-tags="EPD,Tender,Ziekenhuis">
+            <div class="indicator">🔴</div>
+            <div class="content">
+                <a href="https://www.skipr.nl/nieuws/rechter-geeft-chipsoft-gelijk-streep-door-epd-plan-in-noordelijke-ziekenhuizen/" target="_blank" class="title">Rechter geeft ChipSoft gelijk: streep door epd-plan noordelijke ziekenhuizen</a>
+                <div class="meta">
+                    Skipr · 16 Feb 2026
+                </div>
+                <div class="summary">Rechter dwingt UMCG, Treant en Ommelander tot Europese EPD-aanbesteding na bezwaar ChipSoft tegen Epic-keuze. Grote transformatie tender opportunity voor Accenture.</div>
+                <div class="action-hint">→ Voorbereiden op Europese aanbesteding EPD UMCG/Treant/Ommelander - grote strategische transformatie kans</div>
+                <div class="tags">
+                    <span class="category">opportunity</span> <span class="tag">EPD</span> <span class="tag">Tender</span> <span class="tag">Ziekenhuis</span>
+                    <span class="score">Score: 96</span> <span class="score-breakdown">R:38 U:28 A:30</span>
+                </div>
+            </div>
+        </article>
+        <article class="article critical" data-category="thought-leadership" data-tags="AI,Transformatie,Ziekenhuis">
+            <div class="indicator">🔴</div>
+            <div class="content">
+                <a href="https://www.zorgvisie.nl/doorbraak-ai-vereist-leiderschap-en-visie-in-bestuurskamer/" target="_blank" class="title">Doorbraak AI vereist leiderschap en visie in bestuurskamer</a>
+                <div class="meta">
+                    Zorgvisie · 03 Feb 2026
+                </div>
+                <div class="summary">AI-implementatie in radiologie stagneert door gebrek aan strategie en data-governance, aldus zorgbestuurder Regina Beets-Tan. Directe kans voor AI transformatie expertise.</div>
+                <div class="action-hint">→ Contact opnemen met Regina Beets-Tan voor AI governance thought leadership en strategische gesprekken</div>
+                <div class="tags">
+                    <span class="category">thought-leadership</span> <span class="tag">AI</span> <span class="tag">Transformatie</span> <span class="tag">Ziekenhuis</span>
+                    <span class="score">Score: 91</span> <span class="score-breakdown">R:38 U:25 A:28</span>
+                </div>
+            </div>
+        </article>
+        <article class="article critical" data-category="thought-leadership" data-tags="AI,Data">
+            <div class="indicator">🔴</div>
+            <div class="content">
+                <a href="https://www.zorgvisie.nl/jessica-workum-ziet-veel-potentie-en-grote-risicos-in-chatgpt-health/" target="_blank" class="title">Jessica Workum ziet veel potentie en grote risico’s in ChatGPT Health</a>
+                <div class="meta">
+                    Zorgvisie · 13 Jan 2026
+                </div>
+                <div class="summary">OpenAI lanceert ChatGPT Health voor gepersonaliseerd gezondheidsadvies op basis van alle zorgdata. AI-expert ziet grote potentie maar ook significante risico's.</div>
+                <div class="action-hint">→ Thought leadership position innemen rond ChatGPT Health en AI in zorg, security en privacy aspecten</div>
+                <div class="tags">
+                    <span class="category">thought-leadership</span> <span class="tag">AI</span> <span class="tag">Data</span>
+                    <span class="score">Score: 91</span> <span class="score-breakdown">R:38 U:25 A:28</span>
+                </div>
+            </div>
+        </article>
+        <article class="article critical" data-category="opportunity" data-tags="Data,Transformatie">
+            <div class="indicator">🔴</div>
+            <div class="content">
+                <a href="https://nictiz.nl/nieuws/denk-mee-over-de-inrichting-van-hergebruik-van-gezondheidsdata/" target="_blank" class="title">Denk mee over de inrichting van hergebruik van gezondheidsdata</a>
+                <div class="meta">
+                    Nictiz · 30 Oct 2025
+                </div>
+                <div class="summary">Nictiz vraagt meedenken over hergebruik van gezondheidsdata. Strategische kans voor data governance en EHDS advisory.</div>
+                <div class="action-hint">→ Actief meedenken in consultatie kan leiden tot advisory opdrachten voor data governance</div>
+                <div class="tags">
+                    <span class="category">opportunity</span> <span class="tag">Data</span> <span class="tag">Transformatie</span>
+                    <span class="score">Score: 90</span> <span class="score-breakdown">R:35 U:25 A:30</span>
+                </div>
+            </div>
+        </article>
+        <article class="article critical" data-category="opportunity" data-tags="Transformatie,Ziekenhuis,EPD">
+            <div class="indicator">🔴</div>
+            <div class="content">
+                <a href="https://www.skipr.nl/nieuws/ziekenhuizen-mst-en-zgt-willen-een-digitaal-ziekenhuis-voor-twente/" target="_blank" class="title">Ziekenhuizen MST en ZGT willen één digitaal ziekenhuis voor Twente</a>
+                <div class="meta">
+                    Skipr · 1 dagen geleden
+                </div>
+                <div class="summary">MST en ZGT willen samen één digitaal ziekenhuis oprichten voor Twente. Dit biedt grote kansen voor strategische digitale transformatie partnerships.</div>
+                <div class="action-hint">→ Direct contact opnemen met MST en ZGT bestuurders voor digitaal ziekenhuis transformatie gesprek</div>
+                <div class="tags">
+                    <span class="category">opportunity</span> <span class="tag">Transformatie</span> <span class="tag">Ziekenhuis</span> <span class="tag">EPD</span>
+                    <span class="score">Score: 88</span> <span class="score-breakdown">R:38 U:20 A:30</span>
+                </div>
+            </div>
+        </article>
+        <article class="article critical" data-category="opportunity" data-tags="Data,Transformatie,VWS">
+            <div class="indicator">🔴</div>
+            <div class="content">
+                <a href="https://www.skipr.nl/nieuws/cumuluz-vws-en-zn-stroomlijnen-landelijke-en-regionale-zorgdata-initiatieven/" target="_blank" class="title">CumuluZ, VWS en ZN stroomlijnen landelijke en regionale zorgdata-initiatieven</a>
+                <div class="meta">
+                    Skipr · 18 Feb 2026
+                </div>
+                <div class="summary">CumuluZ, VWS en ZN maken afspraken om regionale en landelijke zorgdata-initiatieven te stroomlijnen.</div>
+                <div class="action-hint">→ Contact opnemen met CumuluZ en VWS over data-integratie strategie en regionale implementaties</div>
+                <div class="tags">
+                    <span class="category">opportunity</span> <span class="tag">Data</span> <span class="tag">Transformatie</span> <span class="tag">VWS</span>
+                    <span class="score">Score: 88</span> <span class="score-breakdown">R:35 U:25 A:28</span>
+                </div>
+            </div>
+        </article>
+        <article class="article critical" data-category="thought-leadership" data-tags="AI,Transformatie">
+            <div class="indicator">🔴</div>
+            <div class="content">
+                <a href="https://www.zorgvisie.nl/ai-vraagt-nu-om-bestuurlijke-keuzes-uitstel-is-geen-optie/" target="_blank" class="title">AI vraagt nú om bestuurlijke keuzes, uitstel is geen optie</a>
+                <div class="meta">
+                    Zorgvisie · 1 dagen geleden
+                </div>
+                <div class="summary">AAG ontwikkelde bestuurlijke handreiking voor verantwoorde AI-implementatie in zorg. Sterke kans voor thought leadership en partnership.</div>
+                <div class="action-hint">→ Contact AAG voor samenwerking AI governance en Accenture AI expertise positioneren</div>
+                <div class="tags">
+                    <span class="category">thought-leadership</span> <span class="tag">AI</span> <span class="tag">Transformatie</span>
+                    <span class="score">Score: 85</span> <span class="score-breakdown">R:32 U:25 A:28</span>
+                </div>
+            </div>
+        </article>
+        <article class="article critical" data-category="thought-leadership" data-tags="AI,Ziekenhuis,Transformatie">
+            <div class="indicator">🔴</div>
+            <div class="content">
+                <a href="https://www.zorgvisie.nl/hoe-ai-in-de-operatiekamer-de-aansprakelijkheid-verschuift/" target="_blank" class="title">Hoe AI in de operatiekamer de aansprakelijkheid verschuift</a>
+                <div class="meta">
+                    Zorgvisie · 10 Feb 2026
+                </div>
+                <div class="summary">Onderzoek toont dat AI in chirurgie verantwoordelijkheid verschuift naar hele zorgorganisatie. Vraagt om betere governance en bestuurlijke AI-kennis.</div>
+                <div class="action-hint">→ Thought leadership ontwikkelen over AI governance in ziekenhuizen en aansprakelijkheid</div>
+                <div class="tags">
+                    <span class="category">thought-leadership</span> <span class="tag">AI</span> <span class="tag">Ziekenhuis</span> <span class="tag">Transformatie</span>
+                    <span class="score">Score: 83</span> <span class="score-breakdown">R:35 U:20 A:28</span>
+                </div>
+            </div>
+        </article>
+        <article class="article critical" data-category="thought-leadership" data-tags="EPD,Data">
+            <div class="indicator">🔴</div>
+            <div class="content">
+                <a href="https://www.zorgvisie.nl/grip-op-de-ehds-epd-en-interoperabiliteit/" target="_blank" class="title">Grip op de EHDS: EPD en interoperabiliteit</a>
+                <div class="meta">
+                    Zorgvisie · 23 Jan 2026
+                </div>
+                <div class="summary">Webinar over European Health Data Space focust op EPD en interoperabiliteit. Strategisch belangrijk voor data uitwisseling en EPD ontwikkeling.</div>
+                <div class="action-hint">→ Deelnemen aan EHDS discussie en thought leadership rond interoperabiliteit en data uitwisseling</div>
+                <div class="tags">
+                    <span class="category">thought-leadership</span> <span class="tag">EPD</span> <span class="tag">Data</span>
+                    <span class="score">Score: 83</span> <span class="score-breakdown">R:38 U:20 A:25</span>
+                </div>
+            </div>
+        </article>
+        <article class="article critical" data-category="concurrent" data-tags="AI,Ziekenhuis,GGZ">
+            <div class="indicator">🔴</div>
+            <div class="content">
+                <a href="https://www.zorgvisie.nl/deze-ai-scribes-zijn-de-marktleiders-in-de-zorg/" target="_blank" class="title">Deze AI-scribes zijn de marktleiders in de zorg</a>
+                <div class="meta">
+                    Zorgvisie · 23 Jan 2026
+                </div>
+                <div class="summary">Overzicht van marktleidende AI-scribes leveranciers per zorgsector. Belangrijke competitive intelligence voor AI-transformaties.</div>
+                <div class="action-hint">→ Marktanalyse AI-scribes leveranciers en positionering Accenture in AI transformatie voor zorgorganisaties</div>
+                <div class="tags">
+                    <span class="category">concurrent</span> <span class="tag">AI</span> <span class="tag">Ziekenhuis</span> <span class="tag">GGZ</span>
+                    <span class="score">Score: 81</span> <span class="score-breakdown">R:35 U:18 A:28</span>
+                </div>
+            </div>
+        </article>
+        <article class="article critical" data-category="thought-leadership" data-tags="Security,Transformatie,Ziekenhuis">
+            <div class="indicator">🔴</div>
+            <div class="content">
+                <a href="https://www.zorgvisie.nl/z-cert-zorgorganisaties-moeten-digitaal-noodpakket-hebben/" target="_blank" class="title">Z-CERT: Zorgorganisaties moeten digitaal noodpakket hebben</a>
+                <div class="meta">
+                    Zorgvisie · 2 uur geleden
+                </div>
+                <div class="summary">Z-CERT roept zorgorganisaties op tot digitale noodpakketten na 10 succesvolle cyberaanvallen in 2025. Kans voor Accenture om expertise in cybersecurity transformatie te tonen.</div>
+                <div class="action-hint">→ Thought leadership article schrijven over digitale noodpakketten en business continuity in zorg</div>
+                <div class="tags">
+                    <span class="category">thought-leadership</span> <span class="tag">Security</span> <span class="tag">Transformatie</span> <span class="tag">Ziekenhuis</span>
+                    <span class="score">Score: 80</span> <span class="score-breakdown">R:32 U:22 A:26</span>
+                </div>
+            </div>
+        </article>
+        <article class="article critical" data-category="klant" data-tags="AI,Data,Ziekenhuis">
+            <div class="indicator">🔴</div>
+            <div class="content">
+                <a href="https://www.zorgvisie.nl/met-deze-innovaties-wil-erasmus-mc-de-diagnostiek-en-nazorg-bij-dementie-verbeteren/" target="_blank" class="title">Met deze innovaties wil Erasmus MC de diagnostiek en nazorg bij dementie verbeteren</a>
+                <div class="meta">
+                    Zorgvisie · 12 Jan 2026
+                </div>
+                <div class="summary">Erasmus MC lanceert Digitale Dementie Lab met vijf projecten voor betere diagnostiek en gepersonaliseerde nazorg. Focus op AI en data-gedreven zorg.</div>
+                <div class="action-hint">→ Contact Erasmus MC voor samenwerking Digitale Dementie Lab en AI/data analytics projecten</div>
+                <div class="tags">
+                    <span class="category">klant</span> <span class="tag">AI</span> <span class="tag">Data</span> <span class="tag">Ziekenhuis</span>
+                    <span class="score">Score: 80</span> <span class="score-breakdown">R:35 U:20 A:25</span>
+                </div>
+            </div>
+        </article>
+        <article class="article critical" data-category="thought-leadership" data-tags="Data,Security">
+            <div class="indicator">🔴</div>
+            <div class="content">
+                <a href="https://www.zorgvisie.nl/grip-op-de-ehds-secundair-datagebruik/" target="_blank" class="title">Grip op de EHDS: Secundair datagebruik</a>
+                <div class="meta">
+                    Zorgvisie · 19 Dec 2025
+                </div>
+                <div class="summary">Webinar over European Health Data Space en secundair datagebruik. Strategisch belangrijk voor data governance expertise.</div>
+                <div class="action-hint">→ Deelname aan EHDS webinarserie voor thought leadership en netwerking</div>
+                <div class="tags">
+                    <span class="category">thought-leadership</span> <span class="tag">Data</span> <span class="tag">Security</span>
+                    <span class="score">Score: 80</span> <span class="score-breakdown">R:35 U:20 A:25</span>
+                </div>
+            </div>
+        </article>
+        <article class="article high" data-category="opportunity" data-tags="AI,GGZ,Transformatie">
+            <div class="indicator">🟠</div>
+            <div class="content">
+                <a href="https://www.skipr.nl/nieuws/groep-ggz-organisaties-gaat-digitale-assistent-breed-inzetten/" target="_blank" class="title">Groep ggz-organisaties gaat digitale assistent breed inzetten</a>
+                <div class="meta">
+                    Skipr · 20 Feb 2026
+                </div>
+                <div class="summary">Groep GGZ-instellingen implementeert organisatie-breed digitale assistenten voor administratieve taken. Grote AI-transformatie kans bij meerdere organisaties.</div>
+                <div class="action-hint">→ Contact met consortium over uitbreiding AI-implementatie en enterprise-brede digital workplace transformatie</div>
+                <div class="tags">
+                    <span class="category">opportunity</span> <span class="tag">AI</span> <span class="tag">GGZ</span> <span class="tag">Transformatie</span>
+                    <span class="score">Score: 79</span> <span class="score-breakdown">R:32 U:22 A:25</span>
+                </div>
+            </div>
+        </article>
+        <article class="article high" data-category="opportunity" data-tags="EPD,Transformatie,Ziekenhuis">
+            <div class="indicator">🟠</div>
+            <div class="content">
+                <a href="https://www.zorgvisie.nl/ziekenhuizen-staan-voor-cruciale-keuze-door-afnemend-epd-aanbod/" target="_blank" class="title">Ziekenhuizen staan voor cruciale keuze door afnemend epd-aanbod</a>
+                <div class="meta">
+                    Zorgvisie · 28 Jan 2026
+                </div>
+                <div class="summary">Ziekenhuizen hebben steeds minder EPD-keuzes, drie noordelijke ziekenhuizen bundelen krachten. Marktconsolidatie creëert kansen voor strategische EPD-transformatie.</div>
+                <div class="action-hint">→ Contact opnemen met noordelijke ziekenhuizen voor EPD-strategiegesprekken en marktconsolidatie-advies</div>
+                <div class="tags">
+                    <span class="category">opportunity</span> <span class="tag">EPD</span> <span class="tag">Transformatie</span> <span class="tag">Ziekenhuis</span>
+                    <span class="score">Score: 79</span> <span class="score-breakdown">R:32 U:22 A:25</span>
+                </div>
+            </div>
+        </article>
+        <article class="article high" data-category="klant" data-tags="AI,EPD,Ziekenhuis">
+            <div class="indicator">🟠</div>
+            <div class="content">
+                <a href="https://www.zorgvisie.nl/klein-nagelvoort-umcg-over-afhankelijkheid-en-invloed-op-nieuwe-technologieen/" target="_blank" class="title">Klein Nagelvoort (UMCG) over afhankelijkheid en invloed op nieuwe technologieën</a>
+                <div class="meta">
+                    Zorgvisie · 31 Dec 2025
+                </div>
+                <div class="summary">UMCG haalt AI-fabriek naar Groningen en consolideert naar één EPD voor drie ziekenhuizen. Strategische transformatie-initiatieven relevant voor Accenture.</div>
+                <div class="action-hint">→ Contact opnemen met UMCG over AI-fabriek en EPD-consolidatie strategie</div>
+                <div class="tags">
+                    <span class="category">klant</span> <span class="tag">AI</span> <span class="tag">EPD</span> <span class="tag">Ziekenhuis</span>
+                    <span class="score">Score: 78</span> <span class="score-breakdown">R:38 U:15 A:25</span>
+                </div>
+            </div>
+        </article>
+        <article class="article high" data-category="overheid" data-tags="AI,Cloud">
+            <div class="indicator">🟠</div>
+            <div class="content">
+                <a href="https://www.digitaleoverheid.nl/nieuws/proef-gpt-nl-van-start-voor-virtuele-assistent-gem/" target="_blank" class="title">Proef GPT-NL van start voor virtuele assistent Gem</a>
+                <div class="meta">
+                    Digitale Overheid · 5 dagen geleden
+                </div>
+                <div class="summary">ICTU en 27 gemeenten testen GPT-NL voor virtuele assistent Gem. Strategische kans voor AI-implementaties bij overheden en mogelijk zorgorganisaties.</div>
+                <div class="action-hint">→ Positie innemen in GPT-NL ecosysteem voor overheidsdienstverlening</div>
+                <div class="tags">
+                    <span class="category">overheid</span> <span class="tag">AI</span> <span class="tag">Cloud</span>
+                    <span class="score">Score: 77</span> <span class="score-breakdown">R:30 U:22 A:25</span>
+                </div>
+            </div>
+        </article>
+        <article class="article high" data-category="thought-leadership" data-tags="Transformatie,Data">
+            <div class="indicator">🟠</div>
+            <div class="content">
+                <a href="https://www.zorgvisie.nl/de-rso-van-morgen-staat-en-de-rso-van-2031-dient-zich-nu-aan/" target="_blank" class="title">De RSO van morgen staat en de RSO van 2031 dient zich nu aan</a>
+                <div class="meta">
+                    Zorgvisie · 7 uur geleden
+                </div>
+                <div class="summary">Artikel over ontwikkeling Regionale Service Organisaties naar 2031 toont kansen voor digitale samenwerking. Strategische thought leadership kans.</div>
+                <div class="action-hint">→ Thought leadership over toekomst RSO en regionale zorgdata-uitwisseling</div>
+                <div class="tags">
+                    <span class="category">thought-leadership</span> <span class="tag">Transformatie</span> <span class="tag">Data</span>
+                    <span class="score">Score: 75</span> <span class="score-breakdown">R:35 U:18 A:22</span>
+                </div>
+            </div>
+        </article>
+        <article class="article high" data-category="thought-leadership" data-tags="AI,Data">
+            <div class="indicator">🟠</div>
+            <div class="content">
+                <a href="https://www.icthealth.nl/nieuws/ai-model-voorspelt-hersenaandoeningen-uit-mri-scans" target="_blank" class="title">AI-model voorspelt hersenaandoeningen uit MRI-scans</a>
+                <div class="meta">
+                    ICT&health · 1 dagen geleden
+                </div>
+                <div class="summary">Harvard onderzoekers ontwikkelden AI-model dat hersenaandoeningen voorspelt uit MRI-scans. Sterke basis voor thought leadership over predictive AI in zorg.</div>
+                <div class="action-hint">→ Thought leadership over AI-modellen voor medische diagnostiek schrijven en spreken op events</div>
+                <div class="tags">
+                    <span class="category">thought-leadership</span> <span class="tag">AI</span> <span class="tag">Data</span>
+                    <span class="score">Score: 75</span> <span class="score-breakdown">R:35 U:15 A:25</span>
+                </div>
+            </div>
+        </article>
+        <article class="article high" data-category="opportunity" data-tags="Transformatie,VVT">
+            <div class="indicator">🟠</div>
+            <div class="content">
+                <a href="https://www.zorgvisie.nl/investeringsfonds-jaagt-op-innovaties-gehandicaptenzorg/" target="_blank" class="title">Investeringsfonds jaagt op innovaties gehandicaptenzorg</a>
+                <div class="meta">
+                    Zorgvisie · 4 dagen geleden
+                </div>
+                <div class="summary">Nieuw investeringsfonds met miljoenen voor innovatie in gehandicaptenzorg door coalitie van zes grote organisaties en CZ. Grote kans voor digitale transformatie partnerships.</div>
+                <div class="action-hint">→ Contact met coalitie organisaties voor innovatie partnerships en digitale transformatie kansen</div>
+                <div class="tags">
+                    <span class="category">opportunity</span> <span class="tag">Transformatie</span> <span class="tag">VVT</span>
+                    <span class="score">Score: 75</span> <span class="score-breakdown">R:30 U:20 A:25</span>
+                </div>
+            </div>
+        </article>
+        <article class="article high" data-category="overheid" data-tags="VWS,Transformatie">
+            <div class="indicator">🟠</div>
+            <div class="content">
+                <a href="https://www.skipr.nl/nieuws/hermans-en-sterk-beedigd-als-zorgministers/" target="_blank" class="title">Hermans en Sterk beëdigd als zorgministers</a>
+                <div class="meta">
+                    Skipr · 23 Feb 2026
+                </div>
+                <div class="summary">Sophie Hermans (VVD) en Mirjam Sterk (CDA) beëdigd als nieuwe zorgministers. Strategisch moment voor engagement rond digitale transformatie agenda.</div>
+                <div class="action-hint">→ Outreach plannen naar nieuwe ministers voor digitale transformatie agenda</div>
+                <div class="tags">
+                    <span class="category">overheid</span> <span class="tag">VWS</span> <span class="tag">Transformatie</span>
+                    <span class="score">Score: 75</span> <span class="score-breakdown">R:22 U:28 A:25</span>
+                </div>
+            </div>
+        </article>
+        <article class="article high" data-category="thought-leadership" data-tags="Security,Data">
+            <div class="indicator">🟠</div>
+            <div class="content">
+                <a href="https://www.skipr.nl/nieuws/online-drogisterijen-delen-gevoelige-gezondheidsdata-met-big-tech/" target="_blank" class="title">Online drogisterijen delen gevoelige gezondheidsdata met Big Tech</a>
+                <div class="meta">
+                    Skipr · 23 Feb 2026
+                </div>
+                <div class="summary">Online drogisterijen delen gevoelige gezondheidsdata ongecontroleerd met Big Tech platforms. Privacy-schending biedt kans voor security/privacy thought leadership.</div>
+                <div class="action-hint">→ Thought leadership over privacy-compliant data sharing en security transformaties</div>
+                <div class="tags">
+                    <span class="category">thought-leadership</span> <span class="tag">Security</span> <span class="tag">Data</span>
+                    <span class="score">Score: 75</span> <span class="score-breakdown">R:30 U:20 A:25</span>
+                </div>
+            </div>
+        </article>
+        <article class="article high" data-category="overheid" data-tags="Cloud,Overheid">
+            <div class="indicator">🟠</div>
+            <div class="content">
+                <a href="https://www.digitaleoverheid.nl/nieuws-nds/nds-aanjaagteam-cloud-zoekt-dialoog-met-markt/" target="_blank" class="title">NDS-aanjaagteam Cloud zoekt dialoog met markt</a>
+                <div class="meta">
+                    Digitale Overheid · 19 Feb 2026
+                </div>
+                <div class="summary">NDS-aanjaagteam Cloud heeft met 69 marktpartijen gesproken over een soevereine cloud voor de overheid.</div>
+                <div class="action-hint">→ Monitoren van NDS cloud strategie en soevereine cloud initiatieven voor positionering</div>
+                <div class="tags">
+                    <span class="category">overheid</span> <span class="tag">Cloud</span> <span class="tag">Overheid</span>
+                    <span class="score">Score: 75</span> <span class="score-breakdown">R:30 U:20 A:25</span>
+                </div>
+            </div>
+        </article>
+        <article class="article high" data-category="innovatie" data-tags="AI,Data">
+            <div class="indicator">🟠</div>
+            <div class="content">
+                <a href="https://www.skipr.nl/nieuws/seh-spoort-met-ai-tool-patienten-op-met-alcoholproblemen/" target="_blank" class="title">SEH spoort met AI-tool patiënten op met alcoholproblemen</a>
+                <div class="meta">
+                    Skipr · 18 Feb 2026
+                </div>
+                <div class="summary">HMC gebruikt AI-tool op SEH om patiënten met alcoholproblemen beter te identificeren. 4% van SEH-bezoeken is alcohol-gerelateerd.</div>
+                <div class="action-hint">→ Contact HMC voor AI-implementation case study en scaling opportunities</div>
+                <div class="tags">
+                    <span class="category">innovatie</span> <span class="tag">AI</span> <span class="tag">Data</span>
+                    <span class="score">Score: 75</span> <span class="score-breakdown">R:35 U:18 A:22</span>
+                </div>
+            </div>
+        </article>
+        <article class="article high" data-category="opportunity" data-tags="Security">
+            <div class="indicator">🟠</div>
+            <div class="content">
+                <a href="https://www.skipr.nl/nieuws/om-ontvangt-118-aangiften-na-hack-bij-laboratorium/" target="_blank" class="title">OM ontvangt 118 aangiften na hack bij laboratorium</a>
+                <div class="meta">
+                    Skipr · 17 Feb 2026
+                </div>
+                <div class="summary">118 aangiften na datalek bij laboratorium Clinical Diagnostics. Toont urgentie van cybersecurity transformaties in de zorgsector.</div>
+                <div class="action-hint">→ Marktbenadering voor cybersecurity assessments en Zero Trust implementaties na deze security incident</div>
+                <div class="tags">
+                    <span class="category">opportunity</span> <span class="tag">Security</span>
+                    <span class="score">Score: 75</span> <span class="score-breakdown">R:28 U:22 A:25</span>
+                </div>
+            </div>
+        </article>
+        <article class="article high" data-category="thought-leadership" data-tags="Data,Transformatie">
+            <div class="indicator">🟠</div>
+            <div class="content">
+                <a href="https://nictiz.nl/nieuws/plugathon-2025-samenwerken-uitwisselbare-zorgdata/" target="_blank" class="title">Plugathon 2025: samenwerken aan uitwisselbare zorgdata</a>
+                <div class="meta">
+                    Nictiz · 26 Nov 2025
+                </div>
+                <div class="summary">Plugathon 2025 focust op uitwisselbare zorgdata en interoperabiliteit. Goede kans voor thought leadership en networking.</div>
+                <div class="action-hint">→ Deelname aan Plugathon 2025 voor visibility en networking met zorgorganisaties</div>
+                <div class="tags">
+                    <span class="category">thought-leadership</span> <span class="tag">Data</span> <span class="tag">Transformatie</span>
+                    <span class="score">Score: 75</span> <span class="score-breakdown">R:30 U:20 A:25</span>
+                </div>
+            </div>
+        </article>
+        <article class="article high" data-category="overheid" data-tags="Data,Transformatie">
+            <div class="indicator">🟠</div>
+            <div class="content">
+                <a href="https://nictiz.nl/nieuws/samen-werken-databeschikbaarheid-vlieland-zeeland/" target="_blank" class="title">Samen-werken aan databeschikbaarheid: Van Vlieland tot Zeeland</a>
+                <div class="meta">
+                    Nictiz · 27 Oct 2025
+                </div>
+                <div class="summary">Landelijke samenwerking aan databeschikbaarheid in de zorg. Kan regionale transformatie kansen opleveren.</div>
+                <div class="action-hint">→ Monitoren van regionale databeschikbaarheid initiatieven voor mogelijke regionale transformaties</div>
+                <div class="tags">
+                    <span class="category">overheid</span> <span class="tag">Data</span> <span class="tag">Transformatie</span>
+                    <span class="score">Score: 75</span> <span class="score-breakdown">R:30 U:20 A:25</span>
+                </div>
+            </div>
+        </article>
+        <article class="article high" data-category="thought-leadership" data-tags="Security,Transformatie,Ziekenhuis">
+            <div class="indicator">🟠</div>
+            <div class="content">
+                <a href="https://www.skipr.nl/nieuws/zeker-10-succesvolle-cyberaanvallen-op-nederlandse-zorg-in-2025/" target="_blank" class="title">Zeker 10 succesvolle cyberaanvallen op Nederlandse zorg in 2025</a>
+                <div class="meta">
+                    Skipr · 2 uur geleden
+                </div>
+                <div class="summary">Minstens 10 succesvolle cyberaanvallen op Nederlandse zorg bevestigt urgentie van cybersecurity transformatie. Directe kans voor security consulting.</div>
+                <div class="action-hint">→ Proactief benaderen van zorgorganisaties voor cybersecurity assessment en Zero Trust roadmap</div>
+                <div class="tags">
+                    <span class="category">thought-leadership</span> <span class="tag">Security</span> <span class="tag">Transformatie</span> <span class="tag">Ziekenhuis</span>
+                    <span class="score">Score: 74</span> <span class="score-breakdown">R:30 U:20 A:24</span>
+                </div>
+            </div>
+        </article>
+        <article class="article high" data-category="thought-leadership" data-tags="Transformatie,Ziekenhuis">
+            <div class="indicator">🟠</div>
+            <div class="content">
+                <a href="https://www.zorgvisie.nl/personeelstekorten-de-aanjager-van-transformatie-in-de-zorg/" target="_blank" class="title">Personeelstekorten: de aanjager van transformatie in de zorg</a>
+                <div class="meta">
+                    Zorgvisie · 06 Feb 2026
+                </div>
+                <div class="summary">Personeelstekorten in Europese ziekenhuizen dwingen tot transformatie van werkorganisatie. Structurele uitdaging vraagt om nieuwe aanpak.</div>
+                <div class="action-hint">→ Thought leadership content ontwikkelen over personeelstekorten als driver voor digitale transformatie</div>
+                <div class="tags">
+                    <span class="category">thought-leadership</span> <span class="tag">Transformatie</span> <span class="tag">Ziekenhuis</span>
+                    <span class="score">Score: 73</span> <span class="score-breakdown">R:28 U:20 A:25</span>
+                </div>
+            </div>
+        </article>
+        <article class="article high" data-category="concurrent" data-tags="AI,Transformatie">
+            <div class="indicator">🟠</div>
+            <div class="content">
+                <a href="https://www.zorgvisie.nl/zo-speelt-espria-honderden-uren-vrij-met-robotprocessen-en-ai/" target="_blank" class="title">Zo speelt Espria honderden uren vrij met robotprocessen en AI</a>
+                <div class="meta">
+                    Zorgvisie · 18 Dec 2025
+                </div>
+                <div class="summary">Espria implementeert AI en robotprocessen voor efficiency. Interessante case voor competitive intelligence en propositie-ontwikkeling.</div>
+                <div class="action-hint">→ Analyseren Espria case voor eigen AI-propositie en benchmarking</div>
+                <div class="tags">
+                    <span class="category">concurrent</span> <span class="tag">AI</span> <span class="tag">Transformatie</span>
+                    <span class="score">Score: 73</span> <span class="score-breakdown">R:38 U:15 A:20</span>
+                </div>
+            </div>
+        </article>
+        <article class="article high" data-category="opportunity" data-tags="Transformatie,Tender">
+            <div class="indicator">🟠</div>
+            <div class="content">
+                <a href="https://www.tenderned.nl/aankondigingen/overzicht/414132" target="_blank" class="title">TENDER: Aanschaf, realisatie en beheer van een nieuw primair processysteem t.b.v. de Raad voor de Kinderbescherming</a>
+                <div class="meta">
+                    TenderNed · 14 uur geleden
+                </div>
+                <div class="summary">Raad voor Kinderbescherming zoekt nieuw primair processysteem via concurrentiegerichte dialoog. Strategische enterprise platform kans.</div>
+                <div class="action-hint">→ Participeren in tender voor primair processysteem Raad Kinderbescherming</div>
+                <div class="tags">
+                    <span class="category">opportunity</span> <span class="tag">Transformatie</span> <span class="tag">Tender</span>
+                    <span class="score">Score: 72</span> <span class="score-breakdown">R:25 U:25 A:22</span>
+                </div>
+            </div>
+        </article>
+        <article class="article high" data-category="thought-leadership" data-tags="AI,Security,Ziekenhuis">
+            <div class="indicator">🟠</div>
+            <div class="content">
+                <a href="https://www.skipr.nl/nieuws/poll-zorg-moet-stoppen-met-chatgpt-na-dubieuze-deal-met-pentagon/" target="_blank" class="title">Poll | De zorg moet stoppen met ChatGPT na dubieuze deal met Pentagon</a>
+                <div class="meta">
+                    Skipr · 18 uur geleden
+                </div>
+                <div class="summary">Discussie over ChatGPT-gebruik in zorg na dubieuze deal met Pentagon. Kans voor thought leadership over AI-governance in healthcare.</div>
+                <div class="action-hint">→ Position paper schrijven over verantwoord AI-gebruik in zorg en governance frameworks</div>
+                <div class="tags">
+                    <span class="category">thought-leadership</span> <span class="tag">AI</span> <span class="tag">Security</span> <span class="tag">Ziekenhuis</span>
+                    <span class="score">Score: 72</span> <span class="score-breakdown">R:32 U:18 A:22</span>
+                </div>
+            </div>
+        </article>
+        <article class="article high" data-category="opportunity" data-tags="Transformatie,Tender">
+            <div class="indicator">🟠</div>
+            <div class="content">
+                <a href="https://www.zorgvisie.nl/geld-over-onverwacht-geluk-voor-twee-transformatieplannen/" target="_blank" class="title">Geld over: onverwacht geluk voor twee transformatieplannen</a>
+                <div class="meta">
+                    Zorgvisie · 4 dagen geleden
+                </div>
+                <div class="summary">Twee transformatieplannen krijgen onverwacht 11 miljoen euro IZA-geld. Directe opportunity voor grote transformatieprogramma's.</div>
+                <div class="action-hint">→ Identificeer welke transformatieplannen extra IZA-geld krijgen en benaderen</div>
+                <div class="tags">
+                    <span class="category">opportunity</span> <span class="tag">Transformatie</span> <span class="tag">Tender</span>
+                    <span class="score">Score: 72</span> <span class="score-breakdown">R:25 U:22 A:25</span>
+                </div>
+            </div>
+        </article>
+        <article class="article high" data-category="opportunity" data-tags="Security,Tender">
+            <div class="indicator">🟠</div>
+            <div class="content">
+                <a href="https://www.tenderned.nl/aankondigingen/overzicht/413939" target="_blank" class="title">TENDER: Incident Response Abonnementen</a>
+                <div class="meta">
+                    TenderNed · 2 dagen geleden
+                </div>
+                <div class="summary">Z-CERT zoekt incident response diensten vanwege NIS2 verplichting. Kans voor cybersecurity expertise in zorgveld.</div>
+                <div class="action-hint">→ Beoordelen of Z-CERT healthcare organisaties bedient en positie innemen voor NIS2 compliance diensten</div>
+                <div class="tags">
+                    <span class="category">opportunity</span> <span class="tag">Security</span> <span class="tag">Tender</span>
+                    <span class="score">Score: 70</span> <span class="score-breakdown">R:25 U:25 A:20</span>
+                </div>
+            </div>
+        </article>
+        <article class="article high" data-category="innovatie" data-tags="AI,Data">
+            <div class="indicator">🟠</div>
+            <div class="content">
+                <a href="https://www.zorgvisie.nl/privacy-bestendig-gpt-nl-klaar-voor-gebruik-toepasbaarheid-voor-zorg-is-onduidelijk/" target="_blank" class="title">Privacy-bestendig GPT-NL klaar voor gebruik, toepasbaarheid voor zorg is onduidelijk</a>
+                <div class="meta">
+                    Zorgvisie · 4 dagen geleden
+                </div>
+                <div class="summary">TNO's GPT-NL taalmodel is klaar maar toepasbaarheid voor zorg is onduidelijk. Kans voor thought leadership over AI in zorg.</div>
+                <div class="action-hint">→ Contact met TNO over zorg-specifieke use cases voor GPT-NL</div>
+                <div class="tags">
+                    <span class="category">innovatie</span> <span class="tag">AI</span> <span class="tag">Data</span>
+                    <span class="score">Score: 70</span> <span class="score-breakdown">R:32 U:18 A:20</span>
+                </div>
+            </div>
+        </article>
+        <article class="article high" data-category="overheid" data-tags="Data,Transformatie">
+            <div class="indicator">🟠</div>
+            <div class="content">
+                <a href="https://www.digitaleoverheid.nl/nieuws/obdo-stelt-afsprakenstelsel-federatief-datastelsel-vast/" target="_blank" class="title">OBDO stelt Afsprakenstelsel Federatief Datastelsel vast</a>
+                <div class="meta">
+                    Digitale Overheid · 23 Feb 2026
+                </div>
+                <div class="summary">OBDO stelt Afsprakenstelsel Federatief Datastelsel vast voor uniforme gegevensdeling binnen overheid. Basis voor data sharing transformaties in zorg.</div>
+                <div class="action-hint">→ Positioneren voor implementatie federatief datastelsel in zorgsector</div>
+                <div class="tags">
+                    <span class="category">overheid</span> <span class="tag">Data</span> <span class="tag">Transformatie</span>
+                    <span class="score">Score: 70</span> <span class="score-breakdown">R:28 U:22 A:20</span>
+                </div>
+            </div>
+        </article>
+        <article class="article high" data-category="opportunity" data-tags="Transformatie,Data,Verzekeraar">
+            <div class="indicator">🟠</div>
+            <div class="content">
+                <a href="https://www.skipr.nl/nieuws/zn-keurt-alle-transformatieplannen-goed-voor-zorgcoordinatie/" target="_blank" class="title">ZN: alle IZA-plannen voor centrale zorgcoördinatie zijn goedgekeurd</a>
+                <div class="meta">
+                    Skipr · 18 Feb 2026
+                </div>
+                <div class="summary">Alle tien transformatieplannen voor centrale zorgcoördinatie binnen ROAZ regio's zijn goedgekeurd door ZN.</div>
+                <div class="action-hint">→ Benaderen van ROAZ regio's voor implementatie ondersteuning van centrale zorgcoördinatie systemen</div>
+                <div class="tags">
+                    <span class="category">opportunity</span> <span class="tag">Transformatie</span> <span class="tag">Data</span> <span class="tag">Verzekeraar</span>
+                    <span class="score">Score: 70</span> <span class="score-breakdown">R:25 U:20 A:25</span>
+                </div>
+            </div>
+        </article>
+        <article class="article high" data-category="opportunity" data-tags="EPD,Security">
+            <div class="indicator">🟠</div>
+            <div class="content">
+                <a href="https://www.skipr.nl/nieuws/noord-hollandse-ziekenhuizen-zeggen-afspraken-af-door-ict-storing/" target="_blank" class="title">Noord-Hollandse ziekenhuizen zeggen afspraken af door ict-storing</a>
+                <div class="meta">
+                    Skipr · 18 Feb 2026
+                </div>
+                <div class="summary">Dijklander Ziekenhuis had ICT-storing waardoor EPD en telefonie uitvielen. Afspraken moesten worden afgezegd.</div>
+                <div class="action-hint">→ Contact Dijklander voor resilience en business continuity assessment</div>
+                <div class="tags">
+                    <span class="category">opportunity</span> <span class="tag">EPD</span> <span class="tag">Security</span>
+                    <span class="score">Score: 70</span> <span class="score-breakdown">R:25 U:20 A:25</span>
+                </div>
+            </div>
+        </article>
+        <article class="article high" data-category="concurrent" data-tags="AI">
+            <div class="indicator">🟠</div>
+            <div class="content">
+                <a href="https://www.zorgvisie.nl/thuisarts-komt-voor-de-zomer-met-alternatief-voor-chatgpt-health/" target="_blank" class="title">Thuisarts komt voor de zomer met alternatief voor ChatGPT Health</a>
+                <div class="meta">
+                    Zorgvisie · 17 Feb 2026
+                </div>
+                <div class="summary">Thuisarts ontwikkelt Nederlands alternatief voor ChatGPT Health, klaar voor zomer 2025.</div>
+                <div class="action-hint">→ Monitoren Thuisarts AI-ontwikkelingen voor competitive intelligence</div>
+                <div class="tags">
+                    <span class="category">concurrent</span> <span class="tag">AI</span>
+                    <span class="score">Score: 70</span> <span class="score-breakdown">R:30 U:22 A:18</span>
+                </div>
+            </div>
+        </article>
+        <article class="article high" data-category="overheid" data-tags="VWS,Data,Transformatie">
+            <div class="indicator">🟠</div>
+            <div class="content">
+                <a href="https://www.zorgvisie.nl/programma-uitkomstgerichte-zorg-maakt-ambities-niet-waar/" target="_blank" class="title">Programma Uitkomstgerichte Zorg maakt ambities niet waar</a>
+                <div class="meta">
+                    Zorgvisie · 12 Jan 2026
+                </div>
+                <div class="summary">Programma Uitkomstgerichte Zorg II haalt ambities niet en loopt vertraging op bij implementatie uitkomstensets. 2026 is laatste programmajaar.</div>
+                <div class="action-hint">→ Benaderen VWS en ziekenhuizen voor ondersteuning bij implementatie uitkomstensets en data-initiatieven</div>
+                <div class="tags">
+                    <span class="category">overheid</span> <span class="tag">VWS</span> <span class="tag">Data</span> <span class="tag">Transformatie</span>
+                    <span class="score">Score: 70</span> <span class="score-breakdown">R:25 U:20 A:25</span>
+                </div>
+            </div>
+        </article>
+        <article class="article high" data-category="overheid" data-tags="Data,Transformatie">
+            <div class="indicator">🟠</div>
+            <div class="content">
+                <a href="https://nictiz.nl/nieuws/consultatie-proactieve-zorgplanning/" target="_blank" class="title">Consultatie Proactieve Zorgplanning van start</a>
+                <div class="meta">
+                    Nictiz · 24 Sep 2025
+                </div>
+                <div class="summary">Consultatie over proactieve zorgplanning is gestart. Relevant voor preventieve zorg en predictive analytics.</div>
+                <div class="action-hint">→ Consultatie proactieve zorgplanning kan input geven voor preventie en data-gedreven zorg advisory</div>
+                <div class="tags">
+                    <span class="category">overheid</span> <span class="tag">Data</span> <span class="tag">Transformatie</span>
+                    <span class="score">Score: 70</span> <span class="score-breakdown">R:25 U:20 A:25</span>
+                </div>
+            </div>
+        </article>
+        <article class="article high" data-category="innovatie" data-tags="Data,Cloud">
+            <div class="indicator">🟠</div>
+            <div class="content">
+                <a href="https://www.skipr.nl/nieuws/12-zuid-hollandse-organisaties-monitoren-interventies-via-regionaal-dataplatform/" target="_blank" class="title">12 Zuid-Hollandse organisaties monitoren interventies via regionaal dataplatform</a>
+                <div class="meta">
+                    Skipr · 16 Feb 2026
+                </div>
+                <div class="summary">12 Zuid-Hollandse organisaties bouwen regionaal dataplatform voor privacy-bestendige monitoring van interventies. Strategische data & analytics kans.</div>
+                <div class="action-hint">→ Contact opnemen met WSD-regio over uitbreiding dataplatform en data governance framework</div>
+                <div class="tags">
+                    <span class="category">innovatie</span> <span class="tag">Data</span> <span class="tag">Cloud</span>
+                    <span class="score">Score: 69</span> <span class="score-breakdown">R:32 U:15 A:22</span>
+                </div>
+            </div>
+        </article>
+        <article class="article high" data-category="klant" data-tags="Data,Ziekenhuis,Transformatie">
+            <div class="indicator">🟠</div>
+            <div class="content">
+                <a href="https://www.zorgvisie.nl/ad-melkert-digitale-gegevensuitwisseling-vraagt-snelheid-snelheid-snelheid/" target="_blank" class="title">Ad Melkert: ‘Digitale gegevensuitwisseling vraagt snelheid, snelheid, snelheid’</a>
+                <div class="meta">
+                    Zorgvisie · 23 Jan 2026
+                </div>
+                <div class="summary">NVZ-voorzitter benadrukt urgentie van digitale gegevensuitwisseling en samenwerking tussen ziekenhuizen. Strategische kans voor data platformen.</div>
+                <div class="action-hint">→ Contact NVZ/ziekenhuizen over digitale gegevensuitwisseling en samenwerking platforms</div>
+                <div class="tags">
+                    <span class="category">klant</span> <span class="tag">Data</span> <span class="tag">Ziekenhuis</span> <span class="tag">Transformatie</span>
+                    <span class="score">Score: 69</span> <span class="score-breakdown">R:32 U:15 A:22</span>
+                </div>
+            </div>
+        </article>
+        <article class="article high" data-category="innovatie" data-tags="AI,Ziekenhuis">
+            <div class="indicator">🟠</div>
+            <div class="content">
+                <a href="https://www.zorgvisie.nl/dit-rekenmodel-tovert-in-5-minuten-een-kwartaalrooster-tevoorschijn/" target="_blank" class="title">Dit rekenmodel tovert in 5 minuten een kwartaalrooster tevoorschijn</a>
+                <div class="meta">
+                    Zorgvisie · 15 Dec 2025
+                </div>
+                <div class="summary">Gelre ontwikkelde wiskundig model voor automatische roosterplanning in 15 seconden. Interessant voor AI-toepassingen in zorg.</div>
+                <div class="action-hint">→ Contact Gelre ziekenhuizen voor uitbreiding rooster-optimalisatie naar andere processen</div>
+                <div class="tags">
+                    <span class="category">innovatie</span> <span class="tag">AI</span> <span class="tag">Ziekenhuis</span>
+                    <span class="score">Score: 69</span> <span class="score-breakdown">R:32 U:15 A:22</span>
+                </div>
+            </div>
+        </article>
+        <article class="article high" data-category="opportunity" data-tags="Transformatie,VVT,Data">
+            <div class="indicator">🟠</div>
+            <div class="content">
+                <a href="https://www.zorgvisie.nl/zo-bouwt-zuid-limburg-een-virtueel-verzorgingshuis-in-de-wijk/" target="_blank" class="title">Zo bouwt Zuid-Limburg een virtueel verzorgingshuis in de wijk</a>
+                <div class="meta">
+                    Zorgvisie · 1 dagen geleden
+                </div>
+                <div class="summary">Zuid-Limburg bouwt virtueel verzorgingshuis dat 40% minder personeel vraagt. Kans voor digitale zorg transformatie ondersteuning.</div>
+                <div class="action-hint">→ Contact Envida voor ondersteuning virtueel verzorgingshuis met data platforms en AI</div>
+                <div class="tags">
+                    <span class="category">opportunity</span> <span class="tag">Transformatie</span> <span class="tag">VVT</span> <span class="tag">Data</span>
+                    <span class="score">Score: 68</span> <span class="score-breakdown">R:28 U:18 A:22</span>
+                </div>
+            </div>
+        </article>
+        <article class="article high" data-category="opportunity" data-tags="Data,Ziekenhuis,Tender">
+            <div class="indicator">🟠</div>
+            <div class="content">
+                <a href="https://www.tenderned.nl/aankondigingen/overzicht/414102" target="_blank" class="title">TENDER: Meten van patiëntervaringen in de UMC’s</a>
+                <div class="meta">
+                    TenderNed · 1 dagen geleden
+                </div>
+                <div class="summary">UMCNL doet marktconsultatie voor patiëntervaringsmetingen ter voorbereiding op Europese aanbesteding. Dit biedt kans om expertise in healthcare analytics te tonen.</div>
+                <div class="action-hint">→ Reactie op marktconsultatie om Accenture's expertise in patient experience analytics te positioneren voor komende Europese tender</div>
+                <div class="tags">
+                    <span class="category">opportunity</span> <span class="tag">Data</span> <span class="tag">Ziekenhuis</span> <span class="tag">Tender</span>
+                    <span class="score">Score: 67</span> <span class="score-breakdown">R:25 U:20 A:22</span>
+                </div>
+            </div>
+        </article>
+        <article class="article high" data-category="innovatie" data-tags="Data,AI">
+            <div class="indicator">🟠</div>
+            <div class="content">
+                <a href="https://www.skipr.nl/nieuws/erasmus-mc-pakt-met-groene-data-assistent-vier-hotspots-aan/" target="_blank" class="title">Erasmus MC pakt vier hotspots aan met groene data-assistent</a>
+                <div class="meta">
+                    Skipr · 18 Feb 2026
+                </div>
+                <div class="summary">Erasmus MC gebruikt data-assistent GERDA om materiaalgebruik op IC te reduceren. AI-toepassing toont concrete resultaten in kostenbesparingen.</div>
+                <div class="action-hint">→ Case study ontwikkelen over data-driven sustainability in zorg</div>
+                <div class="tags">
+                    <span class="category">innovatie</span> <span class="tag">Data</span> <span class="tag">AI</span>
+                    <span class="score">Score: 67</span> <span class="score-breakdown">R:32 U:15 A:20</span>
+                </div>
+            </div>
+        </article>
+        <article class="article high" data-category="overheid" data-tags="VWS,Data,Transformatie">
+            <div class="indicator">🟠</div>
+            <div class="content">
+                <a href="https://www.zorgvisie.nl/team-overheid-verliest-geduld-transparantie-zorgkwaliteit-desnoods-afdwingen/" target="_blank" class="title">‘Team overheid’ verliest geduld: transparantie zorgkwaliteit desnoods afdwingen</a>
+                <div class="meta">
+                    Zorgvisie · 03 Feb 2026
+                </div>
+                <div class="summary">Overheid wordt ongeduldig over trage transparantie in zorgkwaliteit en dreigt met afdwinging. Creëert kansen voor data & analytics oplossingen.</div>
+                <div class="action-hint">→ Thought leadership over data governance en transparantie-oplossingen ontwikkelen</div>
+                <div class="tags">
+                    <span class="category">overheid</span> <span class="tag">VWS</span> <span class="tag">Data</span> <span class="tag">Transformatie</span>
+                    <span class="score">Score: 67</span> <span class="score-breakdown">R:25 U:22 A:20</span>
+                </div>
+            </div>
+        </article>
+        <article class="article high" data-category="overheid" data-tags="AI,Transformatie,VWS">
+            <div class="indicator">🟠</div>
+            <div class="content">
+                <a href="https://tweakers.net/nieuws/234150/nederlands-kabinet-overweegt-inzet-ai-om-externe-inhuur-icters-terug-te-dringen.html" target="_blank" class="title">Nederlands kabinet overweegt inzet AI om externe inhuur ict'ers terug te dringen</a>
+                <div class="meta">
+                    Tweakers · 19 Apr 2025
+                </div>
+                <div class="summary">Nederlands kabinet overweegt AI in te zetten om externe ICT-inhuur terug te dringen. Kans voor thought leadership over AI-transformatie in publieke sector.</div>
+                <div class="action-hint">→ Contact met VWS over AI-strategie voor kostenbesparing in overheid</div>
+                <div class="tags">
+                    <span class="category">overheid</span> <span class="tag">AI</span> <span class="tag">Transformatie</span> <span class="tag">VWS</span>
+                    <span class="score">Score: 67</span> <span class="score-breakdown">R:25 U:20 A:22</span>
+                </div>
+            </div>
+        </article>
+        <article class="article high" data-category="klant" data-tags="Transformatie,Ziekenhuis">
+            <div class="indicator">🟠</div>
+            <div class="content">
+                <a href="https://www.skipr.nl/nieuws/universiteitsraad-wil-geen-fusie-mumc-en-universiteit-maastricht/" target="_blank" class="title">Universiteitsraad wil geen fusie MUMC+ en Universiteit Maastricht</a>
+                <div class="meta">
+                    Skipr · 21 uur geleden
+                </div>
+                <div class="summary">MUMC+ fusievoorstel met Universiteit Maastricht afgekeurd door universiteitsraad. Mogelijke kans voor organisatietransformatie advies.</div>
+                <div class="action-hint">→ Contact met MUMC+ bestuur over organisationele transformatie en change management ondersteuning</div>
+                <div class="tags">
+                    <span class="category">klant</span> <span class="tag">Transformatie</span> <span class="tag">Ziekenhuis</span>
+                    <span class="score">Score: 65</span> <span class="score-breakdown">R:25 U:22 A:18</span>
+                </div>
+            </div>
+        </article>
+        <article class="article high" data-category="klant" data-tags="Transformatie,Ziekenhuis">
+            <div class="indicator">🟠</div>
+            <div class="content">
+                <a href="https://www.zorgvisie.nl/fusie-tussen-mumc-en-universiteit-maastricht/" target="_blank" class="title">Bestuurlijke fusie tussen MUMC+ en Universiteit Maastricht is niet zomaar geregeld</a>
+                <div class="meta">
+                    Zorgvisie · 21 uur geleden
+                </div>
+                <div class="summary">MUMC+ fusievoorstel met Universiteit Maastricht afgekeurd door universiteitsraad. Mogelijke kans voor organisatietransformatie advies.</div>
+                <div class="action-hint">→ Contact met MUMC+ bestuur over organisationele transformatie en change management ondersteuning</div>
+                <div class="tags">
+                    <span class="category">klant</span> <span class="tag">Transformatie</span> <span class="tag">Ziekenhuis</span>
+                    <span class="score">Score: 65</span> <span class="score-breakdown">R:25 U:22 A:18</span>
+                </div>
+            </div>
+        </article>
+        <article class="article high" data-category="overheid" data-tags="VWS,Transformatie">
+            <div class="indicator">🟠</div>
+            <div class="content">
+                <a href="https://www.skipr.nl/nieuws/nieuwe-zorgministers-willen-sector-spreken-voordat-ze-besluiten-nemen/" target="_blank" class="title">Nieuwe zorgministers willen sector spreken voordat ze besluiten nemen</a>
+                <div class="meta">
+                    Skipr · 23 Feb 2026
+                </div>
+                <div class="summary">Nieuwe zorgministers Hermans en Sterk willen sector raadplegen voor bezuinigingen met kwaliteitsverbetering. Kans om digitale transformatie als oplossing te positioneren.</div>
+                <div class="action-hint">→ Positioneren voor gesprekken met nieuwe ministers over digitale transformatie als oplossing</div>
+                <div class="tags">
+                    <span class="category">overheid</span> <span class="tag">VWS</span> <span class="tag">Transformatie</span>
+                    <span class="score">Score: 65</span> <span class="score-breakdown">R:18 U:25 A:22</span>
+                </div>
+            </div>
+        </article>
+        <article class="article high" data-category="overheid" data-tags="VWS">
+            <div class="indicator">🟠</div>
+            <div class="content">
+                <a href="https://www.zorgvisie.nl/deze-mensen-worden-genoemd-als-nieuwe-minister-van-vws/" target="_blank" class="title">Nieuwe minister van VWS: Sophie Hermans (VVD)</a>
+                <div class="meta">
+                    Zorgvisie · 05 Feb 2026
+                </div>
+                <div class="summary">Sophie Hermans wordt nieuwe VWS minister, CDA levert minister voor Langdurige Zorg. Formateur Rob Jetten aan de slag.</div>
+                <div class="action-hint">→ Stakeholder engagement strategie ontwikkelen voor nieuwe VWS bewindslieden</div>
+                <div class="tags">
+                    <span class="category">overheid</span> <span class="tag">VWS</span>
+                    <span class="score">Score: 65</span> <span class="score-breakdown">R:15 U:28 A:22</span>
+                </div>
+            </div>
+        </article>
+        <article class="article high" data-category="concurrent" data-tags="EPD,Data">
+            <div class="indicator">🟠</div>
+            <div class="content">
+                <a href="https://www.zorgvisie.nl/chipsoft-rukt-onder-de-oppervlakte-verder-op-via-datasystemen/" target="_blank" class="title">ChipSoft rukt onder de oppervlakte verder op via datasystemen</a>
+                <div class="meta">
+                    Zorgvisie · 20 Jan 2026
+                </div>
+                <div class="summary">ChipSoft wordt dominanter in EPD en data management systemen markt. Belangrijke competitive intelligence voor EPD projecten.</div>
+                <div class="action-hint">→ Strategische positie bepalen t.o.v. ChipSoft dominantie en kansen voor EPD optimalisatie projecten</div>
+                <div class="tags">
+                    <span class="category">concurrent</span> <span class="tag">EPD</span> <span class="tag">Data</span>
+                    <span class="score">Score: 65</span> <span class="score-breakdown">R:30 U:15 A:20</span>
+                </div>
+            </div>
+        </article>
+        <article class="article high" data-category="thought-leadership" data-tags="AI,Data,Transformatie">
+            <div class="indicator">🟠</div>
+            <div class="content">
+                <a href="https://www.zorgvisie.nl/medtech-wil-met-groeiplan-naar-absolute-top/" target="_blank" class="title">Medtech wil met Groeiplan naar absolute top</a>
+                <div class="meta">
+                    Zorgvisie · 29 Dec 2025
+                </div>
+                <div class="summary">Medische technologie sector wil met Groeiplan naar top. Relevante ontwikkeling voor AI en data-innovaties in zorg.</div>
+                <div class="action-hint">→ Medtech groeiplan als thought leadership kans voor digitale innovatie in zorg</div>
+                <div class="tags">
+                    <span class="category">thought-leadership</span> <span class="tag">AI</span> <span class="tag">Data</span> <span class="tag">Transformatie</span>
+                    <span class="score">Score: 65</span> <span class="score-breakdown">R:28 U:15 A:22</span>
+                </div>
+            </div>
+        </article>
+        <article class="article high" data-category="innovatie" data-tags="Data,Ziekenhuis">
+            <div class="indicator">🟠</div>
+            <div class="content">
+                <a href="https://www.skipr.nl/nieuws/regionale-geboortezorg-app-voor-alle-zwangeren-in-twente/" target="_blank" class="title">Regionale geboortezorg-app voor alle zwangeren in Twente</a>
+                <div class="meta">
+                    Skipr · 23 Feb 2026
+                </div>
+                <div class="summary">Regionale geboortezorg-app wordt uitgerold voor alle zwangeren in Twente door 20 praktijken en ZGT. Voorbeeld van regionale digitale samenwerking in zorgketen.</div>
+                <div class="action-hint">→ Analyseren van regionale digitalisering trends voor vergelijkbare initiatieven</div>
+                <div class="tags">
+                    <span class="category">innovatie</span> <span class="tag">Data</span> <span class="tag">Ziekenhuis</span>
+                    <span class="score">Score: 63</span> <span class="score-breakdown">R:25 U:18 A:20</span>
+                </div>
+            </div>
+        </article>
+        <article class="article high" data-category="overheid" data-tags="VWS,AI,Transformatie">
+            <div class="indicator">🟠</div>
+            <div class="content">
+                <a href="https://www.zorgvisie.nl/minister-in-2026-impact-arbeidsbesparende-technologie-in-beeld/" target="_blank" class="title">Minister: in 2026 impact arbeidsbesparende technologie in beeld</a>
+                <div class="meta">
+                    Zorgvisie · 05 Jan 2026
+                </div>
+                <div class="summary">Minister Bruijn kondigt inzicht aan in effecten van innovaties op arbeidsbesparing in zorg. Relevante beleidsontwikkeling voor AI en automatisering.</div>
+                <div class="action-hint">→ Volgen van concrete beleidsontwikkeling arbeidsbesparende technologie voor thought leadership</div>
+                <div class="tags">
+                    <span class="category">overheid</span> <span class="tag">VWS</span> <span class="tag">AI</span> <span class="tag">Transformatie</span>
+                    <span class="score">Score: 63</span> <span class="score-breakdown">R:25 U:18 A:20</span>
+                </div>
+            </div>
+        </article>
+        <article class="article high" data-category="innovatie" data-tags="AI,Ziekenhuis">
+            <div class="indicator">🟠</div>
+            <div class="content">
+                <a href="https://www.icthealth.nl/nieuws/ai-en-cameratechnologie-voor-vroegtijdige-detectie-van-complicaties" target="_blank" class="title">AI en cameratechnologie voor vroegtijdige detectie van complicaties</a>
+                <div class="meta">
+                    ICT&health · 3 uur geleden
+                </div>
+                <div class="summary">Catharina Ziekenhuis implementeert AI-cameratechnologie voor contactloze monitoring hartpatiënten. Kans voor AI-partnerships.</div>
+                <div class="action-hint">→ Contact Catharina Ziekenhuis voor samenwerking in AI-innovatie projecten</div>
+                <div class="tags">
+                    <span class="category">innovatie</span> <span class="tag">AI</span> <span class="tag">Ziekenhuis</span>
+                    <span class="score">Score: 61</span> <span class="score-breakdown">R:28 U:15 A:18</span>
+                </div>
+            </div>
+        </article>
+        <article class="article high" data-category="concurrent" data-tags="Data,AI">
+            <div class="indicator">🟠</div>
+            <div class="content">
+                <a href="https://www.tenderned.nl/aankondigingen/overzicht/413809" target="_blank" class="title">TENDER: EA Inhuur Data- & AI-Professionals</a>
+                <div class="meta">
+                    TenderNed · 3 dagen geleden
+                </div>
+                <div class="summary">NS zoekt via Europese aanbesteding data- en AI-professionals voor hun DIA afdeling. Grote organisatie met datagedreven ambities, potentiele concurrent opportunity.</div>
+                <div class="action-hint">→ Monitoren van NS data/AI strategie en concurrentie-analyse voor vergelijkbare opdrachten</div>
+                <div class="tags">
+                    <span class="category">concurrent</span> <span class="tag">Data</span> <span class="tag">AI</span>
+                    <span class="score">Score: 60</span> <span class="score-breakdown">R:25 U:20 A:15</span>
+                </div>
+            </div>
+        </article>
+        <article class="article high" data-category="thought-leadership" data-tags="GGZ,Transformatie,Data">
+            <div class="indicator">🟠</div>
+            <div class="content">
+                <a href="https://www.zorgvisie.nl/zo-kan-budgetbekostiging-in-de-cruciale-ggz-wel-snel/" target="_blank" class="title">Zo kan budgetbekostiging in de cruciale ggz wel snel</a>
+                <div class="meta">
+                    Zorgvisie · 5 dagen geleden
+                </div>
+                <div class="summary">SiRM pleit voor snelle invoering budgetbekostiging in cruciale GGZ met maximale transparantie. Kans voor thought leadership over data governance en financiële transformatie.</div>
+                <div class="action-hint">→ Thought leadership artikel over budgetbekostiging en transparantie in GGZ</div>
+                <div class="tags">
+                    <span class="category">thought-leadership</span> <span class="tag">GGZ</span> <span class="tag">Transformatie</span> <span class="tag">Data</span>
+                    <span class="score">Score: 60</span> <span class="score-breakdown">R:20 U:18 A:22</span>
+                </div>
+            </div>
+        </article>
+        <article class="article high" data-category="innovatie" data-tags="Data,Transformatie">
+            <div class="indicator">🟠</div>
+            <div class="content">
+                <a href="https://www.zorgvisie.nl/brabant-speelt-127-680-uur-vrij-door-zelfzorg-we-zien-zelfs-gaten-in-de-routes/" target="_blank" class="title">Brabant speelt 127.680 uur vrij door zelfzorg: ‘We zien zelfs gaten in de routes’</a>
+                <div class="meta">
+                    Zorgvisie · 24 Feb 2026
+                </div>
+                <div class="summary">Brabant boekt succes met zelfzorg aanpak, bespaart 127.680 uur zorgpersoneel. Kans voor digitale zelfzorg platforms en analytics.</div>
+                <div class="action-hint">→ Benaderen Brabantse zorgorganisaties voor uitbreiden zelfzorg initiatieven met digitale oplossingen</div>
+                <div class="tags">
+                    <span class="category">innovatie</span> <span class="tag">Data</span> <span class="tag">Transformatie</span>
+                    <span class="score">Score: 60</span> <span class="score-breakdown">R:25 U:15 A:20</span>
+                </div>
+            </div>
+        </article>
+        <article class="article high" data-category="overheid" data-tags="VWS,Transformatie">
+            <div class="indicator">🟠</div>
+            <div class="content">
+                <a href="https://www.skipr.nl/nieuws/whitepaper-dit-wil-het-nieuwe-kabinet-met-de-zorg/" target="_blank" class="title">Whitepaper | Dit wil het nieuwe kabinet met de zorg</a>
+                <div class="meta">
+                    Skipr · 23 Feb 2026
+                </div>
+                <div class="summary">Nieuwe whitepaper beschrijft zorgplannen van kabinet-Jetten. Belangrijke input voor strategische positionering bij nieuwe regering.</div>
+                <div class="action-hint">→ Whitepaper analyseren voor strategische positionering bij nieuw kabinet</div>
+                <div class="tags">
+                    <span class="category">overheid</span> <span class="tag">VWS</span> <span class="tag">Transformatie</span>
+                    <span class="score">Score: 60</span> <span class="score-breakdown">R:20 U:22 A:18</span>
+                </div>
+            </div>
+        </article>
+        <article class="article high" data-category="innovatie" data-tags="Data,Security">
+            <div class="indicator">🟠</div>
+            <div class="content">
+                <a href="https://nictiz.nl/nieuws/toestemming-kinderen-12-16-digitale-toegang-gezondheidszorg/" target="_blank" class="title">Toestemming kinderen 12–16 bij digitale toegang tot zorg: adviesrapport uitgereikt</a>
+                <div class="meta">
+                    Nictiz · 13 Feb 2026
+                </div>
+                <div class="summary">Nictiz publiceert adviesrapport over toestemming voor digitale zorgentoegang bij kinderen 12-16 jaar. Relevant voor consent management in digitale zorgplatformen.</div>
+                <div class="action-hint">→ Contact Nictiz voor samenwerking op digitale toegang en consent management oplossingen</div>
+                <div class="tags">
+                    <span class="category">innovatie</span> <span class="tag">Data</span> <span class="tag">Security</span>
+                    <span class="score">Score: 60</span> <span class="score-breakdown">R:25 U:15 A:20</span>
+                </div>
+            </div>
+        </article>
+        <article class="article high" data-category="overheid" data-tags="GGZ,Transformatie">
+            <div class="indicator">🟠</div>
+            <div class="content">
+                <a href="https://www.zorgvisie.nl/nza-onduidelijk-of-budgetbekostiging-problemen-cruciale-ggz-oplost/" target="_blank" class="title">NZa: onduidelijk of budgetbekostiging problemen cruciale ggz oplost</a>
+                <div class="meta">
+                    Zorgvisie · 12 Feb 2026
+                </div>
+                <div class="summary">NZa stelt advies over budgetbekostiging in cruciale GGZ uit tot 2027 wegens gebrek aan informatie. GGZ-sector reageert teleurgesteld.</div>
+                <div class="action-hint">→ Positioneren bij NZa en GGZ-instellingen voor toekomstige bekostigingsmodel transformaties</div>
+                <div class="tags">
+                    <span class="category">overheid</span> <span class="tag">GGZ</span> <span class="tag">Transformatie</span>
+                    <span class="score">Score: 60</span> <span class="score-breakdown">R:18 U:20 A:22</span>
+                </div>
+            </div>
+        </article>
+        <article class="article high" data-category="overheid" data-tags="VWS">
+            <div class="indicator">🟠</div>
+            <div class="content">
+                <a href="https://www.zorgvisie.nl/profiel-sophie-hermans-probleemoplossend-scherp-en-niet-altijd-in-lijn-met-partij/" target="_blank" class="title">Profiel Sophie Hermans: Probleemoplossend, scherp en niet altijd in lijn met partij</a>
+                <div class="meta">
+                    Zorgvisie · 10 Feb 2026
+                </div>
+                <div class="summary">Profiel Sophie Hermans, nieuwe VWS minister. Scherp denker die vroeg corona-risico's zag en problemen met ZZP'ers in zorg onderkende.</div>
+                <div class="action-hint">→ Relatieopbouw voorbereiden met nieuwe VWS minister Sophie Hermans</div>
+                <div class="tags">
+                    <span class="category">overheid</span> <span class="tag">VWS</span>
+                    <span class="score">Score: 60</span> <span class="score-breakdown">R:15 U:25 A:20</span>
+                </div>
+            </div>
+        </article>
+        <article class="article high" data-category="opportunity" data-tags="Transformatie,Ziekenhuis">
+            <div class="indicator">🟠</div>
+            <div class="content">
+                <a href="https://www.zorgvisie.nl/speciaal-team-moet-gebruik-medische-richtlijn-in-ziekenhuis-en-kliniek-versnellen/" target="_blank" class="title">Speciaal team moet gebruik medische richtlijn in ziekenhuis en kliniek versnellen</a>
+                <div class="meta">
+                    Zorgvisie · 16 Dec 2025
+                </div>
+                <div class="summary">Programma wil implementatieteams in ziekenhuizen voor snellere richtlijninvoering. Mogelijke kans voor change management ondersteuning.</div>
+                <div class="action-hint">→ Contact met ZE&GG programma voor ondersteuning implementatieteams</div>
+                <div class="tags">
+                    <span class="category">opportunity</span> <span class="tag">Transformatie</span> <span class="tag">Ziekenhuis</span>
+                    <span class="score">Score: 60</span> <span class="score-breakdown">R:25 U:15 A:20</span>
+                </div>
+            </div>
+        </article>
+        <article class="article high" data-category="thought-leadership" data-tags="Data">
+            <div class="indicator">🟠</div>
+            <div class="content">
+                <a href="https://nictiz.nl/nieuws/loinc-advies-denk-mee/" target="_blank" class="title">Online sessie LOINC-advies: denk mee met Nictiz</a>
+                <div class="meta">
+                    Nictiz · 16 Dec 2025
+                </div>
+                <div class="summary">Nictiz organiseert sessie over LOINC-standaarden. Relevant voor data governance en interoperabiliteit expertise.</div>
+                <div class="action-hint">→ Deelname aan LOINC sessie voor data standaardisatie expertise</div>
+                <div class="tags">
+                    <span class="category">thought-leadership</span> <span class="tag">Data</span>
+                    <span class="score">Score: 60</span> <span class="score-breakdown">R:30 U:15 A:15</span>
+                </div>
+            </div>
+        </article>
+        <article class="article high" data-category="overheid" data-tags="Data,Transformatie">
+            <div class="indicator">🟠</div>
+            <div class="content">
+                <a href="https://nictiz.nl/nieuws/kennis-programma-digitale-toegang-nictiz-geborgd/" target="_blank" class="title">Kennis Digitale Toegang bij Nictiz geborgd</a>
+                <div class="meta">
+                    Nictiz · 08 Dec 2025
+                </div>
+                <div class="summary">Nictiz borgt kennis over digitale toegang in de zorg. Dit kan kansen bieden voor standaardisatie en interoperabiliteit projecten.</div>
+                <div class="action-hint">→ Monitoren van Nictiz digitale toegang initiatieven voor mogelijke advisory opportunities</div>
+                <div class="tags">
+                    <span class="category">overheid</span> <span class="tag">Data</span> <span class="tag">Transformatie</span>
+                    <span class="score">Score: 60</span> <span class="score-breakdown">R:25 U:15 A:20</span>
+                </div>
+            </div>
+        </article>
+        <article class="article high" data-category="thought-leadership" data-tags="Data">
+            <div class="indicator">🟠</div>
+            <div class="content">
+                <a href="https://nictiz.nl/nieuws/hackathon-studenten-europese-databeschikbaarheid/" target="_blank" class="title">Hackathon brengt studenten en Europese databeschikbaarheid samen</a>
+                <div class="meta">
+                    Nictiz · 25 Nov 2025
+                </div>
+                <div class="summary">Hackathon verbindt studenten met Europese databeschikbaarheid vraagstukken. Relevant voor EHDS en data governance expertise.</div>
+                <div class="action-hint">→ Europese databeschikbaarheid hackathon kan input geven voor EHDS advisory services</div>
+                <div class="tags">
+                    <span class="category">thought-leadership</span> <span class="tag">Data</span>
+                    <span class="score">Score: 60</span> <span class="score-breakdown">R:25 U:15 A:20</span>
+                </div>
+            </div>
+        </article>
+        <article class="article high" data-category="innovatie" data-tags="Data,Transformatie">
+            <div class="indicator">🟠</div>
+            <div class="content">
+                <a href="https://nictiz.nl/nieuws/betere-acute-zorg-digitale-ambulanceverwijzing-huisartsenspoedpost/" target="_blank" class="title">Betere acute zorg met digitale ambulanceverwijzing naar huisartsenspoedpost</a>
+                <div class="meta">
+                    Nictiz · 25 Sep 2025
+                </div>
+                <div class="summary">Digitale ambulanceverwijzing naar huisartsenspoedpost verbetert acute zorg. Interessant voor zorgketen digitalisering.</div>
+                <div class="action-hint">→ Digitale ambulanceverwijzing kan input zijn voor acute zorg transformatie projecten</div>
+                <div class="tags">
+                    <span class="category">innovatie</span> <span class="tag">Data</span> <span class="tag">Transformatie</span>
+                    <span class="score">Score: 60</span> <span class="score-breakdown">R:25 U:15 A:20</span>
+                </div>
+            </div>
+        </article>
+        <article class="article medium" data-category="concurrent" data-tags="EPD">
+            <div class="indicator">🟡</div>
+            <div class="content">
+                <a href="https://www.skipr.nl/nieuws/opnieuw-miljoenenwinst-voor-chipsoft/" target="_blank" class="title">Opnieuw miljoenenwinst voor ChipSoft</a>
+                <div class="meta">
+                    Skipr · 5 dagen geleden
+                </div>
+                <div class="summary">ChipSoft behaalt 67M euro nettowinst op 175M omzet, groei van 18%. Sterke marktpositie EPD-leverancier, mogelijke concurrent voor transformatieprogramma's.</div>
+                <div class="action-hint">→ Competitive intelligence: ChipSoft sterke positie, kansen voor cloud/data transformaties naast EPD</div>
+                <div class="tags">
+                    <span class="category">concurrent</span> <span class="tag">EPD</span>
+                    <span class="score">Score: 58</span> <span class="score-breakdown">R:25 U:15 A:18</span>
+                </div>
+            </div>
+        </article>
+        <article class="article medium" data-category="overheid" data-tags="Transformatie,VWS">
+            <div class="indicator">🟡</div>
+            <div class="content">
+                <a href="https://www.icthealth.nl/nieuws/twee-projecten-gehonoreerd-binnen-doorgang-reguliere-zorg" target="_blank" class="title">Twee projecten gehonoreerd binnen Doorgang Reguliere Zorg</a>
+                <div class="meta">
+                    ICT&health · 1 dagen geleden
+                </div>
+                <div class="summary">ZonMw honoreert projecten voor optimalisatie reguliere zorg tijdens crises. Mogelijk toekomstige aanbestedingen voor digitale oplossingen.</div>
+                <div class="action-hint">→ ZonMw programma volgen voor toekomstige aanbestedingen reguliere zorg optimalisatie</div>
+                <div class="tags">
+                    <span class="category">overheid</span> <span class="tag">Transformatie</span> <span class="tag">VWS</span>
+                    <span class="score">Score: 57</span> <span class="score-breakdown">R:22 U:15 A:20</span>
+                </div>
+            </div>
+        </article>
+        <article class="article medium" data-category="opportunity" data-tags="Ziekenhuis,Transformatie">
+            <div class="indicator">🟡</div>
+            <div class="content">
+                <a href="https://www.skipr.nl/nieuws/carina-hilders-vertrekt-per-direct-bij-umc-utrecht/" target="_blank" class="title">Gedwongen vertrek Carina Hilders bij UMC Utrecht</a>
+                <div class="meta">
+                    Skipr · 24 Feb 2026
+                </div>
+                <div class="summary">Gedwongen vertrek bestuurder UMC Utrecht per februari 2026. Mogelijk momentum voor nieuwe strategische IT-initiatieven.</div>
+                <div class="action-hint">→ Contact opnemen met interim-bestuur UMC Utrecht voor strategische IT-roadmap gesprekken</div>
+                <div class="tags">
+                    <span class="category">opportunity</span> <span class="tag">Ziekenhuis</span> <span class="tag">Transformatie</span>
+                    <span class="score">Score: 57</span> <span class="score-breakdown">R:15 U:20 A:22</span>
+                </div>
+            </div>
+        </article>
+        <article class="article medium" data-category="thought-leadership" data-tags="Transformatie">
+            <div class="indicator">🟡</div>
+            <div class="content">
+                <a href="https://www.zorgvisie.nl/blijf-investeren-in-innovatie-in-gezondheid/" target="_blank" class="title">‘Blijf investeren in innovatie in gezondheid’</a>
+                <div class="meta">
+                    Zorgvisie · 15 Jan 2026
+                </div>
+                <div class="summary">Novartis en Vintura pleiten voor verbetering van het Nederlandse innovatieklimaat voor geneesmiddelen. Focus op stakeholder-samenwerking.</div>
+                <div class="action-hint">→ Life sciences digitalisatie en innovatie-ecosysteem thought leadership kansen</div>
+                <div class="tags">
+                    <span class="category">thought-leadership</span> <span class="tag">Transformatie</span>
+                    <span class="score">Score: 57</span> <span class="score-breakdown">R:20 U:15 A:22</span>
+                </div>
+            </div>
+        </article>
+        <article class="article medium" data-category="thought-leadership" data-tags="VVT,Transformatie">
+            <div class="indicator">🟡</div>
+            <div class="content">
+                <a href="https://www.zorgvisie.nl/guy-buck-stoppen-met-verplichte-dubbele-medicatiecontrole-is-een-no-brainer/" target="_blank" class="title">Guy Buck: ‘Stoppen met verplichte dubbele medicatiecontrole is een no-brainer’</a>
+                <div class="meta">
+                    Zorgvisie · 07 Jan 2026
+                </div>
+                <div class="summary">Aafje schafte verplichte dubbele medicatiecontrole af en bespaarde 12.424 uur in 2025 zonder meer fouten. Volgt voorbeeld van Carintreggeland.</div>
+                <div class="action-hint">→ Process optimization en digital transformation thought leadership rond medicatieprocessen</div>
+                <div class="tags">
+                    <span class="category">thought-leadership</span> <span class="tag">VVT</span> <span class="tag">Transformatie</span>
+                    <span class="score">Score: 57</span> <span class="score-breakdown">R:22 U:15 A:20</span>
+                </div>
+            </div>
+        </article>
+        <article class="article medium" data-category="thought-leadership" data-tags="AI,Data">
+            <div class="indicator">🟡</div>
+            <div class="content">
+                <a href="https://www.icthealth.nl/nieuws/ai-hervormt-het-instrumentarium-voor-biomedisch-onderzoek" target="_blank" class="title">AI hervormt het instrumentarium voor biomedisch onderzoek</a>
+                <div class="meta">
+                    ICT&health · 1 dagen geleden
+                </div>
+                <div class="summary">Barcelona Supercomputing Center gebruikt AI voor biomedisch onderzoek naar kanker en zeldzame ziekten. Goede inspiratie voor thought leadership content.</div>
+                <div class="action-hint">→ Thought leadership artikel over AI in biomedisch onderzoek publiceren</div>
+                <div class="tags">
+                    <span class="category">thought-leadership</span> <span class="tag">AI</span> <span class="tag">Data</span>
+                    <span class="score">Score: 55</span> <span class="score-breakdown">R:25 U:12 A:18</span>
+                </div>
+            </div>
+        </article>
+        <article class="article medium" data-category="overheid" data-tags="VVT,Transformatie">
+            <div class="indicator">🟡</div>
+            <div class="content">
+                <a href="https://www.skipr.nl/nieuws/aankomend-minister-sterk-verwacht-complexe-opgave-om-zorg-betaalbaar-te-houden/" target="_blank" class="title">Aankomend minister Sterk verwacht ‘complexe opgave’ om zorg betaalbaar te houden</a>
+                <div class="meta">
+                    Skipr · 19 Feb 2026
+                </div>
+                <div class="summary">Nieuwe minister Langdurige Zorg verwacht complexe opgave voor betaalbare zorg. Kans voor digitale transformatie als oplossing.</div>
+                <div class="action-hint">→ Thought leadership en policy briefing over digital transformation als oplossing voor cost sustainability</div>
+                <div class="tags">
+                    <span class="category">overheid</span> <span class="tag">VVT</span> <span class="tag">Transformatie</span>
+                    <span class="score">Score: 55</span> <span class="score-breakdown">R:12 U:25 A:18</span>
+                </div>
+            </div>
+        </article>
+        <article class="article medium" data-category="klant" data-tags="Data,Ziekenhuis">
+            <div class="indicator">🟡</div>
+            <div class="content">
+                <a href="https://www.skipr.nl/nieuws/minder-uitstel-operaties-catharina-ziekenhuis-met-slimme-beddenplanning/" target="_blank" class="title">Minder uitstel operaties Catharina Ziekenhuis met slimme beddenplanning</a>
+                <div class="meta">
+                    Skipr · 17 Feb 2026
+                </div>
+                <div class="summary">Catharina Ziekenhuis gebruikt slimme beddenplanning voor betere doorstroming SEH en OK-benutting. Mogelijk aanknopingspunt voor bredere data & analytics transformatie.</div>
+                <div class="action-hint">→ Verkenen of Catharina Ziekenhuis interesse heeft in uitbreiding van data analytics naar andere processen</div>
+                <div class="tags">
+                    <span class="category">klant</span> <span class="tag">Data</span> <span class="tag">Ziekenhuis</span>
+                    <span class="score">Score: 55</span> <span class="score-breakdown">R:25 U:12 A:18</span>
+                </div>
+            </div>
+        </article>
+        <article class="article medium" data-category="overheid" data-tags="VWS,VVT">
+            <div class="indicator">🟡</div>
+            <div class="content">
+                <a href="https://www.zorgvisie.nl/profiel-mirjam-sterk-zakelijke-idealist-die-wars-is-van-systeemdenken/" target="_blank" class="title">Profiel Mirjam Sterk: Zakelijke idealist, wars van systeemdenken</a>
+                <div class="meta">
+                    Zorgvisie · 11 Feb 2026
+                </div>
+                <div class="summary">Profiel van Mirjam Sterk, beoogd minister van langdurige zorg en jeugd. Zakelijke idealist die wars is van neoliberaal systeemdenken.</div>
+                <div class="action-hint">→ Stakeholder mapping en relatieopbouw voorbereiden met nieuwe minister langdurige zorg</div>
+                <div class="tags">
+                    <span class="category">overheid</span> <span class="tag">VWS</span> <span class="tag">VVT</span>
+                    <span class="score">Score: 55</span> <span class="score-breakdown">R:12 U:25 A:18</span>
+                </div>
+            </div>
+        </article>
+        <article class="article medium" data-category="overheid" data-tags="VWS,Transformatie">
+            <div class="indicator">🟡</div>
+            <div class="content">
+                <a href="https://www.zorgvisie.nl/stap-voorwaarts-wet-domeinoverstijgende-samenwerking-is-nu-van-kracht/" target="_blank" class="title">Stap voorwaarts: Wet domeinoverstijgende samenwerking is nu van kracht</a>
+                <div class="meta">
+                    Zorgvisie · 09 Jan 2026
+                </div>
+                <div class="summary">Wet Domeinoverstijgende Samenwerking is per 1 januari 2026 van kracht. Stimuleert samenwerking tussen Wmo, Zvw en Wlz voor betere thuiszorg.</div>
+                <div class="action-hint">→ Wet Domeinoverstijgende Samenwerking vraagt digitale integratie tussen Wmo, Zvw en Wlz systemen</div>
+                <div class="tags">
+                    <span class="category">overheid</span> <span class="tag">VWS</span> <span class="tag">Transformatie</span>
+                    <span class="score">Score: 55</span> <span class="score-breakdown">R:20 U:15 A:20</span>
+                </div>
+            </div>
+        </article>
+        <article class="article medium" data-category="opportunity" data-tags="Transformatie,Ziekenhuis">
+            <div class="indicator">🟡</div>
+            <div class="content">
+                <a href="https://www.zorgvisie.nl/jan-den-boon-medisch-specialisten-hadden-in-de-lead-moeten-zijn-bij-de-concentratie/" target="_blank" class="title">Jan den Boon: ‘Medisch specialisten hadden in de lead moeten zijn bij de concentratie’</a>
+                <div class="meta">
+                    Zorgvisie · 22 Dec 2025
+                </div>
+                <div class="summary">MST staat voor grote samenwerking met ZGT na vertrek bestuursvoorzitter. Potentiële kans voor fusie-integratieondersteuning.</div>
+                <div class="action-hint">→ Contact met MST/ZGT voor ondersteuning bij fusie-integratie en IT-harmonisatie</div>
+                <div class="tags">
+                    <span class="category">opportunity</span> <span class="tag">Transformatie</span> <span class="tag">Ziekenhuis</span>
+                    <span class="score">Score: 55</span> <span class="score-breakdown">R:15 U:20 A:20</span>
+                </div>
+            </div>
+        </article>
+        <article class="article medium" data-category="klant" data-tags="Transformatie">
+            <div class="indicator">🟡</div>
+            <div class="content">
+                <a href="https://www.zorgvisie.nl/wantrouwen-en-slecht-leiderschap-heersen-in-mumc/" target="_blank" class="title">Wantrouwen en slecht leiderschap heersen in MUMC+</a>
+                <div class="meta">
+                    Zorgvisie · 18 Dec 2025
+                </div>
+                <div class="summary">MUMC+ heeft ernstige organisatieproblemen met wantrouwen en slecht leiderschap. Potentiële transformatieopdracht.</div>
+                <div class="action-hint">→ Contact MUMC+ voor organisatie- en cultuurverandering traject</div>
+                <div class="tags">
+                    <span class="category">klant</span> <span class="tag">Transformatie</span>
+                    <span class="score">Score: 55</span> <span class="score-breakdown">R:15 U:20 A:20</span>
+                </div>
+            </div>
+        </article>
+        <article class="article medium" data-category="thought-leadership" data-tags="AI">
+            <div class="indicator">🟡</div>
+            <div class="content">
+                <a href="https://tweakers.net/reviews/13118/denkt-een-ai-model-in-het-engels-hoe-een-groot-taalmodel-van-binnen-werkt.html" target="_blank" class="title">Denkt een AI-model in het Engels? - Hoe een groot taalmodel van binnen werkt</a>
+                <div class="meta">
+                    Tweakers · 22 Apr 2025
+                </div>
+                <div class="summary">Onderzoek naar hoe AI-modellen 'denken' en afwegen. Interessant voor AI thought leadership in healthcare.</div>
+                <div class="action-hint">→ AI model 'denken' onderzoek kan input zijn voor AI thought leadership content</div>
+                <div class="tags">
+                    <span class="category">thought-leadership</span> <span class="tag">AI</span>
+                    <span class="score">Score: 55</span> <span class="score-breakdown">R:20 U:15 A:20</span>
+                </div>
+            </div>
+        </article>
+        <article class="article medium" data-category="innovatie" data-tags="AI">
+            <div class="indicator">🟡</div>
+            <div class="content">
+                <a href="https://www.skipr.nl/nieuws/studie-filters-smartphonefotos-risico-voor-foute-diagnose/" target="_blank" class="title">Studie: filters smartphonefoto’s risico voor foute diagnose</a>
+                <div class="meta">
+                    Skipr · 5 dagen geleden
+                </div>
+                <div class="summary">Smartphone filters verhogen risico foute diagnoses bij foto-beoordeling door huisartsen. Kans voor AI-oplossingen in medische beeldanalyse.</div>
+                <div class="action-hint">→ AI-oplossing voor beeldanalyse in diagnostiek zonder filter-bias</div>
+                <div class="tags">
+                    <span class="category">innovatie</span> <span class="tag">AI</span>
+                    <span class="score">Score: 54</span> <span class="score-breakdown">R:22 U:12 A:20</span>
+                </div>
+            </div>
+        </article>
+        <article class="article medium" data-category="innovatie" data-tags="VVT,Data">
+            <div class="indicator">🟡</div>
+            <div class="content">
+                <a href="https://www.skipr.nl/nieuws/zoveel-uur-bespaart-de-brabantse-vvt-met-zelfzorg/" target="_blank" class="title">Zoveel uur bespaart de Brabantse vvt met zelfzorg</a>
+                <div class="meta">
+                    Skipr · 5 dagen geleden
+                </div>
+                <div class="summary">Brabantse zelfzorg-aanpak bespaart 127.680 uur wijkverpleging door zelfstandig oogdruppelen. Kans voor digitale zelfzorg platformen en impact analytics.</div>
+                <div class="action-hint">→ Business case voor zelfzorg platforms en impact measurement</div>
+                <div class="tags">
+                    <span class="category">innovatie</span> <span class="tag">VVT</span> <span class="tag">Data</span>
+                    <span class="score">Score: 54</span> <span class="score-breakdown">R:20 U:12 A:22</span>
+                </div>
+            </div>
+        </article>
+        <article class="article medium" data-category="concurrent" data-tags="Transformatie,Ziekenhuis">
+            <div class="indicator">🟡</div>
+            <div class="content">
+                <a href="https://www.zorgvisie.nl/leonard-witkamp-hef-dan-meteen-de-marktwerking-op/" target="_blank" class="title">Leonard Witkamp: ‘Hef dan meteen de marktwerking op’</a>
+                <div class="meta">
+                    Zorgvisie · 23 Dec 2025
+                </div>
+                <div class="summary">Oprichter digitaal ziekenhuis Ksyos over marktwerking in zorg. Concurrent met digitale ziekenhuis-model relevant voor market intelligence.</div>
+                <div class="action-hint">→ Ksyos digitaal ziekenhuis model analyseren als competitive intelligence</div>
+                <div class="tags">
+                    <span class="category">concurrent</span> <span class="tag">Transformatie</span> <span class="tag">Ziekenhuis</span>
+                    <span class="score">Score: 54</span> <span class="score-breakdown">R:22 U:12 A:20</span>
+                </div>
+            </div>
+        </article>
+        <article class="article medium" data-category="overheid" data-tags="VWS,Transformatie">
+            <div class="indicator">🟡</div>
+            <div class="content">
+                <a href="https://www.zorgvisie.nl/veldpartijen-pleiten-voor-structurele-financiering-voor-zorgzame-buurten/" target="_blank" class="title">Veldpartijen pleiten voor structurele financiering voor zorgzame buurten</a>
+                <div class="meta">
+                    Zorgvisie · 21 uur geleden
+                </div>
+                <div class="summary">Pleidooi voor structurele financiering zorgzame buurten richting VWS begrotingsdebat. Mogelijk relevant voor digitale zorg-innovaties.</div>
+                <div class="action-hint">→ Monitoring VWS begrotingsdebat voor nieuwe financieringsstromen en digitale zorg-initiatieven</div>
+                <div class="tags">
+                    <span class="category">overheid</span> <span class="tag">VWS</span> <span class="tag">Transformatie</span>
+                    <span class="score">Score: 53</span> <span class="score-breakdown">R:18 U:20 A:15</span>
+                </div>
+            </div>
+        </article>
+        <article class="article medium" data-category="innovatie" data-tags="VVT,Transformatie">
+            <div class="indicator">🟡</div>
+            <div class="content">
+                <a href="https://www.zorgvisie.nl/achterhoekse-vvt-lanceert-alternatief-om-zzpers-en-andersgeschoolden-te-verleiden/" target="_blank" class="title">Achterhoekse vvt lanceert alternatief om zzp’ers en andersgeschoolden te verleiden</a>
+                <div class="meta">
+                    Zorgvisie · 5 dagen geleden
+                </div>
+                <div class="summary">Achterhoekse VVT-aanbieders starten regionale flexpool als alternatief voor ZZP'ers. Kans voor digitale workforce management platformen.</div>
+                <div class="action-hint">→ Digitaal platform voor regionale flexpool en workforce management</div>
+                <div class="tags">
+                    <span class="category">innovatie</span> <span class="tag">VVT</span> <span class="tag">Transformatie</span>
+                    <span class="score">Score: 53</span> <span class="score-breakdown">R:18 U:15 A:20</span>
+                </div>
+            </div>
+        </article>
+        <article class="article medium" data-category="opportunity" data-tags="GGZ,Transformatie">
+            <div class="indicator">🟡</div>
+            <div class="content">
+                <a href="https://www.skipr.nl/nieuws/ggz-ingeest-en-arkin-verkennen-bestuurlijke-fusie/" target="_blank" class="title">GGZ inGeest en Arkin verkennen bestuurlijke fusie</a>
+                <div class="meta">
+                    Skipr · 6 dagen geleden
+                </div>
+                <div class="summary">GGZ inGeest en Arkin onderzoeken bestuurlijke fusie per 2027. Mogelijke kans voor IT-integratie en transformatie bij fusie.</div>
+                <div class="action-hint">→ Contact opnemen met beide GGZ-instellingen voor fusie-gerelateerde IT-transformatie behoeften</div>
+                <div class="tags">
+                    <span class="category">opportunity</span> <span class="tag">GGZ</span> <span class="tag">Transformatie</span>
+                    <span class="score">Score: 53</span> <span class="score-breakdown">R:20 U:15 A:18</span>
+                </div>
+            </div>
+        </article>
+        <article class="article medium" data-category="overheid" data-tags="VVT,Transformatie">
+            <div class="indicator">🟡</div>
+            <div class="content">
+                <a href="https://www.skipr.nl/nieuws/actiz-vereenvoudig-de-zorg-voor-ouderen-en-chronisch-zieken/" target="_blank" class="title">ActiZ: ‘Vereenvoudig de zorg voor ouderen en chronisch zieken’</a>
+                <div class="meta">
+                    Skipr · 19 Feb 2026
+                </div>
+                <div class="summary">ActiZ roept op tot vereenvoudiging zorgregulering en minder bureaucratie. Digitale transformatie kan bureaucratie verminderen.</div>
+                <div class="action-hint">→ Thought leadership over digital transformation en process automation als oplossing voor bureaucratie</div>
+                <div class="tags">
+                    <span class="category">overheid</span> <span class="tag">VVT</span> <span class="tag">Transformatie</span>
+                    <span class="score">Score: 53</span> <span class="score-breakdown">R:15 U:20 A:18</span>
+                </div>
+            </div>
+        </article>
+        <article class="article medium" data-category="innovatie" data-tags="Transformatie,Ziekenhuis">
+            <div class="indicator">🟡</div>
+            <div class="content">
+                <a href="https://www.zorgvisie.nl/zorg-dreigt-onderzoek-naar-chronorooster-te-verliezen-aan-commerciele-bedrijven/" target="_blank" class="title">Zorg dreigt onderzoek naar chronorooster te verliezen aan commerciële bedrijven</a>
+                <div class="meta">
+                    Zorgvisie · 14 Dec 2025
+                </div>
+                <div class="summary">Chronoroosteren toont veelbelovende resultaten maar moeilijke implementatie in zorg. Kans voor change management expertise.</div>
+                <div class="action-hint">→ Contact Jeroen Bosch Ziekenhuis voor chronorooster implementatie-ondersteuning</div>
+                <div class="tags">
+                    <span class="category">innovatie</span> <span class="tag">Transformatie</span> <span class="tag">Ziekenhuis</span>
+                    <span class="score">Score: 53</span> <span class="score-breakdown">R:20 U:15 A:18</span>
+                </div>
+            </div>
+        </article>
+        <article class="article medium" data-category="overheid" data-tags="Verzekeraar">
+            <div class="indicator">🟡</div>
+            <div class="content">
+                <a href="https://www.skipr.nl/nieuws/nza-wijzigt-per-direct-regels-voor-de-zorginkoop/" target="_blank" class="title">NZa wijzigt per direct regels voor de zorginkoop</a>
+                <div class="meta">
+                    Skipr · 19 Feb 2026
+                </div>
+                <div class="summary">NZa wijzigt regels zorginkoopproces per maart 2026 voor contracten vanaf 2027. Nieuwe regelgeving beïnvloedt zorginkoop.</div>
+                <div class="action-hint">→ Monitor impact op zorginkoop digitale diensten en advisory over compliance</div>
+                <div class="tags">
+                    <span class="category">overheid</span> <span class="tag">Verzekeraar</span>
+                    <span class="score">Score: 52</span> <span class="score-breakdown">R:12 U:25 A:15</span>
+                </div>
+            </div>
+        </article>
+        <article class="article medium" data-category="thought-leadership" data-tags="Transformatie,VVT">
+            <div class="indicator">🟡</div>
+            <div class="content">
+                <a href="https://www.zorgvisie.nl/wat-de-nederlandse-zorg-kan-leren-van-finland/" target="_blank" class="title">Wat de Nederlandse zorg kan leren van Finland</a>
+                <div class="meta">
+                    Zorgvisie · 10 Feb 2026
+                </div>
+                <div class="summary">Finland houdt zorgkosten laag ondanks vergrijzing door zorgzame woonwijken en gelijkwaardige samenwerking. Nederlandse bestuurders delen inzichten na bezoek.</div>
+                <div class="action-hint">→ Benchmarking en best practices content ontwikkelen over Finse zorgmodel voor Nederlandse markt</div>
+                <div class="tags">
+                    <span class="category">thought-leadership</span> <span class="tag">Transformatie</span> <span class="tag">VVT</span>
+                    <span class="score">Score: 52</span> <span class="score-breakdown">R:20 U:10 A:22</span>
+                </div>
+            </div>
+        </article>
+        <article class="article medium" data-category="klant" data-tags="Ziekenhuis,Transformatie">
+            <div class="indicator">🟡</div>
+            <div class="content">
+                <a href="https://www.zorgvisie.nl/6500-minder-ligdagen-per-jaar-wza-icare-en-interzorg-starten-gezamenlijke-revalidatie/" target="_blank" class="title">6.500 minder ligdagen per jaar: WZA, Icare en Interzorg starten gezamenlijke revalidatie</a>
+                <div class="meta">
+                    Zorgvisie · 19 Jan 2026
+                </div>
+                <div class="summary">Wilhelmina Ziekenhuis Assen start samenwerking in revalidatiezorg met doel van 6500 minder ligdagen per jaar. Interessante transformatie-case.</div>
+                <div class="action-hint">→ Contact WZA over hun samenwerkingsmodel en mogelijke uitbreiding naar digitale platforms</div>
+                <div class="tags">
+                    <span class="category">klant</span> <span class="tag">Ziekenhuis</span> <span class="tag">Transformatie</span>
+                    <span class="score">Score: 52</span> <span class="score-breakdown">R:22 U:12 A:18</span>
+                </div>
+            </div>
+        </article>
+        <article class="article medium" data-category="opportunity" data-tags="Security,Tender">
+            <div class="indicator">🟡</div>
+            <div class="content">
+                <a href="https://www.tenderned.nl/aankondigingen/overzicht/414122" target="_blank" class="title">TENDER: Physical Identity & Access Management / Card Management System</a>
+                <div class="meta">
+                    TenderNed · 14 uur geleden
+                </div>
+                <div class="summary">Universiteit Maastricht tender voor Physical Identity & Access Management systeem. Beperkte strategische waarde buiten zorgfocus.</div>
+                
+                <div class="tags">
+                    <span class="category">opportunity</span> <span class="tag">Security</span> <span class="tag">Tender</span>
+                    <span class="score">Score: 50</span> <span class="score-breakdown">R:20 U:15 A:15</span>
+                </div>
+            </div>
+        </article>
+        <article class="article medium" data-category="thought-leadership" data-tags="AI,Transformatie">
+            <div class="indicator">🟡</div>
+            <div class="content">
+                <a href="https://www.icthealth.nl/nieuws/blauwdruk-voor-duurzame-implementatie-van-vr-in-zorgonderwijs" target="_blank" class="title">Blauwdruk voor duurzame implementatie van VR in zorgonderwijs</a>
+                <div class="meta">
+                    ICT&health · 1 dagen geleden
+                </div>
+                <div class="summary">VR wordt ingezet voor zorgonderwijs bij tekort aan stageplaatsen. Kans voor thought leadership over immersive technologies in zorg.</div>
+                <div class="action-hint">→ Thought leadership over VR/AR implementatie in zorgonderwijs en training publiceren</div>
+                <div class="tags">
+                    <span class="category">thought-leadership</span> <span class="tag">AI</span> <span class="tag">Transformatie</span>
+                    <span class="score">Score: 50</span> <span class="score-breakdown">R:20 U:12 A:18</span>
+                </div>
+            </div>
+        </article>
+        <article class="article medium" data-category="overheid" data-tags="Data,VWS">
+            <div class="indicator">🟡</div>
+            <div class="content">
+                <a href="https://www.tenderned.nl/aankondigingen/overzicht/414013" target="_blank" class="title">TENDER: Marktconsultatie m.b.t. de voorgenomen aanbesteding van de Landelijke monitor van het Nationaal Programma Grieppreventie (NPG) en het Nationaal Programma Pneumokokkenvaccinatie Volwassenen (NPPV)</a>
+                <div class="meta">
+                    TenderNed · 2 dagen geleden
+                </div>
+                <div class="summary">RIVM doet marktconsultatie voor landelijke monitor griep- en pneumokokkenvaccinatie programma's. Kans voor data analytics expertise.</div>
+                <div class="action-hint">→ Deelnemen aan marktconsultatie om data analytics capabilities te presenteren voor nationale vaccinatiemonitoring</div>
+                <div class="tags">
+                    <span class="category">overheid</span> <span class="tag">Data</span> <span class="tag">VWS</span>
+                    <span class="score">Score: 50</span> <span class="score-breakdown">R:20 U:15 A:15</span>
+                </div>
+            </div>
+        </article>
+        <article class="article medium" data-category="thought-leadership" data-tags="Ziekenhuis,Transformatie">
+            <div class="indicator">🟡</div>
+            <div class="content">
+                <a href="https://www.skipr.nl/nieuws/gupta-raadt-huidige-budgetbekostiging-seh-af/" target="_blank" class="title">Gupta raadt huidige budgetbekostiging SEH af</a>
+                <div class="meta">
+                    Skipr · 23 Feb 2026
+                </div>
+                <div class="summary">Gupta Strategists adviseert tegen huidige budgetbekostiging SEH vanwege ongewenste effecten. Bekostigingsmodernisering biedt kansen voor digitale transformatie.</div>
+                <div class="action-hint">→ Thought leadership positie innemen rond SEH-bekostiging en digitale optimalisatie</div>
+                <div class="tags">
+                    <span class="category">thought-leadership</span> <span class="tag">Ziekenhuis</span> <span class="tag">Transformatie</span>
+                    <span class="score">Score: 50</span> <span class="score-breakdown">R:15 U:20 A:15</span>
+                </div>
+            </div>
+        </article>
+        <article class="article medium" data-category="overheid" data-tags="Transformatie">
+            <div class="indicator">🟡</div>
+            <div class="content">
+                <a href="https://www.digitaleoverheid.nl/nieuws-nds/de-nds-staat-niet-stil-en-blijft-in-beweging/" target="_blank" class="title">De NDS staat niet stil en blijft in beweging</a>
+                <div class="meta">
+                    Digitale Overheid · 19 Feb 2026
+                </div>
+                <div class="summary">Ministerie van EZK wordt verantwoordelijk voor de NDS, werk gaat voort op ingeslagen weg.</div>
+                
+                <div class="tags">
+                    <span class="category">overheid</span> <span class="tag">Transformatie</span>
+                    <span class="score">Score: 50</span> <span class="score-breakdown">R:20 U:15 A:15</span>
+                </div>
+            </div>
+        </article>
+        </div>
+    </main>
+
+    <footer>
+        <p>Score = Relevantie (0-40) + Urgentie (0-30) + Actie-potentieel (0-30) | Keys: j/k navigeer, o open, Esc reset</p>
+    </footer>
+
+    <script src="filter.js"></script>
+</body>
+</html>

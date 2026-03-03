@@ -1,0 +1,2813 @@
+[
+  {
+    "url": "https://www.tenderned.nl/aankondigingen/overzicht/414123",
+    "title": "TENDER: EA Managed SOC-dienstverlening UMC’s",
+    "summary": "Opdrachtgever: Stichting Amsterdam UMC | Type: Diensten | Procedure: Openbaar | Het leveren van managed SOC-diensten en optionele diensten. Deze aanbesteding wordt uitgevoerd in UMCNL-verband. UMCNL is de koepelorganisatie van de Universitaire Medische Centra (UMC’s). Tezamen met deelnemende UMC’s vergroten wij inkoopvolume en s",
+    "published": "2026-03-03T00:00:00+00:00",
+    "collected": "2026-03-03T12:06:50.773186+00:00",
+    "category": "opportunity",
+    "tags": [
+      "Security",
+      "Tender",
+      "Ziekenhuis"
+    ],
+    "action_hint": "Directe deelname aan UMC managed SOC tender via UMCNL",
+    "summary_nl": "UMC's besteden gezamenlijk managed SOC-diensten aan via UMCNL. Grote strategische cybersecurity opportunity.",
+    "priority": "critical",
+    "id": "e3adae55f3ddc6ab",
+    "source": {
+      "name": "TenderNed",
+      "type": "api",
+      "url": "https://www.tenderned.nl"
+    },
+    "score": {
+      "total": 96,
+      "relevance": 38,
+      "urgency": 28,
+      "action_potential": 30,
+      "scored_by": "claude"
+    }
+  },
+  {
+    "url": "https://www.skipr.nl/nieuws/rechter-geeft-chipsoft-gelijk-streep-door-epd-plan-in-noordelijke-ziekenhuizen/",
+    "title": "Rechter geeft ChipSoft gelijk: streep door epd-plan noordelijke ziekenhuizen",
+    "summary": "Ziekenhuizen UMCG, Treant en Ommelander zijn teruggefloten door de rechter. Zij willen gaan werken met een gezamenlijk elektronisch patiëntendossier (epd) van leverancier Epic. Concurrent ChipSoft had bezwaar tegen de gang van zaken en stapte naar de rechter. Die bepaalde dat de ziekenhuizen alsnog een Europese aanbesteding moeten uitschrijven. UMCG gaat tegen de uitspraak in hoger beroep.",
+    "published": "2026-02-16T14:58:42+00:00",
+    "collected": "2026-03-03T12:06:36.172906+00:00",
+    "category": "opportunity",
+    "tags": [
+      "EPD",
+      "Tender",
+      "Ziekenhuis"
+    ],
+    "action_hint": "Voorbereiden op Europese aanbesteding EPD UMCG/Treant/Ommelander - grote strategische transformatie kans",
+    "summary_nl": "Rechter dwingt UMCG, Treant en Ommelander tot Europese EPD-aanbesteding na bezwaar ChipSoft tegen Epic-keuze. Grote transformatie tender opportunity voor Accenture.",
+    "priority": "critical",
+    "id": "95ecb1cdd7a32d5f",
+    "source": {
+      "name": "Skipr",
+      "type": "rss",
+      "url": "https://www.skipr.nl"
+    },
+    "score": {
+      "total": 96,
+      "relevance": 38,
+      "urgency": 28,
+      "action_potential": 30,
+      "scored_by": "claude"
+    }
+  },
+  {
+    "url": "https://www.zorgvisie.nl/doorbraak-ai-vereist-leiderschap-en-visie-in-bestuurskamer/",
+    "title": "Doorbraak AI vereist leiderschap en visie in bestuurskamer",
+    "summary": "De radiologie loopt voorop met de implementatie van AI, maar ook in dat vakgebied wordt maar een fractie van de ontwikkelde modellen toegepast. Niet door gebrek aan goede technologie, maar gebrek aan een heldere strategie, duidelijke data-governance en bestuurlijke regie, zegt radioloog en zorgbestuurder Regina Beets-Tan.",
+    "published": "2026-02-03T14:01:26+00:00",
+    "collected": "2026-03-03T12:06:36.172906+00:00",
+    "category": "thought-leadership",
+    "tags": [
+      "AI",
+      "Transformatie",
+      "Ziekenhuis"
+    ],
+    "action_hint": "Contact opnemen met Regina Beets-Tan voor AI governance thought leadership en strategische gesprekken",
+    "summary_nl": "AI-implementatie in radiologie stagneert door gebrek aan strategie en data-governance, aldus zorgbestuurder Regina Beets-Tan. Directe kans voor AI transformatie expertise.",
+    "priority": "critical",
+    "id": "0110a8f76cb110d3",
+    "source": {
+      "name": "Zorgvisie",
+      "type": "rss",
+      "url": "https://www.zorgvisie.nl"
+    },
+    "score": {
+      "total": 91,
+      "relevance": 38,
+      "urgency": 25,
+      "action_potential": 28,
+      "scored_by": "claude"
+    }
+  },
+  {
+    "url": "https://www.zorgvisie.nl/jessica-workum-ziet-veel-potentie-en-grote-risicos-in-chatgpt-health/",
+    "title": "Jessica Workum ziet veel potentie en grote risico’s in ChatGPT Health",
+    "summary": "Een systeem dat alle zorgdata bij elkaar brengt en patiënten voorziet van gepersonaliseerd advies over gezondheid en welzijn. Dat is in een notendop de nieuwe dienst ChatGPT Health van het Amerikaanse techbedrijf OpenAI. AI-deskundige Jessica Workum ziet een enorme potentiële meerwaarde maar plaatst ook kritische kanttekeningen.",
+    "published": "2026-01-13T14:22:08+00:00",
+    "collected": "2026-03-03T12:06:36.172906+00:00",
+    "category": "thought-leadership",
+    "tags": [
+      "AI",
+      "Data"
+    ],
+    "action_hint": "Thought leadership position innemen rond ChatGPT Health en AI in zorg, security en privacy aspecten",
+    "summary_nl": "OpenAI lanceert ChatGPT Health voor gepersonaliseerd gezondheidsadvies op basis van alle zorgdata. AI-expert ziet grote potentie maar ook significante risico's.",
+    "priority": "critical",
+    "id": "bde09dc89a88b333",
+    "source": {
+      "name": "Zorgvisie",
+      "type": "rss",
+      "url": "https://www.zorgvisie.nl"
+    },
+    "score": {
+      "total": 91,
+      "relevance": 38,
+      "urgency": 25,
+      "action_potential": 28,
+      "scored_by": "claude"
+    }
+  },
+  {
+    "url": "https://nictiz.nl/nieuws/denk-mee-over-de-inrichting-van-hergebruik-van-gezondheidsdata/",
+    "title": "Denk mee over de inrichting van hergebruik van gezondheidsdata",
+    "summary": "The post Denk mee over de inrichting van hergebruik van gezondheidsdata appeared first on Nictiz.",
+    "published": "2025-10-30T16:00:33+00:00",
+    "collected": "2026-03-03T12:06:36.172906+00:00",
+    "category": "opportunity",
+    "tags": [
+      "Data",
+      "Transformatie"
+    ],
+    "action_hint": "Actief meedenken in consultatie kan leiden tot advisory opdrachten voor data governance",
+    "summary_nl": "Nictiz vraagt meedenken over hergebruik van gezondheidsdata. Strategische kans voor data governance en EHDS advisory.",
+    "priority": "critical",
+    "id": "bb5776c2a5de7582",
+    "source": {
+      "name": "Nictiz",
+      "type": "rss",
+      "url": "https://www.nictiz.nl"
+    },
+    "score": {
+      "total": 90,
+      "relevance": 35,
+      "urgency": 25,
+      "action_potential": 30,
+      "scored_by": "claude"
+    }
+  },
+  {
+    "url": "https://www.skipr.nl/nieuws/ziekenhuizen-mst-en-zgt-willen-een-digitaal-ziekenhuis-voor-twente/",
+    "title": "Ziekenhuizen MST en ZGT willen één digitaal ziekenhuis voor Twente",
+    "summary": "De twee Twentse ziekenhuizen Medisch Spectrum Twente (MST) en Ziekenhuisgroep Twente (ZGT) willen samen een digitaal ziekenhuis oprichten. Ook willen ze gezamenlijk een academie voor innovatie en een focuskliniek opzetten, blijkt uit een recent koersdocument.",
+    "published": "2026-03-02T13:10:53+00:00",
+    "collected": "2026-03-03T12:06:36.172906+00:00",
+    "category": "opportunity",
+    "tags": [
+      "Transformatie",
+      "Ziekenhuis",
+      "EPD"
+    ],
+    "action_hint": "Direct contact opnemen met MST en ZGT bestuurders voor digitaal ziekenhuis transformatie gesprek",
+    "summary_nl": "MST en ZGT willen samen één digitaal ziekenhuis oprichten voor Twente. Dit biedt grote kansen voor strategische digitale transformatie partnerships.",
+    "priority": "critical",
+    "id": "3aa964eaf3470a41",
+    "source": {
+      "name": "Skipr",
+      "type": "rss",
+      "url": "https://www.skipr.nl"
+    },
+    "score": {
+      "total": 88,
+      "relevance": 38,
+      "urgency": 20,
+      "action_potential": 30,
+      "scored_by": "claude"
+    }
+  },
+  {
+    "url": "https://www.skipr.nl/nieuws/cumuluz-vws-en-zn-stroomlijnen-landelijke-en-regionale-zorgdata-initiatieven/",
+    "title": "CumuluZ, VWS en ZN stroomlijnen landelijke en regionale zorgdata-initiatieven",
+    "summary": "Met nieuwe afspraken willen CumuluZ, VWS en Zorgverzekeraars Nederland regionale snelheid benutten en landelijke samenhang borgen.",
+    "published": "2026-02-18T16:13:31+00:00",
+    "collected": "2026-03-03T12:06:36.172906+00:00",
+    "category": "opportunity",
+    "tags": [
+      "Data",
+      "Transformatie",
+      "VWS"
+    ],
+    "action_hint": "Contact opnemen met CumuluZ en VWS over data-integratie strategie en regionale implementaties",
+    "summary_nl": "CumuluZ, VWS en ZN maken afspraken om regionale en landelijke zorgdata-initiatieven te stroomlijnen.",
+    "priority": "critical",
+    "id": "d6245f199d0b82bf",
+    "source": {
+      "name": "Skipr",
+      "type": "rss",
+      "url": "https://www.skipr.nl"
+    },
+    "score": {
+      "total": 88,
+      "relevance": 35,
+      "urgency": 25,
+      "action_potential": 28,
+      "scored_by": "claude"
+    }
+  },
+  {
+    "url": "https://www.zorgvisie.nl/ai-vraagt-nu-om-bestuurlijke-keuzes-uitstel-is-geen-optie/",
+    "title": "AI vraagt nú om bestuurlijke keuzes, uitstel is geen optie",
+    "summary": "De opmars van AI raakt de zorg sneller dan organisaties kunnen bijbenen. Bestuurders moeten nú kaders, richting en experimenteerruimte organiseren om AI veilig en verantwoord in te bedden. AAG ontwikkelde daarvoor een bestuurlijke handreiking die leiders helpt de juiste keuzes te maken.",
+    "published": "2026-03-02T06:05:42+00:00",
+    "collected": "2026-03-03T12:06:36.172906+00:00",
+    "category": "thought-leadership",
+    "tags": [
+      "AI",
+      "Transformatie"
+    ],
+    "action_hint": "Contact AAG voor samenwerking AI governance en Accenture AI expertise positioneren",
+    "summary_nl": "AAG ontwikkelde bestuurlijke handreiking voor verantwoorde AI-implementatie in zorg. Sterke kans voor thought leadership en partnership.",
+    "priority": "critical",
+    "id": "57943593c0bae132",
+    "source": {
+      "name": "Zorgvisie",
+      "type": "rss",
+      "url": "https://www.zorgvisie.nl"
+    },
+    "score": {
+      "total": 85,
+      "relevance": 32,
+      "urgency": 25,
+      "action_potential": 28,
+      "scored_by": "claude"
+    }
+  },
+  {
+    "url": "https://www.zorgvisie.nl/hoe-ai-in-de-operatiekamer-de-aansprakelijkheid-verschuift/",
+    "title": "Hoe AI in de operatiekamer de aansprakelijkheid verschuift",
+    "summary": "Door de opkomst van AI in de chirurgie verschuift de verantwoordelijkheid naar de hele zorgorganisatie, constateert Sara Ben Hmido, promovenda aan het Amsterdam UMC. Dat vraagt om betere governance en meer kennis over AI in de bestuurskamer.",
+    "published": "2026-02-10T14:23:20+00:00",
+    "collected": "2026-03-03T12:06:36.172906+00:00",
+    "category": "thought-leadership",
+    "tags": [
+      "AI",
+      "Ziekenhuis",
+      "Transformatie"
+    ],
+    "action_hint": "Thought leadership ontwikkelen over AI governance in ziekenhuizen en aansprakelijkheid",
+    "summary_nl": "Onderzoek toont dat AI in chirurgie verantwoordelijkheid verschuift naar hele zorgorganisatie. Vraagt om betere governance en bestuurlijke AI-kennis.",
+    "priority": "critical",
+    "id": "ab4a8d826559b79a",
+    "source": {
+      "name": "Zorgvisie",
+      "type": "rss",
+      "url": "https://www.zorgvisie.nl"
+    },
+    "score": {
+      "total": 83,
+      "relevance": 35,
+      "urgency": 20,
+      "action_potential": 28,
+      "scored_by": "claude"
+    }
+  },
+  {
+    "url": "https://www.zorgvisie.nl/grip-op-de-ehds-epd-en-interoperabiliteit/",
+    "title": "Grip op de EHDS: EPD en interoperabiliteit",
+    "summary": "Hoe gaan we nu en in de toekomst met patiëntgegevens om? In het derde en laatste deel van de Skipr-webinarreeks over de European Health Data Space (EHDS) ging het over EPD en interoperabiliteit.",
+    "published": "2026-01-23T15:05:04+00:00",
+    "collected": "2026-03-03T12:06:36.172906+00:00",
+    "category": "thought-leadership",
+    "tags": [
+      "EPD",
+      "Data"
+    ],
+    "action_hint": "Deelnemen aan EHDS discussie en thought leadership rond interoperabiliteit en data uitwisseling",
+    "summary_nl": "Webinar over European Health Data Space focust op EPD en interoperabiliteit. Strategisch belangrijk voor data uitwisseling en EPD ontwikkeling.",
+    "priority": "critical",
+    "id": "f8d2ba233aaf9ec6",
+    "source": {
+      "name": "Zorgvisie",
+      "type": "rss",
+      "url": "https://www.zorgvisie.nl"
+    },
+    "score": {
+      "total": 83,
+      "relevance": 38,
+      "urgency": 20,
+      "action_potential": 25,
+      "scored_by": "claude"
+    }
+  },
+  {
+    "url": "https://www.zorgvisie.nl/deze-ai-scribes-zijn-de-marktleiders-in-de-zorg/",
+    "title": "Deze AI-scribes zijn de marktleiders in de zorg",
+    "summary": "AI-systemen voor onder meer spraakgestuurd rapporteren en ambient listening zijn over de hele linie van de zorg in opkomst. Het landschap is nog volop in ontwikkeling, toch zijn in elke zorgsector duidelijk leveranciers die aan kop staan in de strijd om de AI-markt. Wat opvalt: ziekenhuizen, huisartsen, vvt en ggz hebben allemaal andere koplopers.",
+    "published": "2026-01-23T11:53:34+00:00",
+    "collected": "2026-03-03T12:06:36.172906+00:00",
+    "category": "concurrent",
+    "tags": [
+      "AI",
+      "Ziekenhuis",
+      "GGZ"
+    ],
+    "action_hint": "Marktanalyse AI-scribes leveranciers en positionering Accenture in AI transformatie voor zorgorganisaties",
+    "summary_nl": "Overzicht van marktleidende AI-scribes leveranciers per zorgsector. Belangrijke competitive intelligence voor AI-transformaties.",
+    "priority": "critical",
+    "id": "cda4f503a94413eb",
+    "source": {
+      "name": "Zorgvisie",
+      "type": "rss",
+      "url": "https://www.zorgvisie.nl"
+    },
+    "score": {
+      "total": 81,
+      "relevance": 35,
+      "urgency": 18,
+      "action_potential": 28,
+      "scored_by": "claude"
+    }
+  },
+  {
+    "url": "https://www.zorgvisie.nl/z-cert-zorgorganisaties-moeten-digitaal-noodpakket-hebben/",
+    "title": "Z-CERT: Zorgorganisaties moeten digitaal noodpakket hebben",
+    "summary": "Zorgorganisaties moeten een digitaal noodpakket hebben voor het geval hun IT-systemen plat liggen, stelt Wim Haflkamp, directeur van expertisecentrum Z-CERT. Uit het vandaag verschenen Cybersecuritybeeld blijkt dat in 2025 zeker tien succesvolle aanvallen op Nederlandse zorgorganisaties zijn uitgevoerd.",
+    "published": "2026-03-03T12:00:30+00:00",
+    "collected": "2026-03-03T12:06:36.172906+00:00",
+    "category": "thought-leadership",
+    "tags": [
+      "Security",
+      "Transformatie",
+      "Ziekenhuis"
+    ],
+    "action_hint": "Thought leadership article schrijven over digitale noodpakketten en business continuity in zorg",
+    "summary_nl": "Z-CERT roept zorgorganisaties op tot digitale noodpakketten na 10 succesvolle cyberaanvallen in 2025. Kans voor Accenture om expertise in cybersecurity transformatie te tonen.",
+    "priority": "critical",
+    "id": "8f131d096cfec7d6",
+    "source": {
+      "name": "Zorgvisie",
+      "type": "rss",
+      "url": "https://www.zorgvisie.nl"
+    },
+    "score": {
+      "total": 80,
+      "relevance": 32,
+      "urgency": 22,
+      "action_potential": 26,
+      "scored_by": "claude"
+    }
+  },
+  {
+    "url": "https://www.zorgvisie.nl/met-deze-innovaties-wil-erasmus-mc-de-diagnostiek-en-nazorg-bij-dementie-verbeteren/",
+    "title": "Met deze innovaties wil Erasmus MC de diagnostiek en nazorg bij dementie verbeteren",
+    "summary": "Gedragsschommelingen bij dementie verlagen de kwaliteit van leven en verhogen de belasting voor mantelzorgers. Met vijf projecten binnen het kersverse Digitale Dementie Lab werkt Jackie Poos (32) aan betere diagnostiek en meer gepersonaliseerde nazorg.",
+    "published": "2026-01-12T14:47:59+00:00",
+    "collected": "2026-03-03T12:06:36.172906+00:00",
+    "category": "klant",
+    "tags": [
+      "AI",
+      "Data",
+      "Ziekenhuis"
+    ],
+    "action_hint": "Contact Erasmus MC voor samenwerking Digitale Dementie Lab en AI/data analytics projecten",
+    "summary_nl": "Erasmus MC lanceert Digitale Dementie Lab met vijf projecten voor betere diagnostiek en gepersonaliseerde nazorg. Focus op AI en data-gedreven zorg.",
+    "priority": "critical",
+    "id": "4d1b27b057f0f528",
+    "source": {
+      "name": "Zorgvisie",
+      "type": "rss",
+      "url": "https://www.zorgvisie.nl"
+    },
+    "score": {
+      "total": 80,
+      "relevance": 35,
+      "urgency": 20,
+      "action_potential": 25,
+      "scored_by": "claude"
+    }
+  },
+  {
+    "url": "https://www.zorgvisie.nl/grip-op-de-ehds-secundair-datagebruik/",
+    "title": "Grip op de EHDS: Secundair datagebruik",
+    "summary": "Hoe gaan we nu en in de toekomst met patiëntgegevens om? In het tweede deel van een driedelige Skipr-webinarreeks over de European Health Data Space (EHDS) ging het over secundair datagebruik.",
+    "published": "2025-12-19T06:05:36+00:00",
+    "collected": "2026-03-03T12:06:36.172906+00:00",
+    "category": "thought-leadership",
+    "tags": [
+      "Data",
+      "Security"
+    ],
+    "action_hint": "Deelname aan EHDS webinarserie voor thought leadership en netwerking",
+    "summary_nl": "Webinar over European Health Data Space en secundair datagebruik. Strategisch belangrijk voor data governance expertise.",
+    "priority": "critical",
+    "id": "3acf991d9c42a8e9",
+    "source": {
+      "name": "Zorgvisie",
+      "type": "rss",
+      "url": "https://www.zorgvisie.nl"
+    },
+    "score": {
+      "total": 80,
+      "relevance": 35,
+      "urgency": 20,
+      "action_potential": 25,
+      "scored_by": "claude"
+    }
+  },
+  {
+    "url": "https://www.skipr.nl/nieuws/groep-ggz-organisaties-gaat-digitale-assistent-breed-inzetten/",
+    "title": "Groep ggz-organisaties gaat digitale assistent breed inzetten",
+    "summary": "Een groep ggz-instellingen, waaronder VNN, WNB, Reinier van Arkel, Breburg, MET ggz en Eleos, is gestart met organisatie-brede inzet van digitale assistenten om de administratieve belasting van behandelaren te verminderen.",
+    "published": "2026-02-20T10:15:51+00:00",
+    "collected": "2026-03-03T12:06:36.172906+00:00",
+    "category": "opportunity",
+    "tags": [
+      "AI",
+      "GGZ",
+      "Transformatie"
+    ],
+    "action_hint": "Contact met consortium over uitbreiding AI-implementatie en enterprise-brede digital workplace transformatie",
+    "summary_nl": "Groep GGZ-instellingen implementeert organisatie-breed digitale assistenten voor administratieve taken. Grote AI-transformatie kans bij meerdere organisaties.",
+    "priority": "high",
+    "id": "e7f1920791e1ab5f",
+    "source": {
+      "name": "Skipr",
+      "type": "rss",
+      "url": "https://www.skipr.nl"
+    },
+    "score": {
+      "total": 79,
+      "relevance": 32,
+      "urgency": 22,
+      "action_potential": 25,
+      "scored_by": "claude"
+    }
+  },
+  {
+    "url": "https://www.zorgvisie.nl/ziekenhuizen-staan-voor-cruciale-keuze-door-afnemend-epd-aanbod/",
+    "title": "Ziekenhuizen staan voor cruciale keuze door afnemend epd-aanbod",
+    "summary": "Ziekenhuizen hebben steeds minder te kiezen op de markt voor elektronisch patiëntendossiers. Drie ziekenhuizen in het noorden van het land sloegen de handen ineen. De kleinste speler op de epd-markt kiest een andere koers voor de toekomst.",
+    "published": "2026-01-28T11:05:05+00:00",
+    "collected": "2026-03-03T12:06:36.172906+00:00",
+    "category": "opportunity",
+    "tags": [
+      "EPD",
+      "Transformatie",
+      "Ziekenhuis"
+    ],
+    "action_hint": "Contact opnemen met noordelijke ziekenhuizen voor EPD-strategiegesprekken en marktconsolidatie-advies",
+    "summary_nl": "Ziekenhuizen hebben steeds minder EPD-keuzes, drie noordelijke ziekenhuizen bundelen krachten. Marktconsolidatie creëert kansen voor strategische EPD-transformatie.",
+    "priority": "high",
+    "id": "91ba0502281a8d41",
+    "source": {
+      "name": "Zorgvisie",
+      "type": "rss",
+      "url": "https://www.zorgvisie.nl"
+    },
+    "score": {
+      "total": 79,
+      "relevance": 32,
+      "urgency": 22,
+      "action_potential": 25,
+      "scored_by": "claude"
+    }
+  },
+  {
+    "url": "https://www.zorgvisie.nl/klein-nagelvoort-umcg-over-afhankelijkheid-en-invloed-op-nieuwe-technologieen/",
+    "title": "Klein Nagelvoort (UMCG) over afhankelijkheid en invloed op nieuwe technologieën",
+    "summary": "Ze haalde samen met collega’s een AI-fabriek naar Groningen en besloot één epd te gaan gebruiken met drie ziekenhuizen. Zo bouwt Stephanie Klein Nagelvoort–Schuit aan de toekomst van de zorg.",
+    "published": "2025-12-31T09:50:23+00:00",
+    "collected": "2026-03-03T12:06:36.172906+00:00",
+    "category": "klant",
+    "tags": [
+      "AI",
+      "EPD",
+      "Ziekenhuis"
+    ],
+    "action_hint": "Contact opnemen met UMCG over AI-fabriek en EPD-consolidatie strategie",
+    "summary_nl": "UMCG haalt AI-fabriek naar Groningen en consolideert naar één EPD voor drie ziekenhuizen. Strategische transformatie-initiatieven relevant voor Accenture.",
+    "priority": "high",
+    "id": "90f69c1a485f760e",
+    "source": {
+      "name": "Zorgvisie",
+      "type": "rss",
+      "url": "https://www.zorgvisie.nl"
+    },
+    "score": {
+      "total": 78,
+      "relevance": 38,
+      "urgency": 15,
+      "action_potential": 25,
+      "scored_by": "claude"
+    }
+  },
+  {
+    "url": "https://www.digitaleoverheid.nl/nieuws/proef-gpt-nl-van-start-voor-virtuele-assistent-gem/",
+    "title": "Proef GPT-NL van start voor virtuele assistent Gem",
+    "summary": "ICTU, 27 gemeenten en TNO zijn de eerste testers van GPT-NL voor de virtuele assistent Gem voor gemeenten. Het doel is onder andere de dienstverlening verbeteren. Het bericht Proef GPT-NL van start voor virtuele assistent Gem verscheen eerst op Digitale Overheid.",
+    "published": "2026-02-26T09:50:58+00:00",
+    "collected": "2026-03-03T12:06:36.172906+00:00",
+    "category": "overheid",
+    "tags": [
+      "AI",
+      "Cloud"
+    ],
+    "action_hint": "Positie innemen in GPT-NL ecosysteem voor overheidsdienstverlening",
+    "summary_nl": "ICTU en 27 gemeenten testen GPT-NL voor virtuele assistent Gem. Strategische kans voor AI-implementaties bij overheden en mogelijk zorgorganisaties.",
+    "priority": "high",
+    "id": "672db53f76bf5989",
+    "source": {
+      "name": "Digitale Overheid",
+      "type": "rss",
+      "url": "https://www.digitaleoverheid.nl"
+    },
+    "score": {
+      "total": 77,
+      "relevance": 30,
+      "urgency": 22,
+      "action_potential": 25,
+      "scored_by": "claude"
+    }
+  },
+  {
+    "url": "https://www.zorgvisie.nl/de-rso-van-morgen-staat-en-de-rso-van-2031-dient-zich-nu-aan/",
+    "title": "De RSO van morgen staat en de RSO van 2031 dient zich nu aan",
+    "summary": "Hoe vijf jaar ontwikkeling heeft geleid tot een nieuw tijdperk in regionale digitale samenwerking",
+    "published": "2026-03-03T07:00:18+00:00",
+    "collected": "2026-03-03T12:06:36.172906+00:00",
+    "category": "thought-leadership",
+    "tags": [
+      "Transformatie",
+      "Data"
+    ],
+    "action_hint": "Thought leadership over toekomst RSO en regionale zorgdata-uitwisseling",
+    "summary_nl": "Artikel over ontwikkeling Regionale Service Organisaties naar 2031 toont kansen voor digitale samenwerking. Strategische thought leadership kans.",
+    "priority": "high",
+    "id": "3bc87c5d386fda1c",
+    "source": {
+      "name": "Zorgvisie",
+      "type": "rss",
+      "url": "https://www.zorgvisie.nl"
+    },
+    "score": {
+      "total": 75,
+      "relevance": 35,
+      "urgency": 18,
+      "action_potential": 22,
+      "scored_by": "claude"
+    }
+  },
+  {
+    "url": "https://www.icthealth.nl/nieuws/ai-model-voorspelt-hersenaandoeningen-uit-mri-scans",
+    "title": "AI-model voorspelt hersenaandoeningen uit MRI-scans",
+    "summary": "Onderzoekers van Mass General Brigham en Harvard Medical School hebben een nieuw AI-model ontwikkeld dat meerdere hersenaandoeningen kan voorspellen op basis van MRI-scans. Het zogenoemde foundation model, Brain Imaging Adaptive Core (BrainIAC), presteert volgens de onderzoekers beter dan veel AI-m...",
+    "published": "2026-03-02T10:58:21+00:00",
+    "collected": "2026-03-03T12:06:36.172906+00:00",
+    "category": "thought-leadership",
+    "tags": [
+      "AI",
+      "Data"
+    ],
+    "action_hint": "Thought leadership over AI-modellen voor medische diagnostiek schrijven en spreken op events",
+    "summary_nl": "Harvard onderzoekers ontwikkelden AI-model dat hersenaandoeningen voorspelt uit MRI-scans. Sterke basis voor thought leadership over predictive AI in zorg.",
+    "priority": "high",
+    "id": "c532c767574b2374",
+    "source": {
+      "name": "ICT&health",
+      "type": "rss",
+      "url": "https://www.icthealth.nl"
+    },
+    "score": {
+      "total": 75,
+      "relevance": 35,
+      "urgency": 15,
+      "action_potential": 25,
+      "scored_by": "claude"
+    }
+  },
+  {
+    "url": "https://www.zorgvisie.nl/investeringsfonds-jaagt-op-innovaties-gehandicaptenzorg/",
+    "title": "Investeringsfonds jaagt op innovaties gehandicaptenzorg",
+    "summary": "Een nieuw investeringsfonds voor de gehandicaptenzorg moet met een miljoenenbedrag de innovatie in de sector stimuleren. Een coalitie van zes grote ghz-organisaties, CZ zorgkantoor en participatiemaatschappij CbusineZ gaat hiermee aan de slag.",
+    "published": "2026-02-27T14:51:53+00:00",
+    "collected": "2026-03-03T12:06:36.172906+00:00",
+    "category": "opportunity",
+    "tags": [
+      "Transformatie",
+      "VVT"
+    ],
+    "action_hint": "Contact met coalitie organisaties voor innovatie partnerships en digitale transformatie kansen",
+    "summary_nl": "Nieuw investeringsfonds met miljoenen voor innovatie in gehandicaptenzorg door coalitie van zes grote organisaties en CZ. Grote kans voor digitale transformatie partnerships.",
+    "priority": "high",
+    "id": "249b24e73e915adf",
+    "source": {
+      "name": "Zorgvisie",
+      "type": "rss",
+      "url": "https://www.zorgvisie.nl"
+    },
+    "score": {
+      "total": 75,
+      "relevance": 30,
+      "urgency": 20,
+      "action_potential": 25,
+      "scored_by": "claude"
+    }
+  },
+  {
+    "url": "https://www.skipr.nl/nieuws/hermans-en-sterk-beedigd-als-zorgministers/",
+    "title": "Hermans en Sterk beëdigd als zorgministers",
+    "summary": "Sophie Hermans (VVD) en Mirjam Sterk (CDA) zijn beëdigd als nieuwe zorgministers. Hermans is minister van Volksgezondheid, Welzijn en Sport (VWS), Sterk minister van Langdurige Zorg, Jeugd en Sport. Er komen geen staatssecretarissen op het departement.",
+    "published": "2026-02-23T09:35:16+00:00",
+    "collected": "2026-03-03T12:06:36.172906+00:00",
+    "category": "overheid",
+    "tags": [
+      "VWS",
+      "Transformatie"
+    ],
+    "action_hint": "Outreach plannen naar nieuwe ministers voor digitale transformatie agenda",
+    "summary_nl": "Sophie Hermans (VVD) en Mirjam Sterk (CDA) beëdigd als nieuwe zorgministers. Strategisch moment voor engagement rond digitale transformatie agenda.",
+    "priority": "high",
+    "id": "709ce023930cc197",
+    "source": {
+      "name": "Skipr",
+      "type": "rss",
+      "url": "https://www.skipr.nl"
+    },
+    "score": {
+      "total": 75,
+      "relevance": 22,
+      "urgency": 28,
+      "action_potential": 25,
+      "scored_by": "claude"
+    }
+  },
+  {
+    "url": "https://www.skipr.nl/nieuws/online-drogisterijen-delen-gevoelige-gezondheidsdata-met-big-tech/",
+    "title": "Online drogisterijen delen gevoelige gezondheidsdata met Big Tech",
+    "summary": "Webshops en online drogisterijen delen op grote schaal gevoelige productinformatie van consumenten met advertentieplatforms als Google, Meta en Pinterest. Het gaat onder meer om zeer privacygevoelige data over aangekochte of bekeken medische zelftests en andere gezondheidsproducten.",
+    "published": "2026-02-23T08:05:20+00:00",
+    "collected": "2026-03-03T12:06:36.172906+00:00",
+    "category": "thought-leadership",
+    "tags": [
+      "Security",
+      "Data"
+    ],
+    "action_hint": "Thought leadership over privacy-compliant data sharing en security transformaties",
+    "summary_nl": "Online drogisterijen delen gevoelige gezondheidsdata ongecontroleerd met Big Tech platforms. Privacy-schending biedt kans voor security/privacy thought leadership.",
+    "priority": "high",
+    "id": "6c6554a48394adb1",
+    "source": {
+      "name": "Skipr",
+      "type": "rss",
+      "url": "https://www.skipr.nl"
+    },
+    "score": {
+      "total": 75,
+      "relevance": 30,
+      "urgency": 20,
+      "action_potential": 25,
+      "scored_by": "claude"
+    }
+  },
+  {
+    "url": "https://www.digitaleoverheid.nl/nieuws-nds/nds-aanjaagteam-cloud-zoekt-dialoog-met-markt/",
+    "title": "NDS-aanjaagteam Cloud zoekt dialoog met markt",
+    "summary": "Het NDS-aanjaagteam Cloud sprak met 69 marktpartijen over een soevereine cloud. De dialoog leverde inzichten op voor keuzes van de overheid en samenwerking met de markt. Het bericht NDS-aanjaagteam Cloud zoekt dialoog met markt verscheen eerst op Digitale Overheid.",
+    "published": "2026-02-19T13:27:59+00:00",
+    "collected": "2026-03-03T12:06:36.172906+00:00",
+    "category": "overheid",
+    "tags": [
+      "Cloud",
+      "Overheid"
+    ],
+    "action_hint": "Monitoren van NDS cloud strategie en soevereine cloud initiatieven voor positionering",
+    "summary_nl": "NDS-aanjaagteam Cloud heeft met 69 marktpartijen gesproken over een soevereine cloud voor de overheid.",
+    "priority": "high",
+    "id": "ccf0d0da56e0b39c",
+    "source": {
+      "name": "Digitale Overheid",
+      "type": "rss",
+      "url": "https://www.digitaleoverheid.nl"
+    },
+    "score": {
+      "total": 75,
+      "relevance": 30,
+      "urgency": 20,
+      "action_potential": 25,
+      "scored_by": "claude"
+    }
+  },
+  {
+    "url": "https://www.skipr.nl/nieuws/seh-spoort-met-ai-tool-patienten-op-met-alcoholproblemen/",
+    "title": "SEH spoort met AI-tool patiënten op met alcoholproblemen",
+    "summary": "4 procent van de patiënten die de SEH bezoekt van het HMC doet dat vanwege een alcoholgerelateerd probleem. Dat blijkt uit de eerste resultaten van een onderzoek met een AI-tool. Deze nieuwe werkwijze is er om patiënten met alcoholgerelateerde problemen beter op te merken en te helpen.",
+    "published": "2026-02-18T08:27:30+00:00",
+    "collected": "2026-03-03T12:06:36.172906+00:00",
+    "category": "innovatie",
+    "tags": [
+      "AI",
+      "Data"
+    ],
+    "action_hint": "Contact HMC voor AI-implementation case study en scaling opportunities",
+    "summary_nl": "HMC gebruikt AI-tool op SEH om patiënten met alcoholproblemen beter te identificeren. 4% van SEH-bezoeken is alcohol-gerelateerd.",
+    "priority": "high",
+    "id": "b8a3644b7e22ac73",
+    "source": {
+      "name": "Skipr",
+      "type": "rss",
+      "url": "https://www.skipr.nl"
+    },
+    "score": {
+      "total": 75,
+      "relevance": 35,
+      "urgency": 18,
+      "action_potential": 22,
+      "scored_by": "claude"
+    }
+  },
+  {
+    "url": "https://www.skipr.nl/nieuws/om-ontvangt-118-aangiften-na-hack-bij-laboratorium/",
+    "title": "OM ontvangt 118 aangiften na hack bij laboratorium",
+    "summary": "In het onderzoek naar het datalek bij laboratorium Clinical Diagnostics hebben 118 personen aangifte gedaan, meldt het Openbaar Ministerie.",
+    "published": "2026-02-17T09:23:13+00:00",
+    "collected": "2026-03-03T12:06:36.172906+00:00",
+    "category": "opportunity",
+    "tags": [
+      "Security"
+    ],
+    "action_hint": "Marktbenadering voor cybersecurity assessments en Zero Trust implementaties na deze security incident",
+    "summary_nl": "118 aangiften na datalek bij laboratorium Clinical Diagnostics. Toont urgentie van cybersecurity transformaties in de zorgsector.",
+    "priority": "high",
+    "id": "450c935cfd6b503f",
+    "source": {
+      "name": "Skipr",
+      "type": "rss",
+      "url": "https://www.skipr.nl"
+    },
+    "score": {
+      "total": 75,
+      "relevance": 28,
+      "urgency": 22,
+      "action_potential": 25,
+      "scored_by": "claude"
+    }
+  },
+  {
+    "url": "https://nictiz.nl/nieuws/plugathon-2025-samenwerken-uitwisselbare-zorgdata/",
+    "title": "Plugathon 2025: samenwerken aan uitwisselbare zorgdata",
+    "summary": "The post Plugathon 2025: samenwerken aan uitwisselbare zorgdata appeared first on Nictiz.",
+    "published": "2025-11-26T08:36:15+00:00",
+    "collected": "2026-03-03T12:06:36.172906+00:00",
+    "category": "thought-leadership",
+    "tags": [
+      "Data",
+      "Transformatie"
+    ],
+    "action_hint": "Deelname aan Plugathon 2025 voor visibility en networking met zorgorganisaties",
+    "summary_nl": "Plugathon 2025 focust op uitwisselbare zorgdata en interoperabiliteit. Goede kans voor thought leadership en networking.",
+    "priority": "high",
+    "id": "67e96a20575d13c6",
+    "source": {
+      "name": "Nictiz",
+      "type": "rss",
+      "url": "https://www.nictiz.nl"
+    },
+    "score": {
+      "total": 75,
+      "relevance": 30,
+      "urgency": 20,
+      "action_potential": 25,
+      "scored_by": "claude"
+    }
+  },
+  {
+    "url": "https://nictiz.nl/nieuws/samen-werken-databeschikbaarheid-vlieland-zeeland/",
+    "title": "Samen-werken aan databeschikbaarheid: Van Vlieland tot Zeeland",
+    "summary": "The post Samen-werken aan databeschikbaarheid: Van Vlieland tot Zeeland appeared first on Nictiz.",
+    "published": "2025-10-27T14:29:28+00:00",
+    "collected": "2026-03-03T12:06:36.172906+00:00",
+    "category": "overheid",
+    "tags": [
+      "Data",
+      "Transformatie"
+    ],
+    "action_hint": "Monitoren van regionale databeschikbaarheid initiatieven voor mogelijke regionale transformaties",
+    "summary_nl": "Landelijke samenwerking aan databeschikbaarheid in de zorg. Kan regionale transformatie kansen opleveren.",
+    "priority": "high",
+    "id": "48716f9438e22cd4",
+    "source": {
+      "name": "Nictiz",
+      "type": "rss",
+      "url": "https://www.nictiz.nl"
+    },
+    "score": {
+      "total": 75,
+      "relevance": 30,
+      "urgency": 20,
+      "action_potential": 25,
+      "scored_by": "claude"
+    }
+  },
+  {
+    "url": "https://www.skipr.nl/nieuws/zeker-10-succesvolle-cyberaanvallen-op-nederlandse-zorg-in-2025/",
+    "title": "Zeker 10 succesvolle cyberaanvallen op Nederlandse zorg in 2025",
+    "summary": "Afgelopen jaar zijn minstens tien succesvolle cyberaanvallen op zorgorganisaties uitgevoerd. Dat blijkt uit het Cybersecuritybeeld 2025 van expertisecentrum Z-CERT, dat zorgorganisaties op het hart drukt voor een digitaal noodpakket te zorgen.",
+    "published": "2026-03-03T12:00:00+00:00",
+    "collected": "2026-03-03T12:06:36.172906+00:00",
+    "category": "thought-leadership",
+    "tags": [
+      "Security",
+      "Transformatie",
+      "Ziekenhuis"
+    ],
+    "action_hint": "Proactief benaderen van zorgorganisaties voor cybersecurity assessment en Zero Trust roadmap",
+    "summary_nl": "Minstens 10 succesvolle cyberaanvallen op Nederlandse zorg bevestigt urgentie van cybersecurity transformatie. Directe kans voor security consulting.",
+    "priority": "high",
+    "id": "9f353443a126f107",
+    "source": {
+      "name": "Skipr",
+      "type": "rss",
+      "url": "https://www.skipr.nl"
+    },
+    "score": {
+      "total": 74,
+      "relevance": 30,
+      "urgency": 20,
+      "action_potential": 24,
+      "scored_by": "claude"
+    }
+  },
+  {
+    "url": "https://www.zorgvisie.nl/personeelstekorten-de-aanjager-van-transformatie-in-de-zorg/",
+    "title": "Personeelstekorten: de aanjager van transformatie in de zorg",
+    "summary": "In heel Europa staan ziekenhuizen voor een structurele uitdaging: personeelstekorten ten opzichte van de toenemende vraag naar zorg. Deze realiteit dwingt organisaties om het werk anders te organiseren.",
+    "published": "2026-02-06T06:00:32+00:00",
+    "collected": "2026-03-03T12:06:36.172906+00:00",
+    "category": "thought-leadership",
+    "tags": [
+      "Transformatie",
+      "Ziekenhuis"
+    ],
+    "action_hint": "Thought leadership content ontwikkelen over personeelstekorten als driver voor digitale transformatie",
+    "summary_nl": "Personeelstekorten in Europese ziekenhuizen dwingen tot transformatie van werkorganisatie. Structurele uitdaging vraagt om nieuwe aanpak.",
+    "priority": "high",
+    "id": "3707673a9431c2cb",
+    "source": {
+      "name": "Zorgvisie",
+      "type": "rss",
+      "url": "https://www.zorgvisie.nl"
+    },
+    "score": {
+      "total": 73,
+      "relevance": 28,
+      "urgency": 20,
+      "action_potential": 25,
+      "scored_by": "claude"
+    }
+  },
+  {
+    "url": "https://www.zorgvisie.nl/zo-speelt-espria-honderden-uren-vrij-met-robotprocessen-en-ai/",
+    "title": "Zo speelt Espria honderden uren vrij met robotprocessen en AI",
+    "summary": "Met behulp van AI en software-robots maakt zorgorganisatie Espria zich klaar voor de toekomst. Daarbij staan de medewerkers – en hun wensen – centraal, vertelt bestuursvoorzitter Ria Stegehuis. Tegelijk wordt iedere potentiële toepassing kritisch tegen het licht gehouden.",
+    "published": "2025-12-18T11:45:42+00:00",
+    "collected": "2026-03-03T12:06:36.172906+00:00",
+    "category": "concurrent",
+    "tags": [
+      "AI",
+      "Transformatie"
+    ],
+    "action_hint": "Analyseren Espria case voor eigen AI-propositie en benchmarking",
+    "summary_nl": "Espria implementeert AI en robotprocessen voor efficiency. Interessante case voor competitive intelligence en propositie-ontwikkeling.",
+    "priority": "high",
+    "id": "57550628b0af7eed",
+    "source": {
+      "name": "Zorgvisie",
+      "type": "rss",
+      "url": "https://www.zorgvisie.nl"
+    },
+    "score": {
+      "total": 73,
+      "relevance": 38,
+      "urgency": 15,
+      "action_potential": 20,
+      "scored_by": "claude"
+    }
+  },
+  {
+    "url": "https://www.tenderned.nl/aankondigingen/overzicht/414132",
+    "title": "TENDER: Aanschaf, realisatie en beheer van een nieuw primair processysteem t.b.v. de Raad voor de Kinderbescherming",
+    "summary": "Opdrachtgever: Raad voor de Kinderbescherming | Type: Diensten | Procedure: Concurrentiegerichte dialoog | Het doel van deze aanbesteding is het selecteren van de best passende technische oplossing voor het primaire processysteem van de Raad voor de Kinderbescherming (RvdK) én het contracteren van één opdrachtnemer die deze oplossing realiseert, implement",
+    "published": "2026-03-03T00:00:00+00:00",
+    "collected": "2026-03-03T12:06:50.773186+00:00",
+    "category": "opportunity",
+    "tags": [
+      "Transformatie",
+      "Tender"
+    ],
+    "action_hint": "Participeren in tender voor primair processysteem Raad Kinderbescherming",
+    "summary_nl": "Raad voor Kinderbescherming zoekt nieuw primair processysteem via concurrentiegerichte dialoog. Strategische enterprise platform kans.",
+    "priority": "high",
+    "id": "5cd244d208681ed2",
+    "source": {
+      "name": "TenderNed",
+      "type": "api",
+      "url": "https://www.tenderned.nl"
+    },
+    "score": {
+      "total": 72,
+      "relevance": 25,
+      "urgency": 25,
+      "action_potential": 22,
+      "scored_by": "claude"
+    }
+  },
+  {
+    "url": "https://www.skipr.nl/nieuws/poll-zorg-moet-stoppen-met-chatgpt-na-dubieuze-deal-met-pentagon/",
+    "title": "Poll | De zorg moet stoppen met ChatGPT na dubieuze deal met Pentagon",
+    "summary": "OpenAI, het bedrijf achter ChatGPT, sloot afgelopen week een dubieuze deal met het Amerikaanse ministerie van Defensie. Het gebruik van de tool is wijdverbreid, ook in de zorg. Is het tijd voor de zorg op te stoppen met het gebruik van deze tool?",
+    "published": "2026-03-02T20:29:39+00:00",
+    "collected": "2026-03-03T12:06:36.172906+00:00",
+    "category": "thought-leadership",
+    "tags": [
+      "AI",
+      "Security",
+      "Ziekenhuis"
+    ],
+    "action_hint": "Position paper schrijven over verantwoord AI-gebruik in zorg en governance frameworks",
+    "summary_nl": "Discussie over ChatGPT-gebruik in zorg na dubieuze deal met Pentagon. Kans voor thought leadership over AI-governance in healthcare.",
+    "priority": "high",
+    "id": "8eec2284ba3a7a9b",
+    "source": {
+      "name": "Skipr",
+      "type": "rss",
+      "url": "https://www.skipr.nl"
+    },
+    "score": {
+      "total": 72,
+      "relevance": 32,
+      "urgency": 18,
+      "action_potential": 22,
+      "scored_by": "claude"
+    }
+  },
+  {
+    "url": "https://www.zorgvisie.nl/geld-over-onverwacht-geluk-voor-twee-transformatieplannen/",
+    "title": "Geld over: onverwacht geluk voor twee transformatieplannen",
+    "summary": "Twee plannen op de wachtlijst kunnen toch IZA-geld tegemoet zien. Er was ineens nog 11 miljoen euro over.",
+    "published": "2026-02-26T15:26:28+00:00",
+    "collected": "2026-03-03T12:06:36.172906+00:00",
+    "category": "opportunity",
+    "tags": [
+      "Transformatie",
+      "Tender"
+    ],
+    "action_hint": "Identificeer welke transformatieplannen extra IZA-geld krijgen en benaderen",
+    "summary_nl": "Twee transformatieplannen krijgen onverwacht 11 miljoen euro IZA-geld. Directe opportunity voor grote transformatieprogramma's.",
+    "priority": "high",
+    "id": "fb84fec2b6ba783b",
+    "source": {
+      "name": "Zorgvisie",
+      "type": "rss",
+      "url": "https://www.zorgvisie.nl"
+    },
+    "score": {
+      "total": 72,
+      "relevance": 25,
+      "urgency": 22,
+      "action_potential": 25,
+      "scored_by": "claude"
+    }
+  },
+  {
+    "url": "https://www.tenderned.nl/aankondigingen/overzicht/413939",
+    "title": "TENDER: Incident Response Abonnementen",
+    "summary": "Opdrachtgever: Stichting Z-CERT | Type: Diensten | Procedure: Openbaar | De behoefte van de aanbestedende dienst om deze raamovereenkomsten af te sluiten vloeit voort uit de wettelijke taak (NIS2) welke zij krijgt. De NIS2-richtlijn verplicht bedrijven zoals aanbestedende dienst om proactief te zijn bij het identificeren,",
+    "published": "2026-03-01T00:00:00+00:00",
+    "collected": "2026-03-03T12:06:50.773186+00:00",
+    "category": "opportunity",
+    "tags": [
+      "Security",
+      "Tender"
+    ],
+    "action_hint": "Beoordelen of Z-CERT healthcare organisaties bedient en positie innemen voor NIS2 compliance diensten",
+    "summary_nl": "Z-CERT zoekt incident response diensten vanwege NIS2 verplichting. Kans voor cybersecurity expertise in zorgveld.",
+    "priority": "high",
+    "id": "cf6c4f0885883fd8",
+    "source": {
+      "name": "TenderNed",
+      "type": "api",
+      "url": "https://www.tenderned.nl"
+    },
+    "score": {
+      "total": 70,
+      "relevance": 25,
+      "urgency": 25,
+      "action_potential": 20,
+      "scored_by": "claude"
+    }
+  },
+  {
+    "url": "https://www.zorgvisie.nl/privacy-bestendig-gpt-nl-klaar-voor-gebruik-toepasbaarheid-voor-zorg-is-onduidelijk/",
+    "title": "Privacy-bestendig GPT-NL klaar voor gebruik, toepasbaarheid voor zorg is onduidelijk",
+    "summary": "Het Nederlandse taalmodel GPT-NL van onderzoeksinstituut TNO is klaar voor gebruik. Dit najaar moet het breed uitgerold worden, maar de toepasbaarheid voor de zorg is nog onduidelijk.",
+    "published": "2026-02-27T09:33:01+00:00",
+    "collected": "2026-03-03T12:06:36.172906+00:00",
+    "category": "innovatie",
+    "tags": [
+      "AI",
+      "Data"
+    ],
+    "action_hint": "Contact met TNO over zorg-specifieke use cases voor GPT-NL",
+    "summary_nl": "TNO's GPT-NL taalmodel is klaar maar toepasbaarheid voor zorg is onduidelijk. Kans voor thought leadership over AI in zorg.",
+    "priority": "high",
+    "id": "db12574a83383391",
+    "source": {
+      "name": "Zorgvisie",
+      "type": "rss",
+      "url": "https://www.zorgvisie.nl"
+    },
+    "score": {
+      "total": 70,
+      "relevance": 32,
+      "urgency": 18,
+      "action_potential": 20,
+      "scored_by": "claude"
+    }
+  },
+  {
+    "url": "https://www.digitaleoverheid.nl/nieuws/obdo-stelt-afsprakenstelsel-federatief-datastelsel-vast/",
+    "title": "OBDO stelt Afsprakenstelsel Federatief Datastelsel vast",
+    "summary": "Daarmee ligt een basis voor aanbieders binnen het federatieve datastelsel. Een belangrijke stap naar verantwoord en uniform delen van gegevens binnen de overheid. Het bericht OBDO stelt Afsprakenstelsel Federatief Datastelsel vast verscheen eerst op Digitale Overheid.",
+    "published": "2026-02-23T07:01:53+00:00",
+    "collected": "2026-03-03T12:06:36.172906+00:00",
+    "category": "overheid",
+    "tags": [
+      "Data",
+      "Transformatie"
+    ],
+    "action_hint": "Positioneren voor implementatie federatief datastelsel in zorgsector",
+    "summary_nl": "OBDO stelt Afsprakenstelsel Federatief Datastelsel vast voor uniforme gegevensdeling binnen overheid. Basis voor data sharing transformaties in zorg.",
+    "priority": "high",
+    "id": "8b90b0e8cb04cc48",
+    "source": {
+      "name": "Digitale Overheid",
+      "type": "rss",
+      "url": "https://www.digitaleoverheid.nl"
+    },
+    "score": {
+      "total": 70,
+      "relevance": 28,
+      "urgency": 22,
+      "action_potential": 20,
+      "scored_by": "claude"
+    }
+  },
+  {
+    "url": "https://www.skipr.nl/nieuws/zn-keurt-alle-transformatieplannen-goed-voor-zorgcoordinatie/",
+    "title": "ZN: alle IZA-plannen voor centrale zorgcoördinatie zijn goedgekeurd",
+    "summary": "De tien transformatieplannen voor centrale zorgcoördinatie binnen de ROAZ regio’s zijn goedgekeurd. “Deze mijlpaal is geen eindpunt, maar vormt een stevige basis voor de volgende fase”, aldus Zorgverzekeraars Nederland (ZN).",
+    "published": "2026-02-18T14:27:19+00:00",
+    "collected": "2026-03-03T12:06:36.172906+00:00",
+    "category": "opportunity",
+    "tags": [
+      "Transformatie",
+      "Data",
+      "Verzekeraar"
+    ],
+    "action_hint": "Benaderen van ROAZ regio's voor implementatie ondersteuning van centrale zorgcoördinatie systemen",
+    "summary_nl": "Alle tien transformatieplannen voor centrale zorgcoördinatie binnen ROAZ regio's zijn goedgekeurd door ZN.",
+    "priority": "high",
+    "id": "da728b03c504f1e0",
+    "source": {
+      "name": "Skipr",
+      "type": "rss",
+      "url": "https://www.skipr.nl"
+    },
+    "score": {
+      "total": 70,
+      "relevance": 25,
+      "urgency": 20,
+      "action_potential": 25,
+      "scored_by": "claude"
+    }
+  },
+  {
+    "url": "https://www.skipr.nl/nieuws/noord-hollandse-ziekenhuizen-zeggen-afspraken-af-door-ict-storing/",
+    "title": "Noord-Hollandse ziekenhuizen zeggen afspraken af door ict-storing",
+    "summary": "Vestigingen van het Dijklander Ziekenhuis in Hoorn, Purmerend, Enkhuizen en Volendam hebben dinsdag afspraken moeten afzeggen door een ict-storing. Hierdoor was het ziekenhuis enkele uren telefonisch slecht bereikbaar en was ook het elektronische patiëntendossier niet beschikbaar.",
+    "published": "2026-02-18T07:59:55+00:00",
+    "collected": "2026-03-03T12:06:36.172906+00:00",
+    "category": "opportunity",
+    "tags": [
+      "EPD",
+      "Security"
+    ],
+    "action_hint": "Contact Dijklander voor resilience en business continuity assessment",
+    "summary_nl": "Dijklander Ziekenhuis had ICT-storing waardoor EPD en telefonie uitvielen. Afspraken moesten worden afgezegd.",
+    "priority": "high",
+    "id": "6f9ebf51d210b8e2",
+    "source": {
+      "name": "Skipr",
+      "type": "rss",
+      "url": "https://www.skipr.nl"
+    },
+    "score": {
+      "total": 70,
+      "relevance": 25,
+      "urgency": 20,
+      "action_potential": 25,
+      "scored_by": "claude"
+    }
+  },
+  {
+    "url": "https://www.zorgvisie.nl/thuisarts-komt-voor-de-zomer-met-alternatief-voor-chatgpt-health/",
+    "title": "Thuisarts komt voor de zomer met alternatief voor ChatGPT Health",
+    "summary": "Het platform Thuisarts werkt aan een dienst die een betrouwbaar alternatief moet bieden voor onder meer het Amerikaanse ChatGPT Health. Voor de zomer moet de eerste werkende versie klaar zijn, vertelt directeur Swanet Woldhuis.",
+    "published": "2026-02-17T14:38:59+00:00",
+    "collected": "2026-03-03T12:06:36.172906+00:00",
+    "category": "concurrent",
+    "tags": [
+      "AI"
+    ],
+    "action_hint": "Monitoren Thuisarts AI-ontwikkelingen voor competitive intelligence",
+    "summary_nl": "Thuisarts ontwikkelt Nederlands alternatief voor ChatGPT Health, klaar voor zomer 2025.",
+    "priority": "high",
+    "id": "f03fc7ee8042f422",
+    "source": {
+      "name": "Zorgvisie",
+      "type": "rss",
+      "url": "https://www.zorgvisie.nl"
+    },
+    "score": {
+      "total": 70,
+      "relevance": 30,
+      "urgency": 22,
+      "action_potential": 18,
+      "scored_by": "claude"
+    }
+  },
+  {
+    "url": "https://www.zorgvisie.nl/programma-uitkomstgerichte-zorg-maakt-ambities-niet-waar/",
+    "title": "Programma Uitkomstgerichte Zorg maakt ambities niet waar",
+    "summary": "Het programma Uitkomstgerichte Zorg (UZ) II gaat zijn ambities niet waarmaken. Dat blijkt uit alweer de zesde voortgangsrapportage, die demissionair minister Bruijn (VVD) afgelopen week naar de Tweede Kamer stuurde. Het voornemen voor 2024 en 2025 was om de uitkomstensets uit het programma te implementeren. 2026 is het laatste jaar van het programma.",
+    "published": "2026-01-12T17:02:44+00:00",
+    "collected": "2026-03-03T12:06:36.172906+00:00",
+    "category": "overheid",
+    "tags": [
+      "VWS",
+      "Data",
+      "Transformatie"
+    ],
+    "action_hint": "Benaderen VWS en ziekenhuizen voor ondersteuning bij implementatie uitkomstensets en data-initiatieven",
+    "summary_nl": "Programma Uitkomstgerichte Zorg II haalt ambities niet en loopt vertraging op bij implementatie uitkomstensets. 2026 is laatste programmajaar.",
+    "priority": "high",
+    "id": "446ed068663665e2",
+    "source": {
+      "name": "Zorgvisie",
+      "type": "rss",
+      "url": "https://www.zorgvisie.nl"
+    },
+    "score": {
+      "total": 70,
+      "relevance": 25,
+      "urgency": 20,
+      "action_potential": 25,
+      "scored_by": "claude"
+    }
+  },
+  {
+    "url": "https://nictiz.nl/nieuws/consultatie-proactieve-zorgplanning/",
+    "title": "Consultatie Proactieve Zorgplanning van start",
+    "summary": "The post Consultatie Proactieve Zorgplanning van start appeared first on Nictiz.",
+    "published": "2025-09-24T08:32:12+00:00",
+    "collected": "2026-03-03T12:06:36.172906+00:00",
+    "category": "overheid",
+    "tags": [
+      "Data",
+      "Transformatie"
+    ],
+    "action_hint": "Consultatie proactieve zorgplanning kan input geven voor preventie en data-gedreven zorg advisory",
+    "summary_nl": "Consultatie over proactieve zorgplanning is gestart. Relevant voor preventieve zorg en predictive analytics.",
+    "priority": "high",
+    "id": "eddbf9edaa29efe4",
+    "source": {
+      "name": "Nictiz",
+      "type": "rss",
+      "url": "https://www.nictiz.nl"
+    },
+    "score": {
+      "total": 70,
+      "relevance": 25,
+      "urgency": 20,
+      "action_potential": 25,
+      "scored_by": "claude"
+    }
+  },
+  {
+    "url": "https://www.skipr.nl/nieuws/12-zuid-hollandse-organisaties-monitoren-interventies-via-regionaal-dataplatform/",
+    "title": "12 Zuid-Hollandse organisaties monitoren interventies via regionaal dataplatform",
+    "summary": "Om de impact van interventies te meten, hebben organisaties in de regio Westland, Schieland en Delfland (WSD) een regionaal dataplatform opgezet. Dat moet hen helpen op een privacy-bestendige manier datagedreven te werken aan zorg en welzijn.",
+    "published": "2026-02-16T12:26:29+00:00",
+    "collected": "2026-03-03T12:06:36.172906+00:00",
+    "category": "innovatie",
+    "tags": [
+      "Data",
+      "Cloud"
+    ],
+    "action_hint": "Contact opnemen met WSD-regio over uitbreiding dataplatform en data governance framework",
+    "summary_nl": "12 Zuid-Hollandse organisaties bouwen regionaal dataplatform voor privacy-bestendige monitoring van interventies. Strategische data & analytics kans.",
+    "priority": "high",
+    "id": "85c151c2e5f47c88",
+    "source": {
+      "name": "Skipr",
+      "type": "rss",
+      "url": "https://www.skipr.nl"
+    },
+    "score": {
+      "total": 69,
+      "relevance": 32,
+      "urgency": 15,
+      "action_potential": 22,
+      "scored_by": "claude"
+    }
+  },
+  {
+    "url": "https://www.zorgvisie.nl/ad-melkert-digitale-gegevensuitwisseling-vraagt-snelheid-snelheid-snelheid/",
+    "title": "Ad Melkert: ‘Digitale gegevensuitwisseling vraagt snelheid, snelheid, snelheid’",
+    "summary": "Samenwerking is het toverwoord in de nieuwe strategische visie van de Nederlandse Vereniging van Ziekenhuizen. Dat betekent niet dat het hele zorgstelsel op de kop moet, maar NVZ-voorzitter Ad Melkert ziet wel drie grote veranderingen voor zich. “Free riders mogen niet meedoen.”",
+    "published": "2026-01-23T04:55:25+00:00",
+    "collected": "2026-03-03T12:06:36.172906+00:00",
+    "category": "klant",
+    "tags": [
+      "Data",
+      "Ziekenhuis",
+      "Transformatie"
+    ],
+    "action_hint": "Contact NVZ/ziekenhuizen over digitale gegevensuitwisseling en samenwerking platforms",
+    "summary_nl": "NVZ-voorzitter benadrukt urgentie van digitale gegevensuitwisseling en samenwerking tussen ziekenhuizen. Strategische kans voor data platformen.",
+    "priority": "high",
+    "id": "9f3fc594761564e0",
+    "source": {
+      "name": "Zorgvisie",
+      "type": "rss",
+      "url": "https://www.zorgvisie.nl"
+    },
+    "score": {
+      "total": 69,
+      "relevance": 32,
+      "urgency": 15,
+      "action_potential": 22,
+      "scored_by": "claude"
+    }
+  },
+  {
+    "url": "https://www.zorgvisie.nl/dit-rekenmodel-tovert-in-5-minuten-een-kwartaalrooster-tevoorschijn/",
+    "title": "Dit rekenmodel tovert in 5 minuten een kwartaalrooster tevoorschijn",
+    "summary": "Dagenlang handmatig puzzelen in Excel-lijstjes om de roosters voor elkaar te krijgen. Dat kan beter, dacht Nienke Hamster (21). Daarom maakte zij voor Gelre ziekenhuizen een wiskundig model dat in 15 seconde een rooster genereert, capaciteitsproblemen signaleert en de productiebegroting voorspelt.",
+    "published": "2025-12-15T12:22:59+00:00",
+    "collected": "2026-03-03T12:06:36.172906+00:00",
+    "category": "innovatie",
+    "tags": [
+      "AI",
+      "Ziekenhuis"
+    ],
+    "action_hint": "Contact Gelre ziekenhuizen voor uitbreiding rooster-optimalisatie naar andere processen",
+    "summary_nl": "Gelre ontwikkelde wiskundig model voor automatische roosterplanning in 15 seconden. Interessant voor AI-toepassingen in zorg.",
+    "priority": "high",
+    "id": "0b64ce01b9df3c95",
+    "source": {
+      "name": "Zorgvisie",
+      "type": "rss",
+      "url": "https://www.zorgvisie.nl"
+    },
+    "score": {
+      "total": 69,
+      "relevance": 32,
+      "urgency": 15,
+      "action_potential": 22,
+      "scored_by": "claude"
+    }
+  },
+  {
+    "url": "https://www.zorgvisie.nl/zo-bouwt-zuid-limburg-een-virtueel-verzorgingshuis-in-de-wijk/",
+    "title": "Zo bouwt Zuid-Limburg een virtueel verzorgingshuis in de wijk",
+    "summary": "In Zuid-Limburg werken zeventien wonen-, welzijns- en zorgpartijen samen aan drempelloze zorg. Daarbij staat niet het systeem, maar de leefwereld van de mens centraal. Inmiddels zijn negen van de dertig woonzorgzones uit de startblokken. “Dit virtuele verzorgingshuis vraagt 40 procent minder personeel dan het verpleeghuis”, vertelt Envida-bestuurder Roger Ruijters.",
+    "published": "2026-03-02T10:28:48+00:00",
+    "collected": "2026-03-03T12:06:36.172906+00:00",
+    "category": "opportunity",
+    "tags": [
+      "Transformatie",
+      "VVT",
+      "Data"
+    ],
+    "action_hint": "Contact Envida voor ondersteuning virtueel verzorgingshuis met data platforms en AI",
+    "summary_nl": "Zuid-Limburg bouwt virtueel verzorgingshuis dat 40% minder personeel vraagt. Kans voor digitale zorg transformatie ondersteuning.",
+    "priority": "high",
+    "id": "2ba149fd370f9a0f",
+    "source": {
+      "name": "Zorgvisie",
+      "type": "rss",
+      "url": "https://www.zorgvisie.nl"
+    },
+    "score": {
+      "total": 68,
+      "relevance": 28,
+      "urgency": 18,
+      "action_potential": 22,
+      "scored_by": "claude"
+    }
+  },
+  {
+    "url": "https://www.tenderned.nl/aankondigingen/overzicht/414102",
+    "title": "TENDER: Meten van patiëntervaringen in de UMC’s",
+    "summary": "Opdrachtgever: UMCNL | Type: Diensten | Procedure: Marktconsultatie | Deze marktconsultatie is door UMCNL opgesteld om meer informatie te verkrijgen over de mogelijkheden ten aanzien van patiëntervaringsmetingen, als voorbereiding voor een op te starten Europese aanbesteding. De sluitingsdatum voor het beantwoorden van",
+    "published": "2026-03-02T00:00:00+00:00",
+    "collected": "2026-03-03T12:06:50.773186+00:00",
+    "category": "opportunity",
+    "tags": [
+      "Data",
+      "Ziekenhuis",
+      "Tender"
+    ],
+    "action_hint": "Reactie op marktconsultatie om Accenture's expertise in patient experience analytics te positioneren voor komende Europese tender",
+    "summary_nl": "UMCNL doet marktconsultatie voor patiëntervaringsmetingen ter voorbereiding op Europese aanbesteding. Dit biedt kans om expertise in healthcare analytics te tonen.",
+    "priority": "high",
+    "id": "063a4800d4769e91",
+    "source": {
+      "name": "TenderNed",
+      "type": "api",
+      "url": "https://www.tenderned.nl"
+    },
+    "score": {
+      "total": 67,
+      "relevance": 25,
+      "urgency": 20,
+      "action_potential": 22,
+      "scored_by": "claude"
+    }
+  },
+  {
+    "url": "https://www.skipr.nl/nieuws/erasmus-mc-pakt-met-groene-data-assistent-vier-hotspots-aan/",
+    "title": "Erasmus MC pakt vier hotspots aan met groene data-assistent",
+    "summary": "De introductie van data-assistent GERDA werpt haar vruchten af voor Erasmus MC. In één jaar tijd is het gebruik van vier van de zes meest ingezette IC-materialen aanzienlijk verminderd.",
+    "published": "2026-02-18T13:02:08+00:00",
+    "collected": "2026-03-03T12:06:36.172906+00:00",
+    "category": "innovatie",
+    "tags": [
+      "Data",
+      "AI"
+    ],
+    "action_hint": "Case study ontwikkelen over data-driven sustainability in zorg",
+    "summary_nl": "Erasmus MC gebruikt data-assistent GERDA om materiaalgebruik op IC te reduceren. AI-toepassing toont concrete resultaten in kostenbesparingen.",
+    "priority": "high",
+    "id": "abbf40e278a04d59",
+    "source": {
+      "name": "Skipr",
+      "type": "rss",
+      "url": "https://www.skipr.nl"
+    },
+    "score": {
+      "total": 67,
+      "relevance": 32,
+      "urgency": 15,
+      "action_potential": 20,
+      "scored_by": "claude"
+    }
+  },
+  {
+    "url": "https://www.zorgvisie.nl/team-overheid-verliest-geduld-transparantie-zorgkwaliteit-desnoods-afdwingen/",
+    "title": "‘Team overheid’ verliest geduld: transparantie zorgkwaliteit desnoods afdwingen",
+    "summary": "“Het gaat veel te langzaam en dat is verschrikkelijk”, zei Barbara Goezinne, directeur-generaal curatieve zorg, tijdens het symposium over Uitkomstgerichte zorg op 29 januari in Den Haag.",
+    "published": "2026-02-03T16:03:48+00:00",
+    "collected": "2026-03-03T12:06:36.172906+00:00",
+    "category": "overheid",
+    "tags": [
+      "VWS",
+      "Data",
+      "Transformatie"
+    ],
+    "action_hint": "Thought leadership over data governance en transparantie-oplossingen ontwikkelen",
+    "summary_nl": "Overheid wordt ongeduldig over trage transparantie in zorgkwaliteit en dreigt met afdwinging. Creëert kansen voor data & analytics oplossingen.",
+    "priority": "high",
+    "id": "7dd745f3ed5087b9",
+    "source": {
+      "name": "Zorgvisie",
+      "type": "rss",
+      "url": "https://www.zorgvisie.nl"
+    },
+    "score": {
+      "total": 67,
+      "relevance": 25,
+      "urgency": 22,
+      "action_potential": 20,
+      "scored_by": "claude"
+    }
+  },
+  {
+    "url": "https://tweakers.net/nieuws/234150/nederlands-kabinet-overweegt-inzet-ai-om-externe-inhuur-icters-terug-te-dringen.html",
+    "title": "Nederlands kabinet overweegt inzet AI om externe inhuur ict'ers terug te dringen",
+    "summary": "Het Nederlands kabinet kan besparen op de inhuur van extern ict-personeel door een deel van de werkzaamheden te vervangen door technologieën als AI. Dat adviseren onderzoekers in een rapport in opdracht van de overheid.",
+    "published": "2025-04-19T11:21:06+00:00",
+    "collected": "2026-03-03T12:06:36.172906+00:00",
+    "category": "overheid",
+    "tags": [
+      "AI",
+      "Transformatie",
+      "VWS"
+    ],
+    "action_hint": "Contact met VWS over AI-strategie voor kostenbesparing in overheid",
+    "summary_nl": "Nederlands kabinet overweegt AI in te zetten om externe ICT-inhuur terug te dringen. Kans voor thought leadership over AI-transformatie in publieke sector.",
+    "priority": "high",
+    "id": "93f8dc99cc9c07f7",
+    "source": {
+      "name": "Tweakers",
+      "type": "rss",
+      "url": "https://tweakers.net"
+    },
+    "score": {
+      "total": 67,
+      "relevance": 25,
+      "urgency": 20,
+      "action_potential": 22,
+      "scored_by": "claude"
+    }
+  },
+  {
+    "url": "https://www.skipr.nl/nieuws/universiteitsraad-wil-geen-fusie-mumc-en-universiteit-maastricht/",
+    "title": "Universiteitsraad wil geen fusie MUMC+ en Universiteit Maastricht",
+    "summary": "Het Maastricht UMC+ wil bestuurlijk fuseren met de Universiteit Maastricht. De universiteitsraad wees woensdag het fusievoorstel van beide besturen af.",
+    "published": "2026-03-02T17:24:37+00:00",
+    "collected": "2026-03-03T12:06:36.172906+00:00",
+    "category": "klant",
+    "tags": [
+      "Transformatie",
+      "Ziekenhuis"
+    ],
+    "action_hint": "Contact met MUMC+ bestuur over organisationele transformatie en change management ondersteuning",
+    "summary_nl": "MUMC+ fusievoorstel met Universiteit Maastricht afgekeurd door universiteitsraad. Mogelijke kans voor organisatietransformatie advies.",
+    "priority": "high",
+    "id": "af2740a4370f5f27",
+    "source": {
+      "name": "Skipr",
+      "type": "rss",
+      "url": "https://www.skipr.nl"
+    },
+    "score": {
+      "total": 65,
+      "relevance": 25,
+      "urgency": 22,
+      "action_potential": 18,
+      "scored_by": "claude"
+    }
+  },
+  {
+    "url": "https://www.zorgvisie.nl/fusie-tussen-mumc-en-universiteit-maastricht/",
+    "title": "Bestuurlijke fusie tussen MUMC+ en Universiteit Maastricht is niet zomaar geregeld",
+    "summary": "Het Maastricht UMC+ wil bestuurlijk fuseren met de Universiteit Maastricht. De universiteitsraad wees woensdag het fusievoorstel van beide besturen af.",
+    "published": "2026-03-02T17:23:26+00:00",
+    "collected": "2026-03-03T12:06:36.172906+00:00",
+    "category": "klant",
+    "tags": [
+      "Transformatie",
+      "Ziekenhuis"
+    ],
+    "action_hint": "Contact met MUMC+ bestuur over organisationele transformatie en change management ondersteuning",
+    "summary_nl": "MUMC+ fusievoorstel met Universiteit Maastricht afgekeurd door universiteitsraad. Mogelijke kans voor organisatietransformatie advies.",
+    "priority": "high",
+    "id": "02d9c60456d624b8",
+    "source": {
+      "name": "Zorgvisie",
+      "type": "rss",
+      "url": "https://www.zorgvisie.nl"
+    },
+    "score": {
+      "total": 65,
+      "relevance": 25,
+      "urgency": 22,
+      "action_potential": 18,
+      "scored_by": "claude"
+    }
+  },
+  {
+    "url": "https://www.skipr.nl/nieuws/nieuwe-zorgministers-willen-sector-spreken-voordat-ze-besluiten-nemen/",
+    "title": "Nieuwe zorgministers willen sector spreken voordat ze besluiten nemen",
+    "summary": "Zorgministers Sophie Hermans en Mirjam Sterk willen met de zorgsector praten voordat ze besluiten nemen over bezuinigingen. VVD-minister Hermans hoopt daar de oplossingen te horen om de bezuinigingen samen te laten gaan met een kwaliteitsverbetering.",
+    "published": "2026-02-23T14:11:01+00:00",
+    "collected": "2026-03-03T12:06:36.172906+00:00",
+    "category": "overheid",
+    "tags": [
+      "VWS",
+      "Transformatie"
+    ],
+    "action_hint": "Positioneren voor gesprekken met nieuwe ministers over digitale transformatie als oplossing",
+    "summary_nl": "Nieuwe zorgministers Hermans en Sterk willen sector raadplegen voor bezuinigingen met kwaliteitsverbetering. Kans om digitale transformatie als oplossing te positioneren.",
+    "priority": "high",
+    "id": "4081488e2ce88a1b",
+    "source": {
+      "name": "Skipr",
+      "type": "rss",
+      "url": "https://www.skipr.nl"
+    },
+    "score": {
+      "total": 65,
+      "relevance": 18,
+      "urgency": 25,
+      "action_potential": 22,
+      "scored_by": "claude"
+    }
+  },
+  {
+    "url": "https://www.zorgvisie.nl/deze-mensen-worden-genoemd-als-nieuwe-minister-van-vws/",
+    "title": "Nieuwe minister van VWS: Sophie Hermans (VVD)",
+    "summary": "D66-leider Rob Jetten is als formateur aan de slag gegaan. Sophie Hermans wordt de nieuwe minister van VWS. Het CDA levert een minister voor Langdurige Zorg, Jeugd en Sport. Welke namen circuleerden er nog meer voor bewindslieden op VWS?",
+    "published": "2026-02-05T10:50:12+00:00",
+    "collected": "2026-03-03T12:06:36.172906+00:00",
+    "category": "overheid",
+    "tags": [
+      "VWS"
+    ],
+    "action_hint": "Stakeholder engagement strategie ontwikkelen voor nieuwe VWS bewindslieden",
+    "summary_nl": "Sophie Hermans wordt nieuwe VWS minister, CDA levert minister voor Langdurige Zorg. Formateur Rob Jetten aan de slag.",
+    "priority": "high",
+    "id": "af7ea2a2fd346e1f",
+    "source": {
+      "name": "Zorgvisie",
+      "type": "rss",
+      "url": "https://www.zorgvisie.nl"
+    },
+    "score": {
+      "total": 65,
+      "relevance": 15,
+      "urgency": 28,
+      "action_potential": 22,
+      "scored_by": "claude"
+    }
+  },
+  {
+    "url": "https://www.zorgvisie.nl/chipsoft-rukt-onder-de-oppervlakte-verder-op-via-datasystemen/",
+    "title": "ChipSoft rukt onder de oppervlakte verder op via datasystemen",
+    "summary": "De markt voor elektronische patiëntendossiers versmalt en met de Patiënt Data Management Systemen gebeurt hetzelfde. Marktleider ChipSoft wordt daardoor nog dominanter.",
+    "published": "2026-01-20T14:07:48+00:00",
+    "collected": "2026-03-03T12:06:36.172906+00:00",
+    "category": "concurrent",
+    "tags": [
+      "EPD",
+      "Data"
+    ],
+    "action_hint": "Strategische positie bepalen t.o.v. ChipSoft dominantie en kansen voor EPD optimalisatie projecten",
+    "summary_nl": "ChipSoft wordt dominanter in EPD en data management systemen markt. Belangrijke competitive intelligence voor EPD projecten.",
+    "priority": "high",
+    "id": "98c747818f591164",
+    "source": {
+      "name": "Zorgvisie",
+      "type": "rss",
+      "url": "https://www.zorgvisie.nl"
+    },
+    "score": {
+      "total": 65,
+      "relevance": 30,
+      "urgency": 15,
+      "action_potential": 20,
+      "scored_by": "claude"
+    }
+  },
+  {
+    "url": "https://www.zorgvisie.nl/medtech-wil-met-groeiplan-naar-absolute-top/",
+    "title": "Medtech wil met Groeiplan naar absolute top",
+    "summary": "Medische technologie is noodzakelijk om de groeiende zorgvraag op te vangen en onze economie een impuls te geven. Maar innovaties gaan niet vanzelf vliegen.",
+    "published": "2025-12-29T10:26:32+00:00",
+    "collected": "2026-03-03T12:06:36.172906+00:00",
+    "category": "thought-leadership",
+    "tags": [
+      "AI",
+      "Data",
+      "Transformatie"
+    ],
+    "action_hint": "Medtech groeiplan als thought leadership kans voor digitale innovatie in zorg",
+    "summary_nl": "Medische technologie sector wil met Groeiplan naar top. Relevante ontwikkeling voor AI en data-innovaties in zorg.",
+    "priority": "high",
+    "id": "c4dd9ff67a9ad62d",
+    "source": {
+      "name": "Zorgvisie",
+      "type": "rss",
+      "url": "https://www.zorgvisie.nl"
+    },
+    "score": {
+      "total": 65,
+      "relevance": 28,
+      "urgency": 15,
+      "action_potential": 22,
+      "scored_by": "claude"
+    }
+  },
+  {
+    "url": "https://www.skipr.nl/nieuws/regionale-geboortezorg-app-voor-alle-zwangeren-in-twente/",
+    "title": "Regionale geboortezorg-app voor alle zwangeren in Twente",
+    "summary": "Zwangere vrouwen in Twente krijgen allemaal dezelfde digitale ondersteuning en informatie via een regionale geboortezorg-app. Twintig verloskundige praktijken en ziekenhuis ZGT sluiten aan nadat ziekenhuis MST dat eerder al deed.",
+    "published": "2026-02-23T14:12:38+00:00",
+    "collected": "2026-03-03T12:06:36.172906+00:00",
+    "category": "innovatie",
+    "tags": [
+      "Data",
+      "Ziekenhuis"
+    ],
+    "action_hint": "Analyseren van regionale digitalisering trends voor vergelijkbare initiatieven",
+    "summary_nl": "Regionale geboortezorg-app wordt uitgerold voor alle zwangeren in Twente door 20 praktijken en ZGT. Voorbeeld van regionale digitale samenwerking in zorgketen.",
+    "priority": "high",
+    "id": "0e1a0a9e172df9a7",
+    "source": {
+      "name": "Skipr",
+      "type": "rss",
+      "url": "https://www.skipr.nl"
+    },
+    "score": {
+      "total": 63,
+      "relevance": 25,
+      "urgency": 18,
+      "action_potential": 20,
+      "scored_by": "claude"
+    }
+  },
+  {
+    "url": "https://www.zorgvisie.nl/minister-in-2026-impact-arbeidsbesparende-technologie-in-beeld/",
+    "title": "Minister: in 2026 impact arbeidsbesparende technologie in beeld",
+    "summary": "Demissionair minister Jan Anthonie Bruijn schrijft in een Kamerbrief dat er meer inzicht moet komen in de effecten van innovaties op arbeidsbesparing. Hij schetst een concreet beeld van toekomstige toepassing in de zorg.",
+    "published": "2026-01-05T14:46:41+00:00",
+    "collected": "2026-03-03T12:06:36.172906+00:00",
+    "category": "overheid",
+    "tags": [
+      "VWS",
+      "AI",
+      "Transformatie"
+    ],
+    "action_hint": "Volgen van concrete beleidsontwikkeling arbeidsbesparende technologie voor thought leadership",
+    "summary_nl": "Minister Bruijn kondigt inzicht aan in effecten van innovaties op arbeidsbesparing in zorg. Relevante beleidsontwikkeling voor AI en automatisering.",
+    "priority": "high",
+    "id": "c5b29541e0a8adcd",
+    "source": {
+      "name": "Zorgvisie",
+      "type": "rss",
+      "url": "https://www.zorgvisie.nl"
+    },
+    "score": {
+      "total": 63,
+      "relevance": 25,
+      "urgency": 18,
+      "action_potential": 20,
+      "scored_by": "claude"
+    }
+  },
+  {
+    "url": "https://www.icthealth.nl/nieuws/ai-en-cameratechnologie-voor-vroegtijdige-detectie-van-complicaties",
+    "title": "AI en cameratechnologie voor vroegtijdige detectie van complicaties",
+    "summary": "Het Catharina Ziekenhuis, Philips en de Technische Universiteit Eindhoven starten met de implementatie van cameratechnologie om vitale functies van hartpatiënten contactloos te monitoren. De technologie wordt ingezet binnen het onderzoeksproject Advance ForSee, waarin cameramonitoring wordt gecombin...",
+    "published": "2026-03-03T11:03:33+00:00",
+    "collected": "2026-03-03T12:06:36.172906+00:00",
+    "category": "innovatie",
+    "tags": [
+      "AI",
+      "Ziekenhuis"
+    ],
+    "action_hint": "Contact Catharina Ziekenhuis voor samenwerking in AI-innovatie projecten",
+    "summary_nl": "Catharina Ziekenhuis implementeert AI-cameratechnologie voor contactloze monitoring hartpatiënten. Kans voor AI-partnerships.",
+    "priority": "high",
+    "id": "81725f6325725095",
+    "source": {
+      "name": "ICT&health",
+      "type": "rss",
+      "url": "https://www.icthealth.nl"
+    },
+    "score": {
+      "total": 61,
+      "relevance": 28,
+      "urgency": 15,
+      "action_potential": 18,
+      "scored_by": "claude"
+    }
+  },
+  {
+    "url": "https://www.tenderned.nl/aankondigingen/overzicht/413809",
+    "title": "TENDER: EA Inhuur Data- & AI-Professionals",
+    "summary": "Opdrachtgever: NS Groep N.V. | Type: Diensten | Procedure: Mededingingsprocedure met onderhandeling | De opdracht betreft een Europese aanbesteding voor de inhuur van data- en AI-professionals ten behoeve van de afdeling DIA. De inzet van externe professionals is essentieel om de datagedreven ambities van NS waar te maken en vraagt om duurzame samenw",
+    "published": "2026-02-28T00:00:00+00:00",
+    "collected": "2026-03-03T12:06:50.773186+00:00",
+    "category": "concurrent",
+    "tags": [
+      "Data",
+      "AI"
+    ],
+    "action_hint": "Monitoren van NS data/AI strategie en concurrentie-analyse voor vergelijkbare opdrachten",
+    "summary_nl": "NS zoekt via Europese aanbesteding data- en AI-professionals voor hun DIA afdeling. Grote organisatie met datagedreven ambities, potentiele concurrent opportunity.",
+    "priority": "high",
+    "id": "ae33a3c7a58b8f81",
+    "source": {
+      "name": "TenderNed",
+      "type": "api",
+      "url": "https://www.tenderned.nl"
+    },
+    "score": {
+      "total": 60,
+      "relevance": 25,
+      "urgency": 20,
+      "action_potential": 15,
+      "scored_by": "claude"
+    }
+  },
+  {
+    "url": "https://www.zorgvisie.nl/zo-kan-budgetbekostiging-in-de-cruciale-ggz-wel-snel/",
+    "title": "Zo kan budgetbekostiging in de cruciale ggz wel snel",
+    "summary": "De budgetbekostiging voor de cruciale ggz kan er wel snel komen, als de lessen van de budgetbekostiging voor de acute psychiatrie ter harte worden genomen, stelt Thijs Stoop van SiRM. “Budgetbekostiging vraagt maximale transparantie van ggz-aanbieders.”",
+    "published": "2026-02-26T12:57:44+00:00",
+    "collected": "2026-03-03T12:06:36.172906+00:00",
+    "category": "thought-leadership",
+    "tags": [
+      "GGZ",
+      "Transformatie",
+      "Data"
+    ],
+    "action_hint": "Thought leadership artikel over budgetbekostiging en transparantie in GGZ",
+    "summary_nl": "SiRM pleit voor snelle invoering budgetbekostiging in cruciale GGZ met maximale transparantie. Kans voor thought leadership over data governance en financiële transformatie.",
+    "priority": "high",
+    "id": "a7af71ba1c5bf9cd",
+    "source": {
+      "name": "Zorgvisie",
+      "type": "rss",
+      "url": "https://www.zorgvisie.nl"
+    },
+    "score": {
+      "total": 60,
+      "relevance": 20,
+      "urgency": 18,
+      "action_potential": 22,
+      "scored_by": "claude"
+    }
+  },
+  {
+    "url": "https://www.zorgvisie.nl/brabant-speelt-127-680-uur-vrij-door-zelfzorg-we-zien-zelfs-gaten-in-de-routes/",
+    "title": "Brabant speelt 127.680 uur vrij door zelfzorg: ‘We zien zelfs gaten in de routes’",
+    "summary": "De Brabantse aanpak om burgers simpele zorgtaken te laten uitvoeren, blijkt een succes. Alleen al met het zelfstandig oogdruppelen speelt de wijkverpleging jaarlijks 75 fte vrij voor essentiële zorg. “We hoeven geen nee meer te verkopen”, vertellen bestuurders Mireille de Wee en Agnes Klaren.",
+    "published": "2026-02-24T13:35:51+00:00",
+    "collected": "2026-03-03T12:06:36.172906+00:00",
+    "category": "innovatie",
+    "tags": [
+      "Data",
+      "Transformatie"
+    ],
+    "action_hint": "Benaderen Brabantse zorgorganisaties voor uitbreiden zelfzorg initiatieven met digitale oplossingen",
+    "summary_nl": "Brabant boekt succes met zelfzorg aanpak, bespaart 127.680 uur zorgpersoneel. Kans voor digitale zelfzorg platforms en analytics.",
+    "priority": "high",
+    "id": "52e3d2ecc6009aeb",
+    "source": {
+      "name": "Zorgvisie",
+      "type": "rss",
+      "url": "https://www.zorgvisie.nl"
+    },
+    "score": {
+      "total": 60,
+      "relevance": 25,
+      "urgency": 15,
+      "action_potential": 20,
+      "scored_by": "claude"
+    }
+  },
+  {
+    "url": "https://www.skipr.nl/nieuws/whitepaper-dit-wil-het-nieuwe-kabinet-met-de-zorg/",
+    "title": "Whitepaper | Dit wil het nieuwe kabinet met de zorg",
+    "summary": "Het nieuwe kabinet is beëdigd. De ploeg van premier Rob Jetten (D66) kan ‘aan de slag’, zoals de titel van het coalitieakkoord voorschrijft. Wat het kabinet voornemens is met de zorg, leest u terug in een nieuwe gratis whitepaper van Zorgvisie en Skipr: Dit wil het nieuwe kabinet met de zorg.",
+    "published": "2026-02-23T12:09:51+00:00",
+    "collected": "2026-03-03T12:06:36.172906+00:00",
+    "category": "overheid",
+    "tags": [
+      "VWS",
+      "Transformatie"
+    ],
+    "action_hint": "Whitepaper analyseren voor strategische positionering bij nieuw kabinet",
+    "summary_nl": "Nieuwe whitepaper beschrijft zorgplannen van kabinet-Jetten. Belangrijke input voor strategische positionering bij nieuwe regering.",
+    "priority": "high",
+    "id": "82370768a8441a3c",
+    "source": {
+      "name": "Skipr",
+      "type": "rss",
+      "url": "https://www.skipr.nl"
+    },
+    "score": {
+      "total": 60,
+      "relevance": 20,
+      "urgency": 22,
+      "action_potential": 18,
+      "scored_by": "claude"
+    }
+  },
+  {
+    "url": "https://nictiz.nl/nieuws/toestemming-kinderen-12-16-digitale-toegang-gezondheidszorg/",
+    "title": "Toestemming kinderen 12–16 bij digitale toegang tot zorg: adviesrapport uitgereikt",
+    "summary": "The post Toestemming kinderen 12–16 bij digitale toegang tot zorg: adviesrapport uitgereikt appeared first on Nictiz.",
+    "published": "2026-02-13T09:30:39+00:00",
+    "collected": "2026-03-03T12:06:36.172906+00:00",
+    "category": "innovatie",
+    "tags": [
+      "Data",
+      "Security"
+    ],
+    "action_hint": "Contact Nictiz voor samenwerking op digitale toegang en consent management oplossingen",
+    "summary_nl": "Nictiz publiceert adviesrapport over toestemming voor digitale zorgentoegang bij kinderen 12-16 jaar. Relevant voor consent management in digitale zorgplatformen.",
+    "priority": "high",
+    "id": "6fb6a3eacea36619",
+    "source": {
+      "name": "Nictiz",
+      "type": "rss",
+      "url": "https://www.nictiz.nl"
+    },
+    "score": {
+      "total": 60,
+      "relevance": 25,
+      "urgency": 15,
+      "action_potential": 20,
+      "scored_by": "claude"
+    }
+  },
+  {
+    "url": "https://www.zorgvisie.nl/nza-onduidelijk-of-budgetbekostiging-problemen-cruciale-ggz-oplost/",
+    "title": "NZa: onduidelijk of budgetbekostiging problemen cruciale ggz oplost",
+    "summary": "De Nederlandse Zorgautoriteit (NZa) heeft te weinig informatie om nu al een definitief advies te geven over budgetbekostiging in de cruciale ggz en stelt dat uit tot medio 2027. De Nederlandse ggz spreekt van een “klap in het gezicht”.",
+    "published": "2026-02-12T16:18:53+00:00",
+    "collected": "2026-03-03T12:06:36.172906+00:00",
+    "category": "overheid",
+    "tags": [
+      "GGZ",
+      "Transformatie"
+    ],
+    "action_hint": "Positioneren bij NZa en GGZ-instellingen voor toekomstige bekostigingsmodel transformaties",
+    "summary_nl": "NZa stelt advies over budgetbekostiging in cruciale GGZ uit tot 2027 wegens gebrek aan informatie. GGZ-sector reageert teleurgesteld.",
+    "priority": "high",
+    "id": "484595d3d7eccf3d",
+    "source": {
+      "name": "Zorgvisie",
+      "type": "rss",
+      "url": "https://www.zorgvisie.nl"
+    },
+    "score": {
+      "total": 60,
+      "relevance": 18,
+      "urgency": 20,
+      "action_potential": 22,
+      "scored_by": "claude"
+    }
+  },
+  {
+    "url": "https://www.zorgvisie.nl/profiel-sophie-hermans-probleemoplossend-scherp-en-niet-altijd-in-lijn-met-partij/",
+    "title": "Profiel Sophie Hermans: Probleemoplossend, scherp en niet altijd in lijn met partij",
+    "summary": "De nieuwe beoogde minister van Volksgezondheid, Welzijn en Sport, Sophie Hermans (VVD), blijkt een scherp denker te zijn die zich bij de eerste tekenen van corona al zorgen maakte over de vluchten van en naar China. Ook zag ze in 2018 nadelige effecten van de enorme opmars van het aantal zzp’ers in de zorg. Maar bij Buurtzorg sloeg ze de plank mis, dankzij partijgenoten.",
+    "published": "2026-02-10T12:34:08+00:00",
+    "collected": "2026-03-03T12:06:36.172906+00:00",
+    "category": "overheid",
+    "tags": [
+      "VWS"
+    ],
+    "action_hint": "Relatieopbouw voorbereiden met nieuwe VWS minister Sophie Hermans",
+    "summary_nl": "Profiel Sophie Hermans, nieuwe VWS minister. Scherp denker die vroeg corona-risico's zag en problemen met ZZP'ers in zorg onderkende.",
+    "priority": "high",
+    "id": "51a3c3c7459bb74d",
+    "source": {
+      "name": "Zorgvisie",
+      "type": "rss",
+      "url": "https://www.zorgvisie.nl"
+    },
+    "score": {
+      "total": 60,
+      "relevance": 15,
+      "urgency": 25,
+      "action_potential": 20,
+      "scored_by": "claude"
+    }
+  },
+  {
+    "url": "https://www.zorgvisie.nl/speciaal-team-moet-gebruik-medische-richtlijn-in-ziekenhuis-en-kliniek-versnellen/",
+    "title": "Speciaal team moet gebruik medische richtlijn in ziekenhuis en kliniek versnellen",
+    "summary": "Vijftien jaar duurt het gemiddeld voordat nieuwe richtlijnen bij alle zorgaanbieders ingevoerd zijn. Het programma Zorgevaluatie en Gepast Gebruik (ZE&#038;GG) wil dat ziekenhuizen en klinieken een implementatieteam opzetten om dit proces te versnellen.",
+    "published": "2025-12-16T11:11:32+00:00",
+    "collected": "2026-03-03T12:06:36.172906+00:00",
+    "category": "opportunity",
+    "tags": [
+      "Transformatie",
+      "Ziekenhuis"
+    ],
+    "action_hint": "Contact met ZE&GG programma voor ondersteuning implementatieteams",
+    "summary_nl": "Programma wil implementatieteams in ziekenhuizen voor snellere richtlijninvoering. Mogelijke kans voor change management ondersteuning.",
+    "priority": "high",
+    "id": "f1dfb4acedff94de",
+    "source": {
+      "name": "Zorgvisie",
+      "type": "rss",
+      "url": "https://www.zorgvisie.nl"
+    },
+    "score": {
+      "total": 60,
+      "relevance": 25,
+      "urgency": 15,
+      "action_potential": 20,
+      "scored_by": "claude"
+    }
+  },
+  {
+    "url": "https://nictiz.nl/nieuws/loinc-advies-denk-mee/",
+    "title": "Online sessie LOINC-advies: denk mee met Nictiz",
+    "summary": "The post Online sessie LOINC-advies: denk mee met Nictiz appeared first on Nictiz.",
+    "published": "2025-12-16T07:56:44+00:00",
+    "collected": "2026-03-03T12:06:36.172906+00:00",
+    "category": "thought-leadership",
+    "tags": [
+      "Data"
+    ],
+    "action_hint": "Deelname aan LOINC sessie voor data standaardisatie expertise",
+    "summary_nl": "Nictiz organiseert sessie over LOINC-standaarden. Relevant voor data governance en interoperabiliteit expertise.",
+    "priority": "high",
+    "id": "00b7ad0092554fd4",
+    "source": {
+      "name": "Nictiz",
+      "type": "rss",
+      "url": "https://www.nictiz.nl"
+    },
+    "score": {
+      "total": 60,
+      "relevance": 30,
+      "urgency": 15,
+      "action_potential": 15,
+      "scored_by": "claude"
+    }
+  },
+  {
+    "url": "https://nictiz.nl/nieuws/kennis-programma-digitale-toegang-nictiz-geborgd/",
+    "title": "Kennis Digitale Toegang bij Nictiz geborgd",
+    "summary": "The post Kennis Digitale Toegang bij Nictiz geborgd appeared first on Nictiz.",
+    "published": "2025-12-08T08:00:46+00:00",
+    "collected": "2026-03-03T12:06:36.172906+00:00",
+    "category": "overheid",
+    "tags": [
+      "Data",
+      "Transformatie"
+    ],
+    "action_hint": "Monitoren van Nictiz digitale toegang initiatieven voor mogelijke advisory opportunities",
+    "summary_nl": "Nictiz borgt kennis over digitale toegang in de zorg. Dit kan kansen bieden voor standaardisatie en interoperabiliteit projecten.",
+    "priority": "high",
+    "id": "0e8931464c688df4",
+    "source": {
+      "name": "Nictiz",
+      "type": "rss",
+      "url": "https://www.nictiz.nl"
+    },
+    "score": {
+      "total": 60,
+      "relevance": 25,
+      "urgency": 15,
+      "action_potential": 20,
+      "scored_by": "claude"
+    }
+  },
+  {
+    "url": "https://nictiz.nl/nieuws/hackathon-studenten-europese-databeschikbaarheid/",
+    "title": "Hackathon brengt studenten en Europese databeschikbaarheid samen",
+    "summary": "The post Hackathon brengt studenten en Europese databeschikbaarheid samen appeared first on Nictiz.",
+    "published": "2025-11-25T12:17:31+00:00",
+    "collected": "2026-03-03T12:06:36.172906+00:00",
+    "category": "thought-leadership",
+    "tags": [
+      "Data"
+    ],
+    "action_hint": "Europese databeschikbaarheid hackathon kan input geven voor EHDS advisory services",
+    "summary_nl": "Hackathon verbindt studenten met Europese databeschikbaarheid vraagstukken. Relevant voor EHDS en data governance expertise.",
+    "priority": "high",
+    "id": "b853c17cb878b65d",
+    "source": {
+      "name": "Nictiz",
+      "type": "rss",
+      "url": "https://www.nictiz.nl"
+    },
+    "score": {
+      "total": 60,
+      "relevance": 25,
+      "urgency": 15,
+      "action_potential": 20,
+      "scored_by": "claude"
+    }
+  },
+  {
+    "url": "https://nictiz.nl/nieuws/betere-acute-zorg-digitale-ambulanceverwijzing-huisartsenspoedpost/",
+    "title": "Betere acute zorg met digitale ambulanceverwijzing naar huisartsenspoedpost",
+    "summary": "The post Betere acute zorg met digitale ambulanceverwijzing naar huisartsenspoedpost appeared first on Nictiz.",
+    "published": "2025-09-25T11:18:35+00:00",
+    "collected": "2026-03-03T12:06:36.172906+00:00",
+    "category": "innovatie",
+    "tags": [
+      "Data",
+      "Transformatie"
+    ],
+    "action_hint": "Digitale ambulanceverwijzing kan input zijn voor acute zorg transformatie projecten",
+    "summary_nl": "Digitale ambulanceverwijzing naar huisartsenspoedpost verbetert acute zorg. Interessant voor zorgketen digitalisering.",
+    "priority": "high",
+    "id": "4b4411fcc1a6ba84",
+    "source": {
+      "name": "Nictiz",
+      "type": "rss",
+      "url": "https://www.nictiz.nl"
+    },
+    "score": {
+      "total": 60,
+      "relevance": 25,
+      "urgency": 15,
+      "action_potential": 20,
+      "scored_by": "claude"
+    }
+  },
+  {
+    "url": "https://www.skipr.nl/nieuws/opnieuw-miljoenenwinst-voor-chipsoft/",
+    "title": "Opnieuw miljoenenwinst voor ChipSoft",
+    "summary": "​Softwareleverancier Chipsoft heeft in 2024 een nettowinst geboekt van 66,9 miljoen euro op een omzet van 174,8 miljoen euro, meldt het Financieele Dagblad. De omzet steeg met bijna 18 procent, terwijl de winstmarge verbeterde tot ruim 38 procent.",
+    "published": "2026-02-26T14:22:03+00:00",
+    "collected": "2026-03-03T12:06:36.172906+00:00",
+    "category": "concurrent",
+    "tags": [
+      "EPD"
+    ],
+    "action_hint": "Competitive intelligence: ChipSoft sterke positie, kansen voor cloud/data transformaties naast EPD",
+    "summary_nl": "ChipSoft behaalt 67M euro nettowinst op 175M omzet, groei van 18%. Sterke marktpositie EPD-leverancier, mogelijke concurrent voor transformatieprogramma's.",
+    "priority": "medium",
+    "id": "eb97faa6ea0aad07",
+    "source": {
+      "name": "Skipr",
+      "type": "rss",
+      "url": "https://www.skipr.nl"
+    },
+    "score": {
+      "total": 58,
+      "relevance": 25,
+      "urgency": 15,
+      "action_potential": 18,
+      "scored_by": "claude"
+    }
+  },
+  {
+    "url": "https://www.icthealth.nl/nieuws/twee-projecten-gehonoreerd-binnen-doorgang-reguliere-zorg",
+    "title": "Twee projecten gehonoreerd binnen Doorgang Reguliere Zorg",
+    "summary": "Binnen het programma Doorgang Reguliere Zorg van ZonMw zijn twee nieuwe projecten gehonoreerd die zich richten op het waarborgen van reguliere medisch-specialistische zorg tijdens crises en personeelsschaarste. De projecten, afkomstig uit de eerste subsidieronde, focussen op het optimaliseren van op...",
+    "published": "2026-03-02T07:48:54+00:00",
+    "collected": "2026-03-03T12:06:36.172906+00:00",
+    "category": "overheid",
+    "tags": [
+      "Transformatie",
+      "VWS"
+    ],
+    "action_hint": "ZonMw programma volgen voor toekomstige aanbestedingen reguliere zorg optimalisatie",
+    "summary_nl": "ZonMw honoreert projecten voor optimalisatie reguliere zorg tijdens crises. Mogelijk toekomstige aanbestedingen voor digitale oplossingen.",
+    "priority": "medium",
+    "id": "eafb45b235727259",
+    "source": {
+      "name": "ICT&health",
+      "type": "rss",
+      "url": "https://www.icthealth.nl"
+    },
+    "score": {
+      "total": 57,
+      "relevance": 22,
+      "urgency": 15,
+      "action_potential": 20,
+      "scored_by": "claude"
+    }
+  },
+  {
+    "url": "https://www.skipr.nl/nieuws/carina-hilders-vertrekt-per-direct-bij-umc-utrecht/",
+    "title": "Gedwongen vertrek Carina Hilders bij UMC Utrecht",
+    "summary": "De raad van toezicht van UMC Utrecht kondigt het vertrek aan van prof. dr. Carina Hilders als voorzitter van de raad van bestuur, per 24 februari 2026.",
+    "published": "2026-02-24T12:06:25+00:00",
+    "collected": "2026-03-03T12:06:36.172906+00:00",
+    "category": "opportunity",
+    "tags": [
+      "Ziekenhuis",
+      "Transformatie"
+    ],
+    "action_hint": "Contact opnemen met interim-bestuur UMC Utrecht voor strategische IT-roadmap gesprekken",
+    "summary_nl": "Gedwongen vertrek bestuurder UMC Utrecht per februari 2026. Mogelijk momentum voor nieuwe strategische IT-initiatieven.",
+    "priority": "medium",
+    "id": "7e8dcd25a214fd74",
+    "source": {
+      "name": "Skipr",
+      "type": "rss",
+      "url": "https://www.skipr.nl"
+    },
+    "score": {
+      "total": 57,
+      "relevance": 15,
+      "urgency": 20,
+      "action_potential": 22,
+      "scored_by": "claude"
+    }
+  },
+  {
+    "url": "https://www.zorgvisie.nl/blijf-investeren-in-innovatie-in-gezondheid/",
+    "title": "‘Blijf investeren in innovatie in gezondheid’",
+    "summary": "Het innovatieklimaat voor geneesmiddelen in Europa, en in het bijzonder Nederland, verbeteren. Daar maken Jan Güse, head public affairs van Novartis Nederland, en Casper Paardekooper, partner bij Vintura, zich hard voor. Dat doen ze door stakeholders rond de tafel te brengen.",
+    "published": "2026-01-15T06:00:37+00:00",
+    "collected": "2026-03-03T12:06:36.172906+00:00",
+    "category": "thought-leadership",
+    "tags": [
+      "Transformatie"
+    ],
+    "action_hint": "Life sciences digitalisatie en innovatie-ecosysteem thought leadership kansen",
+    "summary_nl": "Novartis en Vintura pleiten voor verbetering van het Nederlandse innovatieklimaat voor geneesmiddelen. Focus op stakeholder-samenwerking.",
+    "priority": "medium",
+    "id": "8e3bc75196624f99",
+    "source": {
+      "name": "Zorgvisie",
+      "type": "rss",
+      "url": "https://www.zorgvisie.nl"
+    },
+    "score": {
+      "total": 57,
+      "relevance": 20,
+      "urgency": 15,
+      "action_potential": 22,
+      "scored_by": "claude"
+    }
+  },
+  {
+    "url": "https://www.zorgvisie.nl/guy-buck-stoppen-met-verplichte-dubbele-medicatiecontrole-is-een-no-brainer/",
+    "title": "Guy Buck: ‘Stoppen met verplichte dubbele medicatiecontrole is een no-brainer’",
+    "summary": "In navolging van Carintreggeland schafte Aafje op al haar locaties de verplichte dubbele medicatiecontrole af. De nieuwe werkwijze leverde in 2025 een tijdsbesparing van 12.424 uur op, zonder dat dit tot meer fouten leidt.",
+    "published": "2026-01-07T16:28:37+00:00",
+    "collected": "2026-03-03T12:06:36.172906+00:00",
+    "category": "thought-leadership",
+    "tags": [
+      "VVT",
+      "Transformatie"
+    ],
+    "action_hint": "Process optimization en digital transformation thought leadership rond medicatieprocessen",
+    "summary_nl": "Aafje schafte verplichte dubbele medicatiecontrole af en bespaarde 12.424 uur in 2025 zonder meer fouten. Volgt voorbeeld van Carintreggeland.",
+    "priority": "medium",
+    "id": "1b734da930d7f930",
+    "source": {
+      "name": "Zorgvisie",
+      "type": "rss",
+      "url": "https://www.zorgvisie.nl"
+    },
+    "score": {
+      "total": 57,
+      "relevance": 22,
+      "urgency": 15,
+      "action_potential": 20,
+      "scored_by": "claude"
+    }
+  },
+  {
+    "url": "https://www.icthealth.nl/nieuws/ai-hervormt-het-instrumentarium-voor-biomedisch-onderzoek",
+    "title": "AI hervormt het instrumentarium voor biomedisch onderzoek",
+    "summary": "Bij het Barcelona Supercomputing Center (BSC) – de thuisbasis van een van Europa's krachtigste supercomputers, MareNostrum 5 – past Davide Cirillo, hoofd van de Machine Learning for Biomedical Research Unit, kunstmatige intelligentie toe op onderzoek naar kanker, zeldzame ziekten, hart- en vaatziekt...",
+    "published": "2026-03-02T12:48:44+00:00",
+    "collected": "2026-03-03T12:06:36.172906+00:00",
+    "category": "thought-leadership",
+    "tags": [
+      "AI",
+      "Data"
+    ],
+    "action_hint": "Thought leadership artikel over AI in biomedisch onderzoek publiceren",
+    "summary_nl": "Barcelona Supercomputing Center gebruikt AI voor biomedisch onderzoek naar kanker en zeldzame ziekten. Goede inspiratie voor thought leadership content.",
+    "priority": "medium",
+    "id": "6407da33b8c372cd",
+    "source": {
+      "name": "ICT&health",
+      "type": "rss",
+      "url": "https://www.icthealth.nl"
+    },
+    "score": {
+      "total": 55,
+      "relevance": 25,
+      "urgency": 12,
+      "action_potential": 18,
+      "scored_by": "claude"
+    }
+  },
+  {
+    "url": "https://www.skipr.nl/nieuws/aankomend-minister-sterk-verwacht-complexe-opgave-om-zorg-betaalbaar-te-houden/",
+    "title": "Aankomend minister Sterk verwacht ‘complexe opgave’ om zorg betaalbaar te houden",
+    "summary": "Mirjam Sterk verwacht dat haar een 'complexe opgave' wacht als minister van Langdurige Zorg. \"Of de zorg in de toekomst ook houdbaar is, dat is het vraagstuk waar we voor staan,\" aldus de CDA'er.",
+    "published": "2026-02-19T19:03:27+00:00",
+    "collected": "2026-03-03T12:06:36.172906+00:00",
+    "category": "overheid",
+    "tags": [
+      "VVT",
+      "Transformatie"
+    ],
+    "action_hint": "Thought leadership en policy briefing over digital transformation als oplossing voor cost sustainability",
+    "summary_nl": "Nieuwe minister Langdurige Zorg verwacht complexe opgave voor betaalbare zorg. Kans voor digitale transformatie als oplossing.",
+    "priority": "medium",
+    "id": "101ea5441905a45a",
+    "source": {
+      "name": "Skipr",
+      "type": "rss",
+      "url": "https://www.skipr.nl"
+    },
+    "score": {
+      "total": 55,
+      "relevance": 12,
+      "urgency": 25,
+      "action_potential": 18,
+      "scored_by": "claude"
+    }
+  },
+  {
+    "url": "https://www.skipr.nl/nieuws/minder-uitstel-operaties-catharina-ziekenhuis-met-slimme-beddenplanning/",
+    "title": "Minder uitstel operaties Catharina Ziekenhuis met slimme beddenplanning",
+    "summary": "Een methode voor slimme beddenplanning leidt bij het Catharina Ziekenhuis tot soepelere doorstroming op de SEH en betere benutting van de OK.",
+    "published": "2026-02-17T09:41:32+00:00",
+    "collected": "2026-03-03T12:06:36.172906+00:00",
+    "category": "klant",
+    "tags": [
+      "Data",
+      "Ziekenhuis"
+    ],
+    "action_hint": "Verkenen of Catharina Ziekenhuis interesse heeft in uitbreiding van data analytics naar andere processen",
+    "summary_nl": "Catharina Ziekenhuis gebruikt slimme beddenplanning voor betere doorstroming SEH en OK-benutting. Mogelijk aanknopingspunt voor bredere data & analytics transformatie.",
+    "priority": "medium",
+    "id": "e399de3a3f0503c4",
+    "source": {
+      "name": "Skipr",
+      "type": "rss",
+      "url": "https://www.skipr.nl"
+    },
+    "score": {
+      "total": 55,
+      "relevance": 25,
+      "urgency": 12,
+      "action_potential": 18,
+      "scored_by": "claude"
+    }
+  },
+  {
+    "url": "https://www.zorgvisie.nl/profiel-mirjam-sterk-zakelijke-idealist-die-wars-is-van-systeemdenken/",
+    "title": "Profiel Mirjam Sterk: Zakelijke idealist, wars van systeemdenken",
+    "summary": "Mirjam Sterk, beoogd minister van langdurige zorg en jeugd, is een raspoliticus die geen tijd verspilt. Die vanuit een groen hart de dialoog aangaat en die wars is van het neoliberale systeemdenken. “Deze tijd vraagt om een politiek van de uitgestoken hand in plaats van een gebalde vuist”, aldus Sterk.",
+    "published": "2026-02-11T10:02:29+00:00",
+    "collected": "2026-03-03T12:06:36.172906+00:00",
+    "category": "overheid",
+    "tags": [
+      "VWS",
+      "VVT"
+    ],
+    "action_hint": "Stakeholder mapping en relatieopbouw voorbereiden met nieuwe minister langdurige zorg",
+    "summary_nl": "Profiel van Mirjam Sterk, beoogd minister van langdurige zorg en jeugd. Zakelijke idealist die wars is van neoliberaal systeemdenken.",
+    "priority": "medium",
+    "id": "755e9bd5a1dd049c",
+    "source": {
+      "name": "Zorgvisie",
+      "type": "rss",
+      "url": "https://www.zorgvisie.nl"
+    },
+    "score": {
+      "total": 55,
+      "relevance": 12,
+      "urgency": 25,
+      "action_potential": 18,
+      "scored_by": "claude"
+    }
+  },
+  {
+    "url": "https://www.zorgvisie.nl/stap-voorwaarts-wet-domeinoverstijgende-samenwerking-is-nu-van-kracht/",
+    "title": "Stap voorwaarts: Wet domeinoverstijgende samenwerking is nu van kracht",
+    "summary": "Op 1 januari 2026 is de Wet Domeinoverstijgende Samenwerking ingegaan. De wet stimuleert samenwerking tussen de Wmo, Zvw, en Wlz om de zorg thuis te verbeteren en dure Wlz-zorg te voorkomen.",
+    "published": "2026-01-09T12:35:50+00:00",
+    "collected": "2026-03-03T12:06:36.172906+00:00",
+    "category": "overheid",
+    "tags": [
+      "VWS",
+      "Transformatie"
+    ],
+    "action_hint": "Wet Domeinoverstijgende Samenwerking vraagt digitale integratie tussen Wmo, Zvw en Wlz systemen",
+    "summary_nl": "Wet Domeinoverstijgende Samenwerking is per 1 januari 2026 van kracht. Stimuleert samenwerking tussen Wmo, Zvw en Wlz voor betere thuiszorg.",
+    "priority": "medium",
+    "id": "8dd821430ce2c18e",
+    "source": {
+      "name": "Zorgvisie",
+      "type": "rss",
+      "url": "https://www.zorgvisie.nl"
+    },
+    "score": {
+      "total": 55,
+      "relevance": 20,
+      "urgency": 15,
+      "action_potential": 20,
+      "scored_by": "claude"
+    }
+  },
+  {
+    "url": "https://www.zorgvisie.nl/jan-den-boon-medisch-specialisten-hadden-in-de-lead-moeten-zijn-bij-de-concentratie/",
+    "title": "Jan den Boon: ‘Medisch specialisten hadden in de lead moeten zijn bij de concentratie’",
+    "summary": "Na twaalf jaar besturen nam Jan den Boon eind dit jaar afscheid van Medisch Spectrum Twente (MST). Het ziekenhuis staat aan de vooravond van een grote, ingrijpende samenwerking met Ziekenhuisgroep Twente (ZGT), maar voor Den Boon is de uitdaging eruit.",
+    "published": "2025-12-22T14:11:36+00:00",
+    "collected": "2026-03-03T12:06:36.172906+00:00",
+    "category": "opportunity",
+    "tags": [
+      "Transformatie",
+      "Ziekenhuis"
+    ],
+    "action_hint": "Contact met MST/ZGT voor ondersteuning bij fusie-integratie en IT-harmonisatie",
+    "summary_nl": "MST staat voor grote samenwerking met ZGT na vertrek bestuursvoorzitter. Potentiële kans voor fusie-integratieondersteuning.",
+    "priority": "medium",
+    "id": "015e1a4aec1ac50f",
+    "source": {
+      "name": "Zorgvisie",
+      "type": "rss",
+      "url": "https://www.zorgvisie.nl"
+    },
+    "score": {
+      "total": 55,
+      "relevance": 15,
+      "urgency": 20,
+      "action_potential": 20,
+      "scored_by": "claude"
+    }
+  },
+  {
+    "url": "https://www.zorgvisie.nl/wantrouwen-en-slecht-leiderschap-heersen-in-mumc/",
+    "title": "Wantrouwen en slecht leiderschap heersen in MUMC+",
+    "summary": "In grote delen van het Maastricht UMC+ heerst wantrouwen en sociale onveiligheid. Fouten worden niet aangekaart uit angst voor repercussies. De raad van bestuur neemt besluiten zonder toelichting, die vervolgens in twijfel worden getrokken en/of worden ondermijnd. Al deze problemen waren al bekend, maar er werd niks mee gedaan.",
+    "published": "2025-12-18T14:33:00+00:00",
+    "collected": "2026-03-03T12:06:36.172906+00:00",
+    "category": "klant",
+    "tags": [
+      "Transformatie"
+    ],
+    "action_hint": "Contact MUMC+ voor organisatie- en cultuurverandering traject",
+    "summary_nl": "MUMC+ heeft ernstige organisatieproblemen met wantrouwen en slecht leiderschap. Potentiële transformatieopdracht.",
+    "priority": "medium",
+    "id": "ff19f51d99c09881",
+    "source": {
+      "name": "Zorgvisie",
+      "type": "rss",
+      "url": "https://www.zorgvisie.nl"
+    },
+    "score": {
+      "total": 55,
+      "relevance": 15,
+      "urgency": 20,
+      "action_potential": 20,
+      "scored_by": "claude"
+    }
+  },
+  {
+    "url": "https://tweakers.net/reviews/13118/denkt-een-ai-model-in-het-engels-hoe-een-groot-taalmodel-van-binnen-werkt.html",
+    "title": "Denkt een AI-model in het Engels? - Hoe een groot taalmodel van binnen werkt",
+    "summary": "Hoe een groot taalmodel eigenlijk van binnen werkt, was lang een mysterie. Nieuw onderzoek wijst uit hoe een AI-model 'denkt' en dingen afweegt.",
+    "published": "2025-04-22T04:00:00+00:00",
+    "collected": "2026-03-03T12:06:36.172906+00:00",
+    "category": "thought-leadership",
+    "tags": [
+      "AI"
+    ],
+    "action_hint": "AI model 'denken' onderzoek kan input zijn voor AI thought leadership content",
+    "summary_nl": "Onderzoek naar hoe AI-modellen 'denken' en afwegen. Interessant voor AI thought leadership in healthcare.",
+    "priority": "medium",
+    "id": "d016c64e5b63a085",
+    "source": {
+      "name": "Tweakers",
+      "type": "rss",
+      "url": "https://tweakers.net"
+    },
+    "score": {
+      "total": 55,
+      "relevance": 20,
+      "urgency": 15,
+      "action_potential": 20,
+      "scored_by": "claude"
+    }
+  },
+  {
+    "url": "https://www.skipr.nl/nieuws/studie-filters-smartphonefotos-risico-voor-foute-diagnose/",
+    "title": "Studie: filters smartphonefoto’s risico voor foute diagnose",
+    "summary": "Huisartsen gebruiken foto's van patiënten vaak voor een eerste snelle beoordeling. Maar omdat smartphones steeds vaker filters gebruiken, wordt het risico op foute diagnoses groter.",
+    "published": "2026-02-26T11:08:31+00:00",
+    "collected": "2026-03-03T12:06:36.172906+00:00",
+    "category": "innovatie",
+    "tags": [
+      "AI"
+    ],
+    "action_hint": "AI-oplossing voor beeldanalyse in diagnostiek zonder filter-bias",
+    "summary_nl": "Smartphone filters verhogen risico foute diagnoses bij foto-beoordeling door huisartsen. Kans voor AI-oplossingen in medische beeldanalyse.",
+    "priority": "medium",
+    "id": "ea695c8def80183b",
+    "source": {
+      "name": "Skipr",
+      "type": "rss",
+      "url": "https://www.skipr.nl"
+    },
+    "score": {
+      "total": 54,
+      "relevance": 22,
+      "urgency": 12,
+      "action_potential": 20,
+      "scored_by": "claude"
+    }
+  },
+  {
+    "url": "https://www.skipr.nl/nieuws/zoveel-uur-bespaart-de-brabantse-vvt-met-zelfzorg/",
+    "title": "Zoveel uur bespaart de Brabantse vvt met zelfzorg",
+    "summary": "De Brabantse aanpak waarbij inwoners eenvoudige zorgtaken zelf uitvoeren, blijkt effectief. Alleen al het zelfstandig kunnen oogdruppelen levert de wijkverpleging jaarlijks zo’n 127.680 uur aan extra tijd op voor essentiële zorg. Ook de zelfzorgsprints voor het aantrekken van steunkousen en het verzorgend wassen laten veelbelovende resultaten zien.",
+    "published": "2026-02-25T14:56:37+00:00",
+    "collected": "2026-03-03T12:06:36.172906+00:00",
+    "category": "innovatie",
+    "tags": [
+      "VVT",
+      "Data"
+    ],
+    "action_hint": "Business case voor zelfzorg platforms en impact measurement",
+    "summary_nl": "Brabantse zelfzorg-aanpak bespaart 127.680 uur wijkverpleging door zelfstandig oogdruppelen. Kans voor digitale zelfzorg platformen en impact analytics.",
+    "priority": "medium",
+    "id": "2162e2e10f2a8c77",
+    "source": {
+      "name": "Skipr",
+      "type": "rss",
+      "url": "https://www.skipr.nl"
+    },
+    "score": {
+      "total": 54,
+      "relevance": 20,
+      "urgency": 12,
+      "action_potential": 22,
+      "scored_by": "claude"
+    }
+  },
+  {
+    "url": "https://www.zorgvisie.nl/leonard-witkamp-hef-dan-meteen-de-marktwerking-op/",
+    "title": "Leonard Witkamp: ‘Hef dan meteen de marktwerking op’",
+    "summary": "Oprichter van digitaal ziekenhuis Ksyos Leonard Witkamp reageert op de recente geluiden vanuit Zorgverzekeraars en ziekenhuizen om de concurrentiekrachten in de zorg te verminderen. “Ik vrees dat het IZA weggegooid geld is.”",
+    "published": "2025-12-23T12:49:36+00:00",
+    "collected": "2026-03-03T12:06:36.172906+00:00",
+    "category": "concurrent",
+    "tags": [
+      "Transformatie",
+      "Ziekenhuis"
+    ],
+    "action_hint": "Ksyos digitaal ziekenhuis model analyseren als competitive intelligence",
+    "summary_nl": "Oprichter digitaal ziekenhuis Ksyos over marktwerking in zorg. Concurrent met digitale ziekenhuis-model relevant voor market intelligence.",
+    "priority": "medium",
+    "id": "eca9cbfa08bddf17",
+    "source": {
+      "name": "Zorgvisie",
+      "type": "rss",
+      "url": "https://www.zorgvisie.nl"
+    },
+    "score": {
+      "total": 54,
+      "relevance": 22,
+      "urgency": 12,
+      "action_potential": 20,
+      "scored_by": "claude"
+    }
+  },
+  {
+    "url": "https://www.zorgvisie.nl/veldpartijen-pleiten-voor-structurele-financiering-voor-zorgzame-buurten/",
+    "title": "Veldpartijen pleiten voor structurele financiering voor zorgzame buurten",
+    "summary": "Burgerinitiatieven en zorgzame gemeenschappen stranden vaak vroegtijdig in het doolhof van beleid en systemen. “En de middelen die er wel zijn, bereiken nauwelijks de initiatieven zelf”, stelt Jan Smelik. In aanloop naar het VWS-begrotingsdebat pleiten Nederland Zorgt voor Elkaar en een coalitie van gemeenten, zorg-, welzijns- en woonpartijen en ouderenbonden voor structurele financiering.",
+    "published": "2026-03-02T17:05:48+00:00",
+    "collected": "2026-03-03T12:06:36.172906+00:00",
+    "category": "overheid",
+    "tags": [
+      "VWS",
+      "Transformatie"
+    ],
+    "action_hint": "Monitoring VWS begrotingsdebat voor nieuwe financieringsstromen en digitale zorg-initiatieven",
+    "summary_nl": "Pleidooi voor structurele financiering zorgzame buurten richting VWS begrotingsdebat. Mogelijk relevant voor digitale zorg-innovaties.",
+    "priority": "medium",
+    "id": "330ac6dd5bc1b76f",
+    "source": {
+      "name": "Zorgvisie",
+      "type": "rss",
+      "url": "https://www.zorgvisie.nl"
+    },
+    "score": {
+      "total": 53,
+      "relevance": 18,
+      "urgency": 20,
+      "action_potential": 15,
+      "scored_by": "claude"
+    }
+  },
+  {
+    "url": "https://www.zorgvisie.nl/achterhoekse-vvt-lanceert-alternatief-om-zzpers-en-andersgeschoolden-te-verleiden/",
+    "title": "Achterhoekse vvt lanceert alternatief om zzp’ers en andersgeschoolden te verleiden",
+    "summary": "Door starre roosters, diplomadenken en de afbouw van zzp’ers verliest de Achterhoek arbeidspotentieel. Daarom lanceren zes vvt-aanbieders een regionale flexpool en een laagdrempelig leerwerktraject. “Dit is een goed alternatief voor zzp’ers, dure uitzendkrachten en mensen die graag in de zorg willen werken”, vertelt kwartiermaker Maartje van Spijker.",
+    "published": "2026-02-25T15:39:05+00:00",
+    "collected": "2026-03-03T12:06:36.172906+00:00",
+    "category": "innovatie",
+    "tags": [
+      "VVT",
+      "Transformatie"
+    ],
+    "action_hint": "Digitaal platform voor regionale flexpool en workforce management",
+    "summary_nl": "Achterhoekse VVT-aanbieders starten regionale flexpool als alternatief voor ZZP'ers. Kans voor digitale workforce management platformen.",
+    "priority": "medium",
+    "id": "1a68d3a400f93123",
+    "source": {
+      "name": "Zorgvisie",
+      "type": "rss",
+      "url": "https://www.zorgvisie.nl"
+    },
+    "score": {
+      "total": 53,
+      "relevance": 18,
+      "urgency": 15,
+      "action_potential": 20,
+      "scored_by": "claude"
+    }
+  },
+  {
+    "url": "https://www.skipr.nl/nieuws/ggz-ingeest-en-arkin-verkennen-bestuurlijke-fusie/",
+    "title": "GGZ inGeest en Arkin verkennen bestuurlijke fusie",
+    "summary": "Ggz-instellingen GGZ inGeest en Arkin onderzoeken de mogelijkheid om per 1 januari 2027 bestuurlijk te fuseren.",
+    "published": "2026-02-25T09:52:51+00:00",
+    "collected": "2026-03-03T12:06:36.172906+00:00",
+    "category": "opportunity",
+    "tags": [
+      "GGZ",
+      "Transformatie"
+    ],
+    "action_hint": "Contact opnemen met beide GGZ-instellingen voor fusie-gerelateerde IT-transformatie behoeften",
+    "summary_nl": "GGZ inGeest en Arkin onderzoeken bestuurlijke fusie per 2027. Mogelijke kans voor IT-integratie en transformatie bij fusie.",
+    "priority": "medium",
+    "id": "1364fc0546746c82",
+    "source": {
+      "name": "Skipr",
+      "type": "rss",
+      "url": "https://www.skipr.nl"
+    },
+    "score": {
+      "total": 53,
+      "relevance": 20,
+      "urgency": 15,
+      "action_potential": 18,
+      "scored_by": "claude"
+    }
+  },
+  {
+    "url": "https://www.skipr.nl/nieuws/actiz-vereenvoudig-de-zorg-voor-ouderen-en-chronisch-zieken/",
+    "title": "ActiZ: ‘Vereenvoudig de zorg voor ouderen en chronisch zieken’",
+    "summary": "De bureaucratie in de zorg is doorgeslagen, zegt ActiZ. De branchevereniging in de ouderenzorg roept het nieuwe kabinet op tot eenvoud in wet- en regelgeving.",
+    "published": "2026-02-19T14:45:53+00:00",
+    "collected": "2026-03-03T12:06:36.172906+00:00",
+    "category": "overheid",
+    "tags": [
+      "VVT",
+      "Transformatie"
+    ],
+    "action_hint": "Thought leadership over digital transformation en process automation als oplossing voor bureaucratie",
+    "summary_nl": "ActiZ roept op tot vereenvoudiging zorgregulering en minder bureaucratie. Digitale transformatie kan bureaucratie verminderen.",
+    "priority": "medium",
+    "id": "ddd4cc416b230dd7",
+    "source": {
+      "name": "Skipr",
+      "type": "rss",
+      "url": "https://www.skipr.nl"
+    },
+    "score": {
+      "total": 53,
+      "relevance": 15,
+      "urgency": 20,
+      "action_potential": 18,
+      "scored_by": "claude"
+    }
+  },
+  {
+    "url": "https://www.zorgvisie.nl/zorg-dreigt-onderzoek-naar-chronorooster-te-verliezen-aan-commerciele-bedrijven/",
+    "title": "Zorg dreigt onderzoek naar chronorooster te verliezen aan commerciële bedrijven",
+    "summary": "De grondlegger van het ‘chronoroosteren’, adviseur Henk-Jan Messchendorp, denkt dat dit alternatief voor de nachtdienst bij commerciële partijen verder onderzocht moet worden. De uitgebreide procedures en de vele overleggen in de zorg maken vernieuwingen doorvoeren uitdagend. Dat terwijl de eerste resultaten in het Jeroen Bosch Ziekenhuis zo veelbelovend zijn.",
+    "published": "2025-12-14T08:00:10+00:00",
+    "collected": "2026-03-03T12:06:36.172906+00:00",
+    "category": "innovatie",
+    "tags": [
+      "Transformatie",
+      "Ziekenhuis"
+    ],
+    "action_hint": "Contact Jeroen Bosch Ziekenhuis voor chronorooster implementatie-ondersteuning",
+    "summary_nl": "Chronoroosteren toont veelbelovende resultaten maar moeilijke implementatie in zorg. Kans voor change management expertise.",
+    "priority": "medium",
+    "id": "5ce0f3ede5c0d91e",
+    "source": {
+      "name": "Zorgvisie",
+      "type": "rss",
+      "url": "https://www.zorgvisie.nl"
+    },
+    "score": {
+      "total": 53,
+      "relevance": 20,
+      "urgency": 15,
+      "action_potential": 18,
+      "scored_by": "claude"
+    }
+  },
+  {
+    "url": "https://www.skipr.nl/nieuws/nza-wijzigt-per-direct-regels-voor-de-zorginkoop/",
+    "title": "NZa wijzigt per direct regels voor de zorginkoop",
+    "summary": "De nieuwe Regeling Transparantie zorginkoopproces en de Handvatten Contractering die zorgaanbieders en zorgverzekeraars gebruiken, gaan per 1 maart 2026 in en gelden voor contracten die worden gesloten voor 2027 en de jaren daarna.",
+    "published": "2026-02-19T14:15:48+00:00",
+    "collected": "2026-03-03T12:06:36.172906+00:00",
+    "category": "overheid",
+    "tags": [
+      "Verzekeraar"
+    ],
+    "action_hint": "Monitor impact op zorginkoop digitale diensten en advisory over compliance",
+    "summary_nl": "NZa wijzigt regels zorginkoopproces per maart 2026 voor contracten vanaf 2027. Nieuwe regelgeving beïnvloedt zorginkoop.",
+    "priority": "medium",
+    "id": "f59480b5bb733309",
+    "source": {
+      "name": "Skipr",
+      "type": "rss",
+      "url": "https://www.skipr.nl"
+    },
+    "score": {
+      "total": 52,
+      "relevance": 12,
+      "urgency": 25,
+      "action_potential": 15,
+      "scored_by": "claude"
+    }
+  },
+  {
+    "url": "https://www.zorgvisie.nl/wat-de-nederlandse-zorg-kan-leren-van-finland/",
+    "title": "Wat de Nederlandse zorg kan leren van Finland",
+    "summary": "Ondanks een sneller verouderende samenleving dan Nederland, blijven de Finse zorgkosten relatief laag en de zelfstandigheid hoog. Zorgzame woonwijken worden ingericht en zorgprofessionals werken gelijkwaardig samen met het netwerk rond cliënten. Careyn-bestuursvoorzitter Chantal Beks en MantelzorgNL-bestuurder Esther Hendriks delen hun inzichten na een bezoek aan Finland.",
+    "published": "2026-02-10T11:09:20+00:00",
+    "collected": "2026-03-03T12:06:36.172906+00:00",
+    "category": "thought-leadership",
+    "tags": [
+      "Transformatie",
+      "VVT"
+    ],
+    "action_hint": "Benchmarking en best practices content ontwikkelen over Finse zorgmodel voor Nederlandse markt",
+    "summary_nl": "Finland houdt zorgkosten laag ondanks vergrijzing door zorgzame woonwijken en gelijkwaardige samenwerking. Nederlandse bestuurders delen inzichten na bezoek.",
+    "priority": "medium",
+    "id": "9281060b8478c564",
+    "source": {
+      "name": "Zorgvisie",
+      "type": "rss",
+      "url": "https://www.zorgvisie.nl"
+    },
+    "score": {
+      "total": 52,
+      "relevance": 20,
+      "urgency": 10,
+      "action_potential": 22,
+      "scored_by": "claude"
+    }
+  },
+  {
+    "url": "https://www.zorgvisie.nl/6500-minder-ligdagen-per-jaar-wza-icare-en-interzorg-starten-gezamenlijke-revalidatie/",
+    "title": "6.500 minder ligdagen per jaar: WZA, Icare en Interzorg starten gezamenlijke revalidatie",
+    "summary": "Icare, Interzorg en het Wilhelmina Ziekenhuis Assen bundelen voortaan hun krachten in de revalidatiezorg voor ouderen. Het doel: 6.500 minder ziekenhuis- en GRZ-ligdagen per jaar, geen wachtlijsten en snellere thuisrevalidatie. “Het jojo-effect van op- en afschalen is verdwenen”, vertelt Icare-bestuurder Dennis van Achthoven.",
+    "published": "2026-01-19T12:13:19+00:00",
+    "collected": "2026-03-03T12:06:36.172906+00:00",
+    "category": "klant",
+    "tags": [
+      "Ziekenhuis",
+      "Transformatie"
+    ],
+    "action_hint": "Contact WZA over hun samenwerkingsmodel en mogelijke uitbreiding naar digitale platforms",
+    "summary_nl": "Wilhelmina Ziekenhuis Assen start samenwerking in revalidatiezorg met doel van 6500 minder ligdagen per jaar. Interessante transformatie-case.",
+    "priority": "medium",
+    "id": "b92d7e2af3b80b44",
+    "source": {
+      "name": "Zorgvisie",
+      "type": "rss",
+      "url": "https://www.zorgvisie.nl"
+    },
+    "score": {
+      "total": 52,
+      "relevance": 22,
+      "urgency": 12,
+      "action_potential": 18,
+      "scored_by": "claude"
+    }
+  },
+  {
+    "url": "https://www.tenderned.nl/aankondigingen/overzicht/414122",
+    "title": "TENDER: Physical Identity & Access Management / Card Management System",
+    "summary": "Opdrachtgever: Universiteit Maastricht | Type: Leveringen | Procedure: Niet-openbaar | Algemene informatie Universiteit Maastricht\nDe Universiteit Maastricht (UM) staat in binnen- en buitenland bekend om haar unieke onderwijssysteem: het probleemgestuurde onderwijs (PGO). Bovendien profileert de UM zich door de sterk internationale ori",
+    "published": "2026-03-03T00:00:00+00:00",
+    "collected": "2026-03-03T12:06:50.773186+00:00",
+    "category": "opportunity",
+    "tags": [
+      "Security",
+      "Tender"
+    ],
+    "action_hint": null,
+    "summary_nl": "Universiteit Maastricht tender voor Physical Identity & Access Management systeem. Beperkte strategische waarde buiten zorgfocus.",
+    "priority": "medium",
+    "id": "c70bdfc8c5687c32",
+    "source": {
+      "name": "TenderNed",
+      "type": "api",
+      "url": "https://www.tenderned.nl"
+    },
+    "score": {
+      "total": 50,
+      "relevance": 20,
+      "urgency": 15,
+      "action_potential": 15,
+      "scored_by": "claude"
+    }
+  },
+  {
+    "url": "https://www.icthealth.nl/nieuws/blauwdruk-voor-duurzame-implementatie-van-vr-in-zorgonderwijs",
+    "title": "Blauwdruk voor duurzame implementatie van VR in zorgonderwijs",
+    "summary": "De druk op zorg en onderwijs neemt toe. Tekorten aan stageplaatsen, een krappe arbeidsmarkt en een groeiende zorgvraag dwingen opleiders om anders te kijken naar de voorbereiding van studenten op de praktijk. Simulatiegebaseerd leren met Virtual Reality (VR) wordt daarbij steeds vaker genoemd als ka...",
+    "published": "2026-03-02T08:01:53+00:00",
+    "collected": "2026-03-03T12:06:36.172906+00:00",
+    "category": "thought-leadership",
+    "tags": [
+      "AI",
+      "Transformatie"
+    ],
+    "action_hint": "Thought leadership over VR/AR implementatie in zorgonderwijs en training publiceren",
+    "summary_nl": "VR wordt ingezet voor zorgonderwijs bij tekort aan stageplaatsen. Kans voor thought leadership over immersive technologies in zorg.",
+    "priority": "medium",
+    "id": "44d259af5af5d597",
+    "source": {
+      "name": "ICT&health",
+      "type": "rss",
+      "url": "https://www.icthealth.nl"
+    },
+    "score": {
+      "total": 50,
+      "relevance": 20,
+      "urgency": 12,
+      "action_potential": 18,
+      "scored_by": "claude"
+    }
+  },
+  {
+    "url": "https://www.tenderned.nl/aankondigingen/overzicht/414013",
+    "title": "TENDER: Marktconsultatie m.b.t. de voorgenomen aanbesteding van de Landelijke monitor van het Nationaal Programma Grieppreventie (NPG) en het Nationaal Programma Pneumokokkenvaccinatie Volwassenen (NPPV)",
+    "summary": "Opdrachtgever: Rijksinstituut voor Volksgezondheid en Milieu (RIVM) | Type: Diensten | Het contract voor de jaarlijkse Landelijke monitor van het Nationaal Programma Grieppreventie (NPG) en het Nationaal Programma Pneumokokkenvaccinatie Volwassenen (NPPV) is eind 2026 beëindigd. RIVM wenst een nieuw overeenkomst te sluiten met 1 (één) ",
+    "published": "2026-03-01T00:00:00+00:00",
+    "collected": "2026-03-03T12:06:50.773186+00:00",
+    "category": "overheid",
+    "tags": [
+      "Data",
+      "VWS"
+    ],
+    "action_hint": "Deelnemen aan marktconsultatie om data analytics capabilities te presenteren voor nationale vaccinatiemonitoring",
+    "summary_nl": "RIVM doet marktconsultatie voor landelijke monitor griep- en pneumokokkenvaccinatie programma's. Kans voor data analytics expertise.",
+    "priority": "medium",
+    "id": "44e912b0682ecafd",
+    "source": {
+      "name": "TenderNed",
+      "type": "api",
+      "url": "https://www.tenderned.nl"
+    },
+    "score": {
+      "total": 50,
+      "relevance": 20,
+      "urgency": 15,
+      "action_potential": 15,
+      "scored_by": "claude"
+    }
+  },
+  {
+    "url": "https://www.skipr.nl/nieuws/gupta-raadt-huidige-budgetbekostiging-seh-af/",
+    "title": "Gupta raadt huidige budgetbekostiging SEH af",
+    "summary": "Het is onverstandig om de budgetbekostiging van de spoedeisende hulp in de huidige vorm door te zetten. Dat stelt adviesbureau Gupta Strategists. De “tussenstap richting een groeipad” die per 2027 wordt ingevoerd, draagt niet bij aan de doelen van Kabinet-Schoof en heeft ongewenste effecten.",
+    "published": "2026-02-23T15:39:33+00:00",
+    "collected": "2026-03-03T12:06:36.172906+00:00",
+    "category": "thought-leadership",
+    "tags": [
+      "Ziekenhuis",
+      "Transformatie"
+    ],
+    "action_hint": "Thought leadership positie innemen rond SEH-bekostiging en digitale optimalisatie",
+    "summary_nl": "Gupta Strategists adviseert tegen huidige budgetbekostiging SEH vanwege ongewenste effecten. Bekostigingsmodernisering biedt kansen voor digitale transformatie.",
+    "priority": "medium",
+    "id": "573e9967a8bdb1f7",
+    "source": {
+      "name": "Skipr",
+      "type": "rss",
+      "url": "https://www.skipr.nl"
+    },
+    "score": {
+      "total": 50,
+      "relevance": 15,
+      "urgency": 20,
+      "action_potential": 15,
+      "scored_by": "claude"
+    }
+  },
+  {
+    "url": "https://www.digitaleoverheid.nl/nieuws-nds/de-nds-staat-niet-stil-en-blijft-in-beweging/",
+    "title": "De NDS staat niet stil en blijft in beweging",
+    "summary": "Het ministerie van EZK wordt verantwoordelijk voor de NDS. De komende tijd wordt meer duidelijk over de verdeling. Tot dan gaat het werk op de ingeslagen weg voort. Het bericht De NDS staat niet stil en blijft in beweging verscheen eerst op Digitale Overheid.",
+    "published": "2026-02-19T13:18:56+00:00",
+    "collected": "2026-03-03T12:06:36.172906+00:00",
+    "category": "overheid",
+    "tags": [
+      "Transformatie"
+    ],
+    "action_hint": null,
+    "summary_nl": "Ministerie van EZK wordt verantwoordelijk voor de NDS, werk gaat voort op ingeslagen weg.",
+    "priority": "medium",
+    "id": "656f729eb5839008",
+    "source": {
+      "name": "Digitale Overheid",
+      "type": "rss",
+      "url": "https://www.digitaleoverheid.nl"
+    },
+    "score": {
+      "total": 50,
+      "relevance": 20,
+      "urgency": 15,
+      "action_potential": 15,
+      "scored_by": "claude"
+    }
+  }
+]

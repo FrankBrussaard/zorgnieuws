@@ -1,0 +1,93 @@
+# RSS Feed configuratie voor Zorgnieuws
+# Elke feed heeft: name, url, source_url, category, enabled
+
+feeds:
+  # Zorgsector nieuws - WERKEND
+  - name: Skipr
+    url: https://www.skipr.nl/feed/
+    source_url: https://www.skipr.nl
+    category: zorgsector
+    enabled: true
+
+  - name: ICT&health
+    url: https://www.icthealth.nl/feed/
+    source_url: https://www.icthealth.nl
+    category: zorg-it
+    enabled: true
+
+  - name: Zorgvisie
+    url: https://www.zorgvisie.nl/feed/
+    source_url: https://www.zorgvisie.nl
+    category: zorgmanagement
+    enabled: true
+
+  # Overheid & beleid - WERKEND
+  - name: Digitale Overheid
+    url: https://www.digitaleoverheid.nl/feed/
+    source_url: https://www.digitaleoverheid.nl
+    category: overheid
+    enabled: true
+
+  # Zorgorganisaties - WERKEND
+  - name: Nictiz
+    url: https://www.nictiz.nl/feed/
+    source_url: https://www.nictiz.nl
+    category: standaarden
+    enabled: true
+
+  # IT nieuws - WERKEND
+  - name: Tweakers
+    url: https://feeds.feedburner.com/tweakers/mixed
+    source_url: https://tweakers.net
+    category: it-nieuws
+    enabled: true
+
+  # Extra zorg-IT bronnen
+  - name: Computable Zorg
+    url: https://www.computable.nl/branche/zorg/rss
+    source_url: https://www.computable.nl
+    category: zorg-it
+    enabled: true
+
+  - name: AG Connect
+    url: https://www.agconnect.nl/rss.xml
+    source_url: https://www.agconnect.nl
+    category: it-nieuws
+    enabled: true
+
+  # NIET WERKEND - disabled (geen RSS meer of andere URL nodig)
+  - name: NOS Gezondheid
+    url: https://feeds.nos.nl/nosnieuwsgezondheid
+    source_url: https://nos.nl
+    category: algemeen
+    enabled: false  # Feed bestaat niet meer
+
+  - name: Rijksoverheid VWS
+    url: https://www.rijksoverheid.nl/ministeries/ministerie-van-volksgezondheid-welzijn-en-sport/rss
+    source_url: https://www.rijksoverheid.nl
+    category: overheid
+    enabled: false  # Geen geldig RSS format
+
+  - name: KNMG
+    url: https://www.knmg.nl/feed/
+    source_url: https://www.knmg.nl
+    category: zorgorganisatie
+    enabled: false  # Geen geldig RSS format
+
+  - name: NZa
+    url: https://www.nza.nl/rss
+    source_url: https://www.nza.nl
+    category: zorgautoriteit
+    enabled: false  # Retourneert HTML
+
+  - name: ZonMw
+    url: https://www.zonmw.nl/feed/
+    source_url: https://www.zonmw.nl
+    category: onderzoek
+    enabled: false  # XML parse error
+
+  - name: RIVM
+    url: https://www.rivm.nl/rss
+    source_url: https://www.rivm.nl
+    category: volksgezondheid
+    enabled: false  # Feed bestaat niet meer
