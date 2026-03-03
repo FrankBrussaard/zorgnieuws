@@ -92,6 +92,7 @@ def build_index_html(articles: list[dict], output_path: Path):
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Zorgnieuws</title>
     <link rel="stylesheet" href="style.css">
+    <script src="auth.js"></script>
 </head>
 <body>
     <header>
@@ -105,6 +106,7 @@ def build_index_html(articles: list[dict], output_path: Path):
             Laatst bijgewerkt: {datetime.now().strftime("%d %b %Y %H:%M")}
         </div>
         <button id="theme-toggle" class="theme-toggle" onclick="toggleDarkMode()" title="Toggle dark mode">🌙</button>
+        <button class="theme-toggle" onclick="siteLogout()" title="Uitloggen">🚪</button>
     </header>
 
     <main>
@@ -211,6 +213,7 @@ def build_prio_html(articles: list[dict], output_path: Path):
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hoogste Prio - Zorgnieuws</title>
     <link rel="stylesheet" href="style.css">
+    <script src="auth.js"></script>
 </head>
 <body>
     <header>
@@ -224,6 +227,7 @@ def build_prio_html(articles: list[dict], output_path: Path):
             Laatst bijgewerkt: {datetime.now().strftime("%d %b %Y %H:%M")}
         </div>
         <button id="theme-toggle" class="theme-toggle" onclick="toggleDarkMode()" title="Toggle dark mode">🌙</button>
+        <button class="theme-toggle" onclick="siteLogout()" title="Uitloggen">🚪</button>
     </header>
 
     <div class="stats-bar">
@@ -293,7 +297,7 @@ def build_site():
 
     # Copy static files
     static_dir = project_root / "generator" / "static"
-    for static_file in ["style.css", "filter.js", "settings.js"]:
+    for static_file in ["style.css", "filter.js", "settings.js", "auth.js"]:
         src = static_dir / static_file
         if src.exists():
             (docs_dir / static_file).write_text(src.read_text(encoding="utf-8"), encoding="utf-8")

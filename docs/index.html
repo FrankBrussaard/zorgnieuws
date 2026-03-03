@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Zorgnieuws</title>
     <link rel="stylesheet" href="style.css">
+    <script src="auth.js"></script>
 </head>
 <body>
     <header>
@@ -15,9 +16,10 @@
             <a href="settings.html">Instellingen</a>
         </nav>
         <div class="updated">
-            Laatst bijgewerkt: 03 Mar 2026 15:54
+            Laatst bijgewerkt: 03 Mar 2026 17:17
         </div>
         <button id="theme-toggle" class="theme-toggle" onclick="toggleDarkMode()" title="Toggle dark mode">🌙</button>
+        <button class="theme-toggle" onclick="siteLogout()" title="Uitloggen">🚪</button>
     </header>
 
     <main>
@@ -28,7 +30,7 @@
             <div class="content">
                 <a href="https://www.zorgvisie.nl/z-cert-zorgorganisaties-moeten-digitaal-noodpakket-hebben/" target="_blank" class="title">Z-CERT: Zorgorganisaties moeten digitaal noodpakket hebben</a>
                 <div class="meta">
-                    Zorgvisie · 2 uur geleden
+                    Zorgvisie · 4 uur geleden
                 </div>
                 <div class="tags">
                     <span class="category">thought-leadership</span> · <span class="tag">Security</span> · <span class="tag">Transformatie</span> · <span class="tag">Ziekenhuis</span> · Score: 80
@@ -40,7 +42,7 @@
             <div class="content">
                 <a href="https://www.skipr.nl/nieuws/zeker-10-succesvolle-cyberaanvallen-op-nederlandse-zorg-in-2025/" target="_blank" class="title">Zeker 10 succesvolle cyberaanvallen op Nederlandse zorg in 2025</a>
                 <div class="meta">
-                    Skipr · 2 uur geleden
+                    Skipr · 4 uur geleden
                 </div>
                 <div class="tags">
                     <span class="category">thought-leadership</span> · <span class="tag">Security</span> · <span class="tag">Transformatie</span> · <span class="tag">Ziekenhuis</span> · Score: 74
@@ -52,7 +54,7 @@
             <div class="content">
                 <a href="https://www.skipr.nl/nieuws/nederlandse-ai-platform-delphyr-haalt-175-miljoen-euro-op/" target="_blank" class="title">Nederlandse AI-platform Delphyr haalt 1,75 miljoen euro op</a>
                 <div class="meta">
-                    Skipr · 2 uur geleden
+                    Skipr · 4 uur geleden
                 </div>
                 <div class="tags">
                     <span class="category">concurrent</span> · <span class="tag">AI</span> · Score: 35
@@ -64,7 +66,7 @@
             <div class="content">
                 <a href="https://www.icthealth.nl/nieuws/ai-en-cameratechnologie-voor-vroegtijdige-detectie-van-complicaties" target="_blank" class="title">AI en cameratechnologie voor vroegtijdige detectie van complicaties</a>
                 <div class="meta">
-                    ICT&health · 3 uur geleden
+                    ICT&health · 5 uur geleden
                 </div>
                 <div class="tags">
                     <span class="category">innovatie</span> · <span class="tag">AI</span> · <span class="tag">Ziekenhuis</span> · Score: 61
@@ -76,7 +78,7 @@
             <div class="content">
                 <a href="https://www.icthealth.nl/nieuws/sociale-robot-maatje-wat-is-de-impact" target="_blank" class="title">Sociale robot Maatje: wat is de impact?</a>
                 <div class="meta">
-                    ICT&health · 4 uur geleden
+                    ICT&health · 6 uur geleden
                 </div>
                 <div class="tags">
                     <span class="category">innovatie</span> · <span class="tag">AI</span> · <span class="tag">VVT</span> · Score: 40
@@ -88,7 +90,7 @@
             <div class="content">
                 <a href="https://www.skipr.nl/nieuws/georgette-fijneman-benoemd-tot-ceo-pggm-pensioenservices/" target="_blank" class="title">Georgette Fijneman benoemd tot CEO PGGM Pensioenservices</a>
                 <div class="meta">
-                    Skipr · 5 uur geleden
+                    Skipr · 6 uur geleden
                 </div>
                 <div class="tags">
                     <span class="category">niet-relevant</span>
@@ -100,7 +102,7 @@
             <div class="content">
                 <a href="https://www.skipr.nl/nieuws/hospice-bronnerhof-en-zuyderland-care-starten-samenwerking/" target="_blank" class="title">Hospice Bronnerhof en Zuyderland CARE starten samenwerking</a>
                 <div class="meta">
-                    Skipr · 5 uur geleden
+                    Skipr · 6 uur geleden
                 </div>
                 <div class="tags">
                     <span class="category">niet-relevant</span> · Score: 13
@@ -112,7 +114,7 @@
             <div class="content">
                 <a href="https://www.skipr.nl/nieuws/fnv-agressie-tegen-zorg-en-welzijnsmedewerkers-is-onhoudbaar/" target="_blank" class="title">FNV: Agressie tegen zorg- en welzijnsmedewerkers is onhoudbaar</a>
                 <div class="meta">
-                    Skipr · 5 uur geleden
+                    Skipr · 7 uur geleden
                 </div>
                 <div class="tags">
                     <span class="category">niet-relevant</span>
@@ -124,7 +126,7 @@
             <div class="content">
                 <a href="https://www.skipr.nl/nieuws/steun-in-tweede-kamer-voor-extra-traumahelikopter-vliegveld-teuge/" target="_blank" class="title">Steun in Tweede Kamer voor extra traumahelikopter vliegveld Teuge</a>
                 <div class="meta">
-                    Skipr · 7 uur geleden
+                    Skipr · 8 uur geleden
                 </div>
                 <div class="tags">
                     <span class="category">niet-relevant</span>
@@ -136,7 +138,7 @@
             <div class="content">
                 <a href="https://www.zorgvisie.nl/de-rso-van-morgen-staat-en-de-rso-van-2031-dient-zich-nu-aan/" target="_blank" class="title">De RSO van morgen staat en de RSO van 2031 dient zich nu aan</a>
                 <div class="meta">
-                    Zorgvisie · 7 uur geleden
+                    Zorgvisie · 9 uur geleden
                 </div>
                 <div class="tags">
                     <span class="category">thought-leadership</span> · <span class="tag">Transformatie</span> · <span class="tag">Data</span> · Score: 75
@@ -148,7 +150,7 @@
             <div class="content">
                 <a href="https://www.icthealth.nl/nieuws/info-over-zorg-en-medicijnen-niet-altijd-als-even-toegankelijk-ervaren" target="_blank" class="title">Info over zorg en medicijnen niet altijd als even toegankelijk ervaren</a>
                 <div class="meta">
-                    ICT&health · 8 uur geleden
+                    ICT&health · 10 uur geleden
                 </div>
                 <div class="tags">
                     <span class="category">thought-leadership</span> · <span class="tag">Transformatie</span> · Score: 30
@@ -160,7 +162,7 @@
             <div class="content">
                 <a href="https://www.skipr.nl/partnernieuws/preventie-van-psychisch-verzuim-werkgevers-kunnen-nog-grote-voortgang-boeken/" target="_blank" class="title">Preventie van psychisch verzuim? Werkgevers kunnen nog grote voortgang boeken</a>
                 <div class="meta">
-                    Skipr · 8 uur geleden
+                    Skipr · 10 uur geleden
                 </div>
                 <div class="tags">
                     <span class="category">niet-relevant</span>
@@ -172,7 +174,7 @@
             <div class="content">
                 <a href="https://www.skipr.nl/nieuws/nu91-kabinet-neemt-bewust-risico-met-gezondheid-zorgprofessionals/" target="_blank" class="title">NU’91: ‘Kabinet neemt bewust risico met gezondheid zorgprofessionals’</a>
                 <div class="meta">
-                    Skipr · 9 uur geleden
+                    Skipr · 10 uur geleden
                 </div>
                 <div class="tags">
                     <span class="category">niet-relevant</span>
@@ -184,7 +186,7 @@
             <div class="content">
                 <a href="https://www.skipr.nl/nieuws/nieuwe-bestuurder-voor-sovak/" target="_blank" class="title">Nieuwe bestuurder voor SOVAK</a>
                 <div class="meta">
-                    Skipr · 9 uur geleden
+                    Skipr · 11 uur geleden
                 </div>
                 <div class="tags">
                     <span class="category">niet-relevant</span>
@@ -196,7 +198,7 @@
             <div class="content">
                 <a href="https://www.tenderned.nl/aankondigingen/overzicht/414123" target="_blank" class="title">TENDER: EA Managed SOC-dienstverlening UMC’s</a>
                 <div class="meta">
-                    TenderNed · 14 uur geleden
+                    TenderNed · 16 uur geleden
                 </div>
                 <div class="tags">
                     <span class="category">opportunity</span> · <span class="tag">Security</span> · <span class="tag">Tender</span> · <span class="tag">Ziekenhuis</span> · Score: 96
@@ -208,7 +210,7 @@
             <div class="content">
                 <a href="https://www.tenderned.nl/aankondigingen/overzicht/414132" target="_blank" class="title">TENDER: Aanschaf, realisatie en beheer van een nieuw primair processysteem t.b.v. de Raad voor de Kinderbescherming</a>
                 <div class="meta">
-                    TenderNed · 14 uur geleden
+                    TenderNed · 16 uur geleden
                 </div>
                 <div class="tags">
                     <span class="category">opportunity</span> · <span class="tag">Transformatie</span> · <span class="tag">Tender</span> · Score: 72
@@ -220,7 +222,7 @@
             <div class="content">
                 <a href="https://www.tenderned.nl/aankondigingen/overzicht/414122" target="_blank" class="title">TENDER: Physical Identity & Access Management / Card Management System</a>
                 <div class="meta">
-                    TenderNed · 14 uur geleden
+                    TenderNed · 16 uur geleden
                 </div>
                 <div class="tags">
                     <span class="category">opportunity</span> · <span class="tag">Security</span> · <span class="tag">Tender</span> · Score: 50
@@ -232,7 +234,7 @@
             <div class="content">
                 <a href="https://www.tenderned.nl/aankondigingen/overzicht/414064" target="_blank" class="title">TENDER: Europese aanbesteding Hardware en Serverruimte</a>
                 <div class="meta">
-                    TenderNed · 14 uur geleden
+                    TenderNed · 16 uur geleden
                 </div>
                 <div class="tags">
                     <span class="category">niet-relevant</span> · Score: 40
@@ -244,7 +246,7 @@
             <div class="content">
                 <a href="https://www.tenderned.nl/aankondigingen/overzicht/414067" target="_blank" class="title">TENDER: Software voor zaak- en document en klantcontact</a>
                 <div class="meta">
-                    TenderNed · 14 uur geleden
+                    TenderNed · 16 uur geleden
                 </div>
                 <div class="tags">
                     <span class="category">niet-relevant</span> · Score: 28
@@ -256,7 +258,7 @@
             <div class="content">
                 <a href="https://www.tenderned.nl/aankondigingen/overzicht/414058" target="_blank" class="title">TENDER: Onderhoud en beheer CRIS (Clientvolgsysteem)</a>
                 <div class="meta">
-                    TenderNed · 14 uur geleden
+                    TenderNed · 16 uur geleden
                 </div>
                 <div class="tags">
                     <span class="category">niet-relevant</span> · Score: 17
@@ -268,7 +270,7 @@
             <div class="content">
                 <a href="https://www.tenderned.nl/aankondigingen/overzicht/414059" target="_blank" class="title">TENDER: 31166457 Dubocalc-software</a>
                 <div class="meta">
-                    TenderNed · 14 uur geleden
+                    TenderNed · 16 uur geleden
                 </div>
                 <div class="tags">
                     <span class="category">niet-relevant</span> · Score: 15
@@ -280,7 +282,7 @@
             <div class="content">
                 <a href="https://www.tenderned.nl/aankondigingen/overzicht/414270" target="_blank" class="title">TENDER: Externe geconditioneerde opslag van samples (as-a-service)</a>
                 <div class="meta">
-                    TenderNed · 14 uur geleden
+                    TenderNed · 16 uur geleden
                 </div>
                 <div class="tags">
                     <span class="category">niet-relevant</span>
@@ -292,7 +294,7 @@
             <div class="content">
                 <a href="https://www.tenderned.nl/aankondigingen/overzicht/414224" target="_blank" class="title">TENDER: Landschapsarchitectuuropdracht Erasmus MC</a>
                 <div class="meta">
-                    TenderNed · 14 uur geleden
+                    TenderNed · 16 uur geleden
                 </div>
                 <div class="tags">
                     <span class="category">niet-relevant</span>
@@ -304,7 +306,7 @@
             <div class="content">
                 <a href="https://www.tenderned.nl/aankondigingen/overzicht/414204" target="_blank" class="title">TENDER: Marktconsultatie Groenonderhoud</a>
                 <div class="meta">
-                    TenderNed · 14 uur geleden
+                    TenderNed · 16 uur geleden
                 </div>
                 <div class="tags">
                     <span class="category">niet-relevant</span>
@@ -316,7 +318,7 @@
             <div class="content">
                 <a href="https://www.tenderned.nl/aankondigingen/overzicht/414118" target="_blank" class="title">TENDER: Request for Information - Maritime Data Environment (MDE)</a>
                 <div class="meta">
-                    TenderNed · 14 uur geleden
+                    TenderNed · 16 uur geleden
                 </div>
                 <div class="tags">
                     <span class="category">niet-relevant</span>
@@ -328,7 +330,7 @@
             <div class="content">
                 <a href="https://www.tenderned.nl/aankondigingen/overzicht/414114" target="_blank" class="title">TENDER: Europese aanbesteding DES, ballonkatheters en guidewires</a>
                 <div class="meta">
-                    TenderNed · 14 uur geleden
+                    TenderNed · 16 uur geleden
                 </div>
                 <div class="tags">
                     <span class="category">niet-relevant</span>
@@ -340,7 +342,7 @@
             <div class="content">
                 <a href="https://www.tenderned.nl/aankondigingen/overzicht/414099" target="_blank" class="title">TENDER: Europese aanbesteding multifunctionals</a>
                 <div class="meta">
-                    TenderNed · 14 uur geleden
+                    TenderNed · 16 uur geleden
                 </div>
                 <div class="tags">
                     <span class="category">niet-relevant</span>
@@ -352,7 +354,7 @@
             <div class="content">
                 <a href="https://www.tenderned.nl/aankondigingen/overzicht/414110" target="_blank" class="title">TENDER: Levering ICT Hardware met minicompetitie voor Stichting SchOOL</a>
                 <div class="meta">
-                    TenderNed · 14 uur geleden
+                    TenderNed · 16 uur geleden
                 </div>
                 <div class="tags">
                     <span class="category">niet-relevant</span>
@@ -364,7 +366,7 @@
             <div class="content">
                 <a href="https://www.tenderned.nl/aankondigingen/overzicht/414093" target="_blank" class="title">TENDER: IT Consultancy</a>
                 <div class="meta">
-                    TenderNed · 14 uur geleden
+                    TenderNed · 16 uur geleden
                 </div>
                 <div class="tags">
                     <span class="category">niet-relevant</span>
@@ -376,7 +378,7 @@
             <div class="content">
                 <a href="https://www.tenderned.nl/aankondigingen/overzicht/414080" target="_blank" class="title">TENDER: Brandverzekering t.b.v. Radboud Universiteit</a>
                 <div class="meta">
-                    TenderNed · 14 uur geleden
+                    TenderNed · 16 uur geleden
                 </div>
                 <div class="tags">
                     <span class="category">niet-relevant</span>
@@ -388,7 +390,7 @@
             <div class="content">
                 <a href="https://www.tenderned.nl/aankondigingen/overzicht/414069" target="_blank" class="title">TENDER: Groen-, Veeg- en Zwerfafval</a>
                 <div class="meta">
-                    TenderNed · 14 uur geleden
+                    TenderNed · 16 uur geleden
                 </div>
                 <div class="tags">
                     <span class="category">niet-relevant</span>
@@ -400,7 +402,7 @@
             <div class="content">
                 <a href="https://www.tenderned.nl/aankondigingen/overzicht/414057" target="_blank" class="title">TENDER: Chirurgische matten</a>
                 <div class="meta">
-                    TenderNed · 14 uur geleden
+                    TenderNed · 16 uur geleden
                 </div>
                 <div class="tags">
                     <span class="category">niet-relevant</span>
@@ -412,7 +414,7 @@
             <div class="content">
                 <a href="https://www.tenderned.nl/aankondigingen/overzicht/414047" target="_blank" class="title">TENDER: Vrijwillige transparantie laboratoriumonderzoek</a>
                 <div class="meta">
-                    TenderNed · 14 uur geleden
+                    TenderNed · 16 uur geleden
                 </div>
                 <div class="tags">
                     <span class="category">niet-relevant</span>
@@ -424,7 +426,7 @@
             <div class="content">
                 <a href="https://www.tenderned.nl/aankondigingen/overzicht/414040" target="_blank" class="title">TENDER: 31137444: het meerjarig in stand houden van, monitoren van en informeren over de toestand van het areaal, met upgradewerkzaamheden, in het beheergebied van RWS Zee & Delta, district Zuid</a>
                 <div class="meta">
-                    TenderNed · 14 uur geleden
+                    TenderNed · 16 uur geleden
                 </div>
                 <div class="tags">
                     <span class="category">niet-relevant</span>
@@ -436,7 +438,7 @@
             <div class="content">
                 <a href="https://www.tenderned.nl/aankondigingen/overzicht/414038" target="_blank" class="title">TENDER: 31188170: Groot Onderhoud Noord Nederland 25-26 West</a>
                 <div class="meta">
-                    TenderNed · 14 uur geleden
+                    TenderNed · 16 uur geleden
                 </div>
                 <div class="tags">
                     <span class="category">niet-relevant</span>
@@ -448,7 +450,7 @@
             <div class="content">
                 <a href="https://www.skipr.nl/nieuws/poll-zorg-moet-stoppen-met-chatgpt-na-dubieuze-deal-met-pentagon/" target="_blank" class="title">Poll | De zorg moet stoppen met ChatGPT na dubieuze deal met Pentagon</a>
                 <div class="meta">
-                    Skipr · 18 uur geleden
+                    Skipr · 19 uur geleden
                 </div>
                 <div class="tags">
                     <span class="category">thought-leadership</span> · <span class="tag">AI</span> · <span class="tag">Security</span> · <span class="tag">Ziekenhuis</span> · Score: 72
@@ -460,7 +462,7 @@
             <div class="content">
                 <a href="https://www.skipr.nl/nieuws/universiteitsraad-wil-geen-fusie-mumc-en-universiteit-maastricht/" target="_blank" class="title">Universiteitsraad wil geen fusie MUMC+ en Universiteit Maastricht</a>
                 <div class="meta">
-                    Skipr · 21 uur geleden
+                    Skipr · 22 uur geleden
                 </div>
                 <div class="tags">
                     <span class="category">klant</span> · <span class="tag">Transformatie</span> · <span class="tag">Ziekenhuis</span> · Score: 65
@@ -472,7 +474,7 @@
             <div class="content">
                 <a href="https://www.zorgvisie.nl/fusie-tussen-mumc-en-universiteit-maastricht/" target="_blank" class="title">Bestuurlijke fusie tussen MUMC+ en Universiteit Maastricht is niet zomaar geregeld</a>
                 <div class="meta">
-                    Zorgvisie · 21 uur geleden
+                    Zorgvisie · 22 uur geleden
                 </div>
                 <div class="tags">
                     <span class="category">klant</span> · <span class="tag">Transformatie</span> · <span class="tag">Ziekenhuis</span> · Score: 65
@@ -484,7 +486,7 @@
             <div class="content">
                 <a href="https://www.zorgvisie.nl/veldpartijen-pleiten-voor-structurele-financiering-voor-zorgzame-buurten/" target="_blank" class="title">Veldpartijen pleiten voor structurele financiering voor zorgzame buurten</a>
                 <div class="meta">
-                    Zorgvisie · 21 uur geleden
+                    Zorgvisie · 23 uur geleden
                 </div>
                 <div class="tags">
                     <span class="category">overheid</span> · <span class="tag">VWS</span> · <span class="tag">Transformatie</span> · Score: 53
@@ -496,7 +498,7 @@
             <div class="content">
                 <a href="https://www.skipr.nl/nieuws/zuyderland-start-nieuwe-spoedpoli-voor-mdl-patienten/" target="_blank" class="title">Zuyderland start nieuwe spoedpoli voor MDL-patiënten</a>
                 <div class="meta">
-                    Skipr · 23 uur geleden
+                    Skipr · 1 dagen geleden
                 </div>
                 <div class="tags">
                     <span class="category">niet-relevant</span> · Score: 18

@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Instellingen - Zorgnieuws</title>
     <link rel="stylesheet" href="style.css">
+    <script src="auth.js"></script>
     <style>
         [data-theme="dark"] .login-container,
         [data-theme="dark"] .settings-container {
@@ -182,6 +183,7 @@
             <a href="settings.html" class="active">Instellingen</a>
         </nav>
         <button id="theme-toggle" class="theme-toggle" onclick="toggleDarkMode()" title="Toggle dark mode">🌙</button>
+        <button class="theme-toggle" onclick="siteLogout()" title="Uitloggen">🚪</button>
     </header>
     <script>
         function toggleDarkMode() {

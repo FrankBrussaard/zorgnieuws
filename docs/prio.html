@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hoogste Prio - Zorgnieuws</title>
     <link rel="stylesheet" href="style.css">
+    <script src="auth.js"></script>
 </head>
 <body>
     <header>
@@ -15,9 +16,10 @@
             <a href="settings.html">Instellingen</a>
         </nav>
         <div class="updated">
-            Laatst bijgewerkt: 03 Mar 2026 15:54
+            Laatst bijgewerkt: 03 Mar 2026 17:17
         </div>
         <button id="theme-toggle" class="theme-toggle" onclick="toggleDarkMode()" title="Toggle dark mode">🌙</button>
+        <button class="theme-toggle" onclick="siteLogout()" title="Uitloggen">🚪</button>
     </header>
 
     <div class="stats-bar">
@@ -47,7 +49,7 @@
             <div class="content">
                 <a href="https://www.tenderned.nl/aankondigingen/overzicht/414123" target="_blank" class="title">TENDER: EA Managed SOC-dienstverlening UMC’s</a>
                 <div class="meta">
-                    TenderNed · 14 uur geleden
+                    TenderNed · 16 uur geleden
                 </div>
                 <div class="summary">UMC's besteden gezamenlijk managed SOC-diensten aan via UMCNL. Grote strategische cybersecurity opportunity.</div>
                 <div class="action-hint">→ Directe deelname aan UMC managed SOC tender via UMCNL</div>
@@ -212,7 +214,7 @@
             <div class="content">
                 <a href="https://www.zorgvisie.nl/z-cert-zorgorganisaties-moeten-digitaal-noodpakket-hebben/" target="_blank" class="title">Z-CERT: Zorgorganisaties moeten digitaal noodpakket hebben</a>
                 <div class="meta">
-                    Zorgvisie · 2 uur geleden
+                    Zorgvisie · 4 uur geleden
                 </div>
                 <div class="summary">Z-CERT roept zorgorganisaties op tot digitale noodpakketten na 10 succesvolle cyberaanvallen in 2025. Kans voor Accenture om expertise in cybersecurity transformatie te tonen.</div>
                 <div class="action-hint">→ Thought leadership article schrijven over digitale noodpakketten en business continuity in zorg</div>
@@ -317,7 +319,7 @@
             <div class="content">
                 <a href="https://www.zorgvisie.nl/de-rso-van-morgen-staat-en-de-rso-van-2031-dient-zich-nu-aan/" target="_blank" class="title">De RSO van morgen staat en de RSO van 2031 dient zich nu aan</a>
                 <div class="meta">
-                    Zorgvisie · 7 uur geleden
+                    Zorgvisie · 9 uur geleden
                 </div>
                 <div class="summary">Artikel over ontwikkeling Regionale Service Organisaties naar 2031 toont kansen voor digitale samenwerking. Strategische thought leadership kans.</div>
                 <div class="action-hint">→ Thought leadership over toekomst RSO en regionale zorgdata-uitwisseling</div>
@@ -467,7 +469,7 @@
             <div class="content">
                 <a href="https://www.skipr.nl/nieuws/zeker-10-succesvolle-cyberaanvallen-op-nederlandse-zorg-in-2025/" target="_blank" class="title">Zeker 10 succesvolle cyberaanvallen op Nederlandse zorg in 2025</a>
                 <div class="meta">
-                    Skipr · 2 uur geleden
+                    Skipr · 4 uur geleden
                 </div>
                 <div class="summary">Minstens 10 succesvolle cyberaanvallen op Nederlandse zorg bevestigt urgentie van cybersecurity transformatie. Directe kans voor security consulting.</div>
                 <div class="action-hint">→ Proactief benaderen van zorgorganisaties voor cybersecurity assessment en Zero Trust roadmap</div>
@@ -512,7 +514,7 @@
             <div class="content">
                 <a href="https://www.tenderned.nl/aankondigingen/overzicht/414132" target="_blank" class="title">TENDER: Aanschaf, realisatie en beheer van een nieuw primair processysteem t.b.v. de Raad voor de Kinderbescherming</a>
                 <div class="meta">
-                    TenderNed · 14 uur geleden
+                    TenderNed · 16 uur geleden
                 </div>
                 <div class="summary">Raad voor Kinderbescherming zoekt nieuw primair processysteem via concurrentiegerichte dialoog. Strategische enterprise platform kans.</div>
                 <div class="action-hint">→ Participeren in tender voor primair processysteem Raad Kinderbescherming</div>
@@ -527,7 +529,7 @@
             <div class="content">
                 <a href="https://www.skipr.nl/nieuws/poll-zorg-moet-stoppen-met-chatgpt-na-dubieuze-deal-met-pentagon/" target="_blank" class="title">Poll | De zorg moet stoppen met ChatGPT na dubieuze deal met Pentagon</a>
                 <div class="meta">
-                    Skipr · 18 uur geleden
+                    Skipr · 19 uur geleden
                 </div>
                 <div class="summary">Discussie over ChatGPT-gebruik in zorg na dubieuze deal met Pentagon. Kans voor thought leadership over AI-governance in healthcare.</div>
                 <div class="action-hint">→ Position paper schrijven over verantwoord AI-gebruik in zorg en governance frameworks</div>
@@ -542,7 +544,7 @@
             <div class="content">
                 <a href="https://www.zorgvisie.nl/geld-over-onverwacht-geluk-voor-twee-transformatieplannen/" target="_blank" class="title">Geld over: onverwacht geluk voor twee transformatieplannen</a>
                 <div class="meta">
-                    Zorgvisie · 4 dagen geleden
+                    Zorgvisie · 5 dagen geleden
                 </div>
                 <div class="summary">Twee transformatieplannen krijgen onverwacht 11 miljoen euro IZA-geld. Directe opportunity voor grote transformatieprogramma's.</div>
                 <div class="action-hint">→ Identificeer welke transformatieplannen extra IZA-geld krijgen en benaderen</div>
@@ -797,7 +799,7 @@
             <div class="content">
                 <a href="https://www.skipr.nl/nieuws/universiteitsraad-wil-geen-fusie-mumc-en-universiteit-maastricht/" target="_blank" class="title">Universiteitsraad wil geen fusie MUMC+ en Universiteit Maastricht</a>
                 <div class="meta">
-                    Skipr · 21 uur geleden
+                    Skipr · 22 uur geleden
                 </div>
                 <div class="summary">MUMC+ fusievoorstel met Universiteit Maastricht afgekeurd door universiteitsraad. Mogelijke kans voor organisatietransformatie advies.</div>
                 <div class="action-hint">→ Contact met MUMC+ bestuur over organisationele transformatie en change management ondersteuning</div>
@@ -812,7 +814,7 @@
             <div class="content">
                 <a href="https://www.zorgvisie.nl/fusie-tussen-mumc-en-universiteit-maastricht/" target="_blank" class="title">Bestuurlijke fusie tussen MUMC+ en Universiteit Maastricht is niet zomaar geregeld</a>
                 <div class="meta">
-                    Zorgvisie · 21 uur geleden
+                    Zorgvisie · 22 uur geleden
                 </div>
                 <div class="summary">MUMC+ fusievoorstel met Universiteit Maastricht afgekeurd door universiteitsraad. Mogelijke kans voor organisatietransformatie advies.</div>
                 <div class="action-hint">→ Contact met MUMC+ bestuur over organisationele transformatie en change management ondersteuning</div>
@@ -917,7 +919,7 @@
             <div class="content">
                 <a href="https://www.icthealth.nl/nieuws/ai-en-cameratechnologie-voor-vroegtijdige-detectie-van-complicaties" target="_blank" class="title">AI en cameratechnologie voor vroegtijdige detectie van complicaties</a>
                 <div class="meta">
-                    ICT&health · 3 uur geleden
+                    ICT&health · 5 uur geleden
                 </div>
                 <div class="summary">Catharina Ziekenhuis implementeert AI-cameratechnologie voor contactloze monitoring hartpatiënten. Kans voor AI-partnerships.</div>
                 <div class="action-hint">→ Contact Catharina Ziekenhuis voor samenwerking in AI-innovatie projecten</div>
@@ -1322,7 +1324,7 @@
             <div class="content">
                 <a href="https://www.skipr.nl/nieuws/zoveel-uur-bespaart-de-brabantse-vvt-met-zelfzorg/" target="_blank" class="title">Zoveel uur bespaart de Brabantse vvt met zelfzorg</a>
                 <div class="meta">
-                    Skipr · 5 dagen geleden
+                    Skipr · 6 dagen geleden
                 </div>
                 <div class="summary">Brabantse zelfzorg-aanpak bespaart 127.680 uur wijkverpleging door zelfstandig oogdruppelen. Kans voor digitale zelfzorg platformen en impact analytics.</div>
                 <div class="action-hint">→ Business case voor zelfzorg platforms en impact measurement</div>
@@ -1352,7 +1354,7 @@
             <div class="content">
                 <a href="https://www.zorgvisie.nl/veldpartijen-pleiten-voor-structurele-financiering-voor-zorgzame-buurten/" target="_blank" class="title">Veldpartijen pleiten voor structurele financiering voor zorgzame buurten</a>
                 <div class="meta">
-                    Zorgvisie · 21 uur geleden
+                    Zorgvisie · 23 uur geleden
                 </div>
                 <div class="summary">Pleidooi voor structurele financiering zorgzame buurten richting VWS begrotingsdebat. Mogelijk relevant voor digitale zorg-innovaties.</div>
                 <div class="action-hint">→ Monitoring VWS begrotingsdebat voor nieuwe financieringsstromen en digitale zorg-initiatieven</div>
@@ -1367,7 +1369,7 @@
             <div class="content">
                 <a href="https://www.zorgvisie.nl/achterhoekse-vvt-lanceert-alternatief-om-zzpers-en-andersgeschoolden-te-verleiden/" target="_blank" class="title">Achterhoekse vvt lanceert alternatief om zzp’ers en andersgeschoolden te verleiden</a>
                 <div class="meta">
-                    Zorgvisie · 5 dagen geleden
+                    Zorgvisie · 6 dagen geleden
                 </div>
                 <div class="summary">Achterhoekse VVT-aanbieders starten regionale flexpool als alternatief voor ZZP'ers. Kans voor digitale workforce management platformen.</div>
                 <div class="action-hint">→ Digitaal platform voor regionale flexpool en workforce management</div>
@@ -1472,7 +1474,7 @@
             <div class="content">
                 <a href="https://www.tenderned.nl/aankondigingen/overzicht/414122" target="_blank" class="title">TENDER: Physical Identity & Access Management / Card Management System</a>
                 <div class="meta">
-                    TenderNed · 14 uur geleden
+                    TenderNed · 16 uur geleden
                 </div>
                 <div class="summary">Universiteit Maastricht tender voor Physical Identity & Access Management systeem. Beperkte strategische waarde buiten zorgfocus.</div>
                 
