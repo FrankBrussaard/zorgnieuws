@@ -100,6 +100,8 @@ def build_index_html(articles: list[dict], output_path: Path):
         <nav>
             <a href="index.html" class="active">Alles</a>
             <a href="prio.html">Hoogste Prio</a>
+            <a href="linkedin.html">LinkedIn</a>
+            <a href="admin.html">Admin</a>
             <a href="settings.html">Instellingen</a>
         </nav>
         <div class="updated">
@@ -221,6 +223,8 @@ def build_prio_html(articles: list[dict], output_path: Path):
         <nav>
             <a href="index.html">Alles</a>
             <a href="prio.html" class="active">Hoogste Prio</a>
+            <a href="linkedin.html">LinkedIn</a>
+            <a href="admin.html">Admin</a>
             <a href="settings.html">Instellingen</a>
         </nav>
         <div class="updated">
@@ -303,12 +307,25 @@ def build_site():
             (docs_dir / static_file).write_text(src.read_text(encoding="utf-8"), encoding="utf-8")
             print(f"Copied {static_file}")
 
-    # Copy settings page
+    # Copy template pages
     templates_dir = project_root / "generator" / "templates"
-    settings_src = templates_dir / "settings.html"
-    if settings_src.exists():
-        (docs_dir / "settings.html").write_text(settings_src.read_text(encoding="utf-8"), encoding="utf-8")
-        print("Copied settings.html")
+    for template_file in ["settings.html", "admin.html", "linkedin.html"]:
+        src = templates_dir / template_file
+        if src.exists():
+            (docs_dir / template_file).write_text(src.read_text(encoding="utf-8"), encoding="utf-8")
+            print(f"Copied {template_file}")
+
+    # Copy LinkedIn data files if they exist
+    linkedin_posts = data_dir / "linkedin_posts.json"
+    if linkedin_posts.exists():
+        (docs_dir / "linkedin_posts.json").write_text(linkedin_posts.read_text(encoding="utf-8"), encoding="utf-8")
+        print("Copied linkedin_posts.json")
+
+    # Copy owners config for admin page
+    owners_config = project_root / "config" / "owners.json"
+    if owners_config.exists():
+        (docs_dir / "owners.json").write_text(owners_config.read_text(encoding="utf-8"), encoding="utf-8")
+        print("Copied owners.json")
 
     # Generate JSON feed
     feed_file = docs_dir / "feed.json"

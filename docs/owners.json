@@ -1,0 +1,52 @@
+{
+  "global_prompt": "Schrijf als senior Accenture consultant in de Nederlandse zorg. Tone: thought leader, data-driven, persoonlijk maar met Accenture autoriteit. Gebruik concrete cijfers waar mogelijk. Structuur: hook → context → insight → visie → call-to-action. Max 1300 tekens.",
+  "score_threshold": 80,
+  "owners": [
+    {
+      "tag": "EPD",
+      "name": "Jan de Vries",
+      "email": "j.devries@accenture.com",
+      "prompt_hint": "Focus op HiX en Epic implementaties, EPD-transformaties in Nederlandse ziekenhuizen"
+    },
+    {
+      "tag": "AI",
+      "name": "Sara Bakker",
+      "email": "s.bakker@accenture.com",
+      "prompt_hint": "Klinische AI, responsible AI in de zorg, generative AI toepassingen"
+    },
+    {
+      "tag": "Security",
+      "name": "Tom Hendriks",
+      "email": "t.hendriks@accenture.com",
+      "prompt_hint": "NEN 7510, NIS2, cybersecurity in zorginstellingen, Zero Trust"
+    },
+    {
+      "tag": "Data",
+      "name": "Pieter Smit",
+      "email": "p.smit@accenture.com",
+      "prompt_hint": "Data platforms, analytics, population health management, real-world evidence"
+    },
+    {
+      "tag": "Cloud",
+      "name": "Ahmed Yilmaz",
+      "email": "a.yilmaz@accenture.com",
+      "prompt_hint": "Azure Health, cloud transformaties, MSZ naar cloud migraties"
+    },
+    {
+      "tag": "Transformatie",
+      "name": "Lisa van Dam",
+      "email": "l.vandam@accenture.com",
+      "prompt_hint": "Digitale transformatie programmas, operating model, agile in de zorg"
+    },
+    {
+      "tag": "Tender",
+      "name": "Marie Jansen",
+      "email": "m.jansen@accenture.com",
+      "prompt_hint": "Aanbestedingen, pursuit lead, grote zorg-IT tenders"
+    }
+  ],
+  "fallback_owner": {
+    "name": "Frank Brussaard",
+    "email": "f.brussaard@accenture.com"
+  }
+}

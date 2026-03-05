@@ -11,6 +11,7 @@ on:
       - 'collectors/**'
       - 'scorer/**'
       - 'generator/**'
+      - 'linkedin/**'
       - 'config/**'
       - 'scripts/**'
 
@@ -54,6 +55,13 @@ jobs:
         run: python scripts/run_scorer.py
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          PYTHONIOENCODING: utf-8
+
+      - name: Generate LinkedIn posts
+        run: python scripts/run_linkedin.py
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          SENDGRID_API_KEY: ${{ secrets.SENDGRID_API_KEY }}
           PYTHONIOENCODING: utf-8
 
       - name: Build static site

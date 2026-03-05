@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin - Zorgnieuws</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="auth.js"></script>
+    <style>
+        [data-theme="dark"] .admin-container { background: #242424; color: #e0e0e0; }
+        [data-theme="dark"] input, [data-theme="dark"] textarea { background: #1a1a1a; color: #e0e0e0; border-color: #444; }
+        [data-theme="dark"] table { border-color: #444; }
+        [data-theme="dark"] th { background: #333; }
+        [data-theme="dark"] td { border-color: #444; }
+
+        .admin-container {
+            max-width: 1000px;
+            margin: 20px auto;
+            padding: 20px;
+            background: #fff;
+            border-radius: 8px;
+        }
+        .admin-container h2 { margin-bottom: 20px; }
+        .admin-container p { color: #666; margin-bottom: 15px; }
+
+        table { width: 100%; border-collapse: collapse; margin-bottom: 20px; }
+        th, td { padding: 10px; text-align: left; border: 1px solid #ddd; }
+        th { background: #f5f5f5; font-weight: bold; }
+        td input { width: 100%; padding: 6px; border: 1px solid #ddd; border-radius: 4px; }
+
+        .btn { padding: 8px 16px; border: none; border-radius: 4px; cursor: pointer; font-size: 13px; }
+        .btn-primary { background: #ff6600; color: #fff; }
+        .btn-danger { background: #fff; color: #c00; border: 1px solid #c00; }
+        .btn-secondary { background: #e8e8e8; color: #333; }
+        .btn:hover { opacity: 0.9; }
+
+        .button-row { display: flex; gap: 10px; margin-top: 15px; }
+
+        textarea.global-prompt {
+            width: 100%;
+            height: 100px;
+            padding: 10px;
+            font-family: inherit;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            resize: vertical;
+        }
+
+        .threshold-input {
+            width: 60px;
+            padding: 6px;
+            text-align: center;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+
+        .status { padding: 10px; border-radius: 4px; margin-top: 15px; display: none; }
+        .status.success { background: #e8f5e9; color: #2e7d32; display: block; }
+        .status.error { background: #ffebee; color: #c62828; display: block; }
+
+        .info-box {
+            background: #e3f2fd;
+            border-left: 4px solid #2196f3;
+            padding: 12px;
+            margin-bottom: 20px;
+            font-size: 12px;
+        }
+        [data-theme="dark"] .info-box { background: #1a2a3a; border-color: #446688; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>ZORGNIEUWS</h1>
+        <nav>
+            <a href="index.html">Alles</a>
+            <a href="prio.html">Hoogste Prio</a>
+            <a href="linkedin.html">LinkedIn</a>
+            <a href="admin.html" class="active">Admin</a>
+            <a href="settings.html">Instellingen</a>
+        </nav>
+        <button id="theme-toggle" class="theme-toggle" onclick="toggleDarkMode()" title="Toggle dark mode">🌙</button>
+        <button class="theme-toggle" onclick="siteLogout()" title="Uitloggen">🚪</button>
+    </header>
+
+    <div class="admin-container">
+        <h2>Tag-eigenaren voor LinkedIn Posts</h2>
+
+        <div class="info-box">
+            <strong>Hoe werkt het:</strong> Artikelen met score ≥ drempel en relevante tags krijgen automatisch een LinkedIn-post concept. De SME ontvangt een email met de concept-post.
+        </div>
+
+        <table id="owners-table">
+            <thead>
+                <tr>
+                    <th>Tag</th>
+                    <th>SME Naam</th>
+                    <th>Email</th>
+                    <th>Prompt Hint</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody id="owners-body">
+            </tbody>
+        </table>
+
+        <button class="btn btn-secondary" onclick="addRow()">+ Tag toevoegen</button>
+
+        <h3 style="margin-top: 30px;">Globale LinkedIn Prompt</h3>
+        <p>Deze prompt wordt gebruikt voor alle LinkedIn posts (Accenture stijl).</p>
+        <textarea id="global-prompt" class="global-prompt" placeholder="Schrijf als senior Accenture consultant..."></textarea>
+
+        <h3 style="margin-top: 20px;">Score Drempel</h3>
+        <p>Minimum score voor LinkedIn post generatie: <input type="number" id="score-threshold" class="threshold-input" min="0" max="100" value="80"></p>
+
+        <h3 style="margin-top: 20px;">Fallback Eigenaar</h3>
+        <p>Als geen tag-match gevonden wordt:</p>
+        <div style="display: flex; gap: 10px;">
+            <input type="text" id="fallback-name" placeholder="Naam" style="flex: 1; padding: 8px;">
+            <input type="email" id="fallback-email" placeholder="Email" style="flex: 1; padding: 8px;">
+        </div>
+
+        <div class="button-row">
+            <button class="btn btn-primary" onclick="saveConfig()">Opslaan</button>
+            <button class="btn btn-secondary" onclick="loadConfig()">Herladen</button>
+        </div>
+
+        <div id="status" class="status"></div>
+    </div>
+
+    <script>
+        let ownersData = [];
+
+        function loadConfig() {
+            fetch('owners.json')
+                .then(r => r.json())
+                .then(data => {
+                    ownersData = data.owners || [];
+                    document.getElementById('global-prompt').value = data.global_prompt || '';
+                    document.getElementById('score-threshold').value = data.score_threshold || 80;
+                    document.getElementById('fallback-name').value = data.fallback_owner?.name || '';
+                    document.getElementById('fallback-email').value = data.fallback_owner?.email || '';
+                    renderTable();
+                })
+                .catch(e => {
+                    console.error('Failed to load config:', e);
+                    showStatus('Kon configuratie niet laden', 'error');
+                });
+        }
+
+        function renderTable() {
+            const tbody = document.getElementById('owners-body');
+            tbody.innerHTML = '';
+
+            ownersData.forEach((owner, i) => {
+                const row = document.createElement('tr');
+                row.innerHTML = `
+                    <td><input type="text" value="${owner.tag || ''}" onchange="updateOwner(${i}, 'tag', this.value)"></td>
+                    <td><input type="text" value="${owner.name || ''}" onchange="updateOwner(${i}, 'name', this.value)"></td>
+                    <td><input type="email" value="${owner.email || ''}" onchange="updateOwner(${i}, 'email', this.value)"></td>
+                    <td><input type="text" value="${owner.prompt_hint || ''}" onchange="updateOwner(${i}, 'prompt_hint', this.value)"></td>
+                    <td><button class="btn btn-danger" onclick="removeRow(${i})">×</button></td>
+                `;
+                tbody.appendChild(row);
+            });
+        }
+
+        function updateOwner(index, field, value) {
+            ownersData[index][field] = value;
+        }
+
+        function addRow() {
+            ownersData.push({ tag: '', name: '', email: '', prompt_hint: '' });
+            renderTable();
+        }
+
+        function removeRow(index) {
+            ownersData.splice(index, 1);
+            renderTable();
+        }
+
+        function saveConfig() {
+            const config = {
+                global_prompt: document.getElementById('global-prompt').value,
+                score_threshold: parseInt(document.getElementById('score-threshold').value) || 80,
+                owners: ownersData.filter(o => o.tag && o.name && o.email),
+                fallback_owner: {
+                    name: document.getElementById('fallback-name').value,
+                    email: document.getElementById('fallback-email').value
+                }
+            };
+
+            // Save to localStorage for now (GitHub API would require PAT)
+            localStorage.setItem('zorgnieuws_owners', JSON.stringify(config));
+            showStatus('Configuratie opgeslagen (lokaal). Voor server-side opslag: update config/owners.json in de repo.', 'success');
+        }
+
+        function showStatus(message, type) {
+            const status = document.getElementById('status');
+            status.textContent = message;
+            status.className = 'status ' + type;
+            setTimeout(() => { status.style.display = 'none'; }, 5000);
+        }
+
+        // Init
+        document.addEventListener('DOMContentLoaded', loadConfig);
+    </script>
+</body>
+</html>
