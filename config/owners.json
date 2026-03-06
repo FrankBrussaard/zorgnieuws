@@ -16,8 +16,8 @@
     },
     {
       "tag": "Security",
-      "name": "Tom Hendriks",
-      "email": "frank.brussaard@accenture.com",
+      "name": "Robin de Haas",
+      "email": "robin.de.haas@accenture.com",
       "prompt_hint": "NEN 7510, NIS2, cybersecurity in zorginstellingen, Zero Trust"
     },
     {
@@ -28,19 +28,19 @@
     },
     {
       "tag": "Cloud",
-      "name": "Ahmed Yilmaz",
+      "name": "Frank Brussaard",
       "email": "frank.brussaard@accenture.com",
       "prompt_hint": "Azure Health, cloud transformaties, MSZ naar cloud migraties"
     },
     {
       "tag": "Transformatie",
-      "name": "Lisa van Dam",
-      "email": "frank.brussaard@accenture.com",
+      "name": "Margriet Westerink",
+      "email": "margriet.westerink@accenture.com",
       "prompt_hint": "Digitale transformatie programmas, operating model, agile in de zorg"
     },
     {
       "tag": "Tender",
-      "name": "Marie Jansen",
+      "name": "Frank Brussaard",
       "email": "frank.brussaard@accenture.com",
       "prompt_hint": "Aanbestedingen, pursuit lead, grote zorg-IT tenders"
     }
