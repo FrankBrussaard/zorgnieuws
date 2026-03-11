@@ -42,7 +42,7 @@ class EmailSender:
     def __init__(
         self,
         api_key: Optional[str] = None,
-        from_email: str = "zorgnieuws@accenture.com",
+        from_email: str = "frank.brussaard@accenture.com",
         max_emails_per_run: int = 10,
     ):
         self.api_key = api_key or os.environ.get("SENDGRID_API_KEY")
